@@ -7,9 +7,9 @@
   languageCode = "en-us"
   contentDir = "content/en"  
   
-#[fr]
-#  languageCode = "fr-fr"
-#  contentDir = "content/fr"  
+[fr]
+  languageCode = "fr-fr"
+  contentDir = "content/fr"  
 
 [zh]
   languageCode = "zh-Hans"

@@ -1,0 +1,39 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[main]]
+  name = "关于"
+  url = "#about"
+  weight = 10
+
+[[main]]
+  name = "Yuanyou Salons"
+  url = "#salon"
+  weight = 20
+
+[[main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 30
+
+[[main]]
+  name = "Rare Eye Diseases in China"
+  url = "#rare_eye_diseases_in_china"
+  weight = 40
+
+[[main]]
+  name = "History"
+  url = "#history"
+  weight = 50  
+  
+[[main]]
+  name = "Partners"
+  url = "#partners"
+  weight = 60    
+  
+[[main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 200

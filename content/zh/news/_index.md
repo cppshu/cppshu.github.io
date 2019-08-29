@@ -1,5 +1,5 @@
 ---
-title: Rare Eye Disease in China
+title: 新闻
 
 # View.
 #   1 = List

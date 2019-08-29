@@ -5,14 +5,14 @@
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 20  # Order that this section will appear.
+weight = 40  # Order that this section will appear.
 
-title = "Recent & <br /> Upcoming <br /> Yuanyou Salons"
-subtitle = "Recent & Upcoming Yuanyou Salons"
+title = "News"
+subtitle = "News"
 
 [content]
   # Page type to display. E.g. post, salon, or publication.
-  page_type = "salon"
+  page_type = "news"
   
   # Choose how much pages you would like to display (0 = all pages)
   count = 4
@@ -38,7 +38,7 @@ subtitle = "Recent & Upcoming Yuanyou Salons"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 3
+  view = 2
   
 [design.background]
   # Apply a background color, gradient, or image.

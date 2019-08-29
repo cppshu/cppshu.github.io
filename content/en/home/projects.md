@@ -1,21 +1,21 @@
 +++
-# A Recent Blog Posts section created with the Pages widget.
-# This section displays recent blog posts from `content/post/`.
+# A Recent and Upcoming Salons section created with the Pages widget.
+# This section displays recent salons from `content/salon/`.
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
-title = "罕见眼科疾病在中国"
-subtitle = "Articles, conferences, activities etc. for rare eye diseases in China"
+title = "Projects"
+subtitle = "Projects"
 
 [content]
   # Page type to display. E.g. post, salon, or publication.
-  page_type = "rare_eye_disease_in_china"
+  page_type = "projects_section"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 4
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -29,21 +29,23 @@ subtitle = "Articles, conferences, activities etc. for rare eye diseases in Chin
     category = ""
     publication_type = ""
     exclude_featured = false
-  
+    exclude_past = false
+    exclude_future = false
+    
 [design]
   # Toggle between the various page layout types.
   #   1 = List
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 3
   
 [design.background]
   # Apply a background color, gradient, or image.
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
-  
+
   # Background color.
   # color = "navy"
   

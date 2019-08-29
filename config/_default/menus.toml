@@ -9,31 +9,61 @@
   weight = 10
 
 [[main]]
-  name = "Yuanyou Salons"
-  url = "#salon"
-  weight = 20
-
-[[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 30
-
-[[main]]
-  name = "Rare Eye Diseases in China"
-  url = "#rare_eye_diseases_in_china"
-  weight = 40
-
-[[main]]
-  name = "History"
-  url = "#history"
-  weight = 50  
+  name = "Projects"
+  weight = 30 
+  url = "/projects"  
   
 [[main]]
-  name = "Partners"
-  url = "#partners"
-  weight = 60    
-  
+  name = "Yuanyou Salon"
+  parent = "Projects"
+  weight = 31 
+  url = "/projects/salon"
+
 [[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 200
+  name = "Yuanyou Aid"
+  parent = "Projects"
+  weight = 32
+  url = "/projects/aid"    
+
+[[main]]
+  name = "Yuanyou Connect"
+  parent = "Projects"
+  weight = 33
+  url = "/projects/connect"   
+   
+[[main]]
+  name = "Yuanyou Wiki"
+  parent = "Projects"
+  weight = 34
+  url = "/projects/wiki" 
+
+[[main]]
+  name = "News"
+  url = "#news"
+  weight = 40  
+  
+
+#[[main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 30
+
+#[[main]]
+#  name = "Rare Eye Diseases in China"
+#  url = "#rare_eye_diseases_in_china"
+#  weight = 40
+
+#[[main]]
+#  name = "History"
+#  url = "#history"
+#  weight = 50  
+  
+#[[main]]
+#  name = "Partners"
+#  url = "#partners"
+#  weight = 60    
+  
+#[[main]]
+#  name = "Contact"
+#  url = "#contact"
+#  weight = 200

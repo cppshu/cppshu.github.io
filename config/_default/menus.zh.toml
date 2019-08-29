@@ -1,8 +1,3 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
-
 
 [[main]]
   name = "关于我们"
@@ -11,31 +6,32 @@
 
 [[main]]
   name = "公益项目"
+  url = "#projects"
   weight = 30  
   
 [[main]]
   name = "援友公益沙龙"
   parent = "公益项目"
   weight = 31 
-  url = "#yuanyou-salon"
+  url = "/projects/salon"
 
 [[main]]
   name = "援助计划"
   parent = "公益项目"
   weight = 32
-  url = "#yuanyou-aid"    
+  url = "/projects/aid"    
 
 [[main]]
   name = "援友社会公益"
   parent = "公益项目"
   weight = 33
-  url = "#yuanyou-connect" 
+  url = "/projects/connect" 
   
 [[main]]
   name = "援友医疗知识开源平台"
   parent = "公益项目"
   weight = 34
-  url = "#yuanyou-wiki" 
+  url = "/projects/wiki" 
 
 [[main]]
   name = "新闻"

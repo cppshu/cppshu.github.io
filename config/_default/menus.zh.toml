@@ -38,7 +38,15 @@
   url = "#news"
   weight = 40 
 
+[[main]]
+  name = "更多资源"
+  url = "/resources"
+  weight = 50 
 
+[[main]]
+  name = "联系我们"
+  url = "#contact"
+  weight = 200
 
 
 #[[main]]

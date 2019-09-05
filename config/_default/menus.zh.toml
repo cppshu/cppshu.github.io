@@ -6,32 +6,32 @@
 
 [[main]]
   name = "公益项目"
-  url = "#projects"
+  url = ""
   weight = 30  
   
 [[main]]
   name = "援友公益沙龙"
   parent = "公益项目"
   weight = 31 
-  url = "/projects/salon"
+  url = "/salon"
 
 [[main]]
   name = "援助计划"
   parent = "公益项目"
   weight = 32
-  url = "/projects/aid"    
+  url = "/aid"    
 
 [[main]]
   name = "援友社会公益"
   parent = "公益项目"
   weight = 33
-  url = "/projects/connect" 
+  url = "/connect" 
   
 [[main]]
   name = "援友医疗知识开源平台"
   parent = "公益项目"
   weight = 34
-  url = "/projects/wiki" 
+  url = "/wiki" 
 
 [[main]]
   name = "新闻"

@@ -1,6 +1,12 @@
-{{ $ := .root }}
+{{ $ :=  (printf "%s" $.root)}}
 {{ $page := .page }}
 {{ $hash_id := .hash_id }}
+
+
+{{/* Pages Widget */}}
+
+{{/* Initialise */}}
+{{ $st := .page }}
 
 <!-- Indicators -->
 <ol class="carousel-indicators">
@@ -12,42 +18,105 @@
 <!-- Carousel slides wrapper -->
 <div class="carousel-inner">
   {{ range $index, $item := $page.Params.item }}
+		
   <div class="wg-hero dark carousel-item{{if eq $index 0}} active{{end}}" style="{{with $page.Params.height}}{{printf "height: %s;" . | safeCSS}}{{end}}
     {{ if $item.overlay_color }}
     background-color: {{ $item.overlay_color | default "transparent" }};
     {{ end }}
-    {{ if $item.overlay_img }}
     background-image:
-    {{ if $item.overlay_filter }}linear-gradient(rgba(0, 0, 0, {{ $item.overlay_filter }}), rgba(0, 0, 0, {{ $item.overlay_filter }})), {{ end }}
+	{{ if $item.overlay_img }}
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(159, 204, 159), rgba(98, 158, 98, 1)), 
     url('{{ printf "img/%s" $item.overlay_img | absURL }}');
     {{ end }}
     ;">
-    <div class="container" style="text-align: {{$item.align | default "left"}};">
-        <h1 class="hero-title" itemprop="headline">
-          {{ with $item.title }}{{ . | markdownify | emojify }}{{ end }}
-        </h1>
-
+	<!--
+	<div class="hero-lead" style="color:#333333; text-align:left; font-size:45px; padding-top:30px; margin-left:100px">	
+		  Projects
+    </div> 
+	-->
+	<div class="container" style="text-align:center;">
+      <div class="container" style="text-align:left;">	
+			<div class="hero-lead" style="color:#333333; {{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}}; font-size:35px;">
+			  <span class="hero-lead" style="color:#0e6b20; font-size:45px;">
+			  {{ with $item.url }}<a style="text-decoration : none; color : #0e6b20;" href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+			  {{ with $item.title }}{{ . | markdownify | emojify }}{{ end }}
+			  {{ if $item.url }}</a>{{ end }}
+			  </span>   
+			</div>  
+		
         {{ with $item.content }}
-        <p class="hero-lead" style="{{if eq $item.align "center"}}margin: 0 auto 0 auto;{{else if eq $item.align "right"}}margin-left: auto; margin-right: 0{{end}}">
+        <div class="hero-lead" style="color:#03380e; {{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}}; font-size:20px;">
           {{ . | markdownify | emojify }}
-        </p>
+        </div>
         {{ end }}
+		
+				{{ $items_type := $item.type | default "salon"}}
+				{{ $items_offset := $st.Params.content.offset | default 0 }}
+				{{ $items_count := $st.Params.content.count }}
+				{{ if eq $items_count 0 }}
+				  {{ $items_count = 65535 }}
+				{{ else }}
+				  {{ $items_count = $items_count | default 5 }}
+				{{ end }}
+				{{ $items_sort := $st.Params.content.order | default "desc" }}
 
-        {{ if $item.cta_url }}
-        {{ $pack := or .cta_icon_pack "fas" }}
-        {{ $pack_prefix := $pack }}
-        {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-          {{ $pack_prefix = "fa" }}
-        {{ end }}
-        <p>
-          <a href="{{ $item.cta_url }}" class="btn btn-light btn-lg">
-            {{- with $item.cta_icon -}}<i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}" style="padding-right: 10px;"></i>{{- end -}}
-            {{- $item.cta_label | emojify | safeHTML -}}
-          </a>
-        </p>
-        {{ end }}
-      </div>
+				{{/* Query */}}
+				{{ $query := where site.RegularPages "Type" (printf "%s" $items_type) }}
+				{{ $archive_page := site.GetPage "Section" $items_type }}
+
+				{{ $count := len $query }}
+
+				{{/* Sort */}}
+				{{ $sort_by := "Date" }}
+				{{ $query = sort $query $sort_by $items_sort }}
+
+				{{/* Offset and Limit */}}
+				{{ if gt $items_offset 0 }}
+				  {{ $query = first $items_count (after $items_offset $query) }}
+				{{ else }}
+				  {{ $query = first $items_count $query }}
+				{{ end }}
+
+				{{/* Localisation */}}
+				{{ $i18n := "" }}
+				{{ if eq $items_type "post" }}
+				  {{ $i18n = "more_posts" }}
+				{{ else if eq $items_type "salon" }}
+				  {{ $i18n = "more_salons" }}
+				{{ else if eq $items_type "publication" }}
+				  {{ $i18n = "more_publications" }}
+				{{ else }}
+				  {{ $i18n = "more_pages" }}
+				{{ end }}
+
+		    
+				{{ range $item_li_slider := $query }}
+				<div class="hero-lead" style="{{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}};">
+				  <i  class="far fa-file-alt pub-icon"></i>
+				  <a style="text-decoration : none; color:#07661a; font-size:18px;" href="{{$item_li_slider.RelPermalink}}" target="_blank" rel="noopener">{{ $item_li_slider.Title }}</a>
+				  &nbsp; 
+				  <span> {{ partial "page_metadata_slider" (dict "page" $item_li_slider "is_list" 1) }}  </span>
+				</div>
+				{{end}}
+				
+				<div>
+				
+				</div>
+				
+				{{ if gt $count $items_count }}
+				<div class="hero-lead" style="{{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}};">
+				  <a style="color:#07661a; font-size:18px;" href="{{ $archive_page.RelPermalink }}">
+					{{ i18n $i18n | default "See all" }}
+					{{$item.title}}
+					<i class="fas fa-angle-right"></i>
+				  </a>
+				</div>
+				{{ end }}
+
+      </div> 
+	</div>		
   </div>
+  
   {{ end }}
 </div>
 

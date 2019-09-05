@@ -224,26 +224,26 @@ a.hero-cta-alt:hover {
  *  Featurette Widget
  **************************************************/
 
-.featurette {
+.partners {
   font-size: 0.8rem;
   line-height: 1.5;
   color: #555;
   text-align: center;
 }
 
-.featurette h3 {
+.partners h3 {
   margin-top: 0;
   margin-bottom: 5px;
   font-weight: 400;
   color: #333;
 }
 
-.dark .featurette,
-.dark .featurette h3 {
+.dark .partners,
+.dark .partners h3 {
   color: #fff;
 }
 
-.featurette-icon {
+.partners-icon {
   display: block;
   width: 100%;
   color: $sta-primary;

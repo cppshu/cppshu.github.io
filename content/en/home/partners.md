@@ -1,6 +1,6 @@
 +++
 # A Skills section created with the Featurette widget.
-widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "partners"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = false  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
@@ -22,14 +22,14 @@ subtitle = ""
   description = "  "
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "helpblind"
   url = "https://learnwebcode.com/images/lessons/insert-image-funny-dog.jpg"
   icon_pack = "fas"
   name = "Jack McGovern Coats’ Disease Foundation"
   description = "  " 
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "helpblind"
   icon_pack = "fas"
   name = "The Coalition for Usher Syndrome Research"
   description = "  "
@@ -39,55 +39,5 @@ subtitle = ""
   icon_pack = "fas"
   name = "Choroideremia Research Foundation"
   description = "  "  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "RestoringVision"
-  description = "  "  
-    
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "RestoringVision"
-  description = "  "  
 
-
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Choroideremia Research Foundation"
-  description = "  "  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "RestoringVision"
-  description = "  "  
-    
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "RestoringVision"
-  description = "  "  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Choroideremia Research Foundation"
-  description = "  "  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "RestoringVision"
-  description = "  "  
-    
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "RestoringVision"
-  description = "  "  
-
-  
 +++

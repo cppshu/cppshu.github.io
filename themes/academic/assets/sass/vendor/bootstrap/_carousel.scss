@@ -125,9 +125,12 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: $carousel-control-icon-width;
-  height: $carousel-control-icon-width;
+  width: $carousel-control-icon-width + 15;
+  height: $carousel-control-icon-width + 15;
   background: no-repeat 50% / 100% 100%;
+  outline: black;
+  border: 5px solid black;
+  filter: invert(100%);
 }
 .carousel-control-prev-icon {
   background-image: $carousel-control-prev-icon-bg;
@@ -155,14 +158,16 @@
   margin-right: $carousel-control-width;
   margin-left: $carousel-control-width;
   list-style: none;
+  filter: invert(0%);
+  
 
   li {
     box-sizing: content-box;
     flex: 0 1 auto;
     width: $carousel-indicator-width;
     height: $carousel-indicator-height;
-    margin-right: $carousel-indicator-spacer;
-    margin-left: $carousel-indicator-spacer;
+    margin-right: $carousel-indicator-spacer + 10;
+    margin-left: $carousel-indicator-spacer + 10;
     text-indent: -999px;
     cursor: pointer;
     background-color: $carousel-indicator-active-bg;
@@ -170,7 +175,7 @@
     // Use transparent borders to increase the hit area by 10px on top and bottom.
     border-top: $carousel-indicator-hit-area-height solid transparent;
     border-bottom: $carousel-indicator-hit-area-height solid transparent;
-    opacity: .5;
+    opacity: .35;
     @include transition($carousel-indicator-transition);
   }
 

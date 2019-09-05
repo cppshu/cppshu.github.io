@@ -11,31 +11,31 @@
 [[main]]
   name = "Projects"
   weight = 30 
-  url = "/projects"  
+  url = ""  
   
 [[main]]
   name = "Yuanyou Salon"
   parent = "Projects"
   weight = 31 
-  url = "/projects/salon"
+  url = "/salon"
 
 [[main]]
   name = "Yuanyou Aid"
   parent = "Projects"
   weight = 32
-  url = "/projects/aid"    
+  url = "/aid"    
 
 [[main]]
   name = "Yuanyou Connect"
   parent = "Projects"
   weight = 33
-  url = "/projects/connect"   
+  url = "/connect"   
    
 [[main]]
   name = "Yuanyou Wiki"
   parent = "Projects"
   weight = 34
-  url = "/projects/wiki" 
+  url = "/wiki" 
 
 [[main]]
   name = "News"

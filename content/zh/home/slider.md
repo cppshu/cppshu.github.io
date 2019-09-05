@@ -35,7 +35,7 @@ height = ""
 
 援友公益沙龙于2018年2月开展了第一次公益科普线上宣教，至今共开展各类活动50余次。我们的志愿嘉宾来自北京同仁医院、复旦大学附属眼耳鼻喉科医院、海军总医院、北京爱尔眼科、希玛眼科等全国知名医疗机构。援友公益沙龙针对性的弥补了圆锥角膜等眼科疾病相关健康教育的缺失，拉进了患者与医生、及其他患者之间的距离，尤其为欠发达地区的大众带去了极大的帮助。
   """
-  overlay_img = "screen-capture-salon.PNG"  # Image path relative to your `static/img/` folder.
+  overlay_img = "pic-project-salon.PNG" 
   
 [[item]]
   title = "援助计划"
@@ -47,7 +47,7 @@ height = ""
 
 《低收入圆锥角膜患者RGP救助》是援助计划的第一个落地项目，于2019年4与由露晰得中国与援友社区共同发起，针对低收入圆锥角膜患者及家庭提供免费的露晰得圆锥角膜RGP。
   """
-  overlay_img = "screen-capture-salon.PNG"  # Image path relative to your `static/img/` folder.
+  overlay_img = "pic-project-aid.PNG"  
 
 [[item]]
   title = "援友社会公益"
@@ -57,8 +57,7 @@ height = ""
 
 项目目标：1.收集、整理、发布来自社会各界的公益信息，包括政府、医院、非营利性机构等各类社会组织；2.精准对接公益资源与受助对象，帮助公益项目的落地实施；3.帮助受助者对接公益资源，协助社会监督公益项目的执行。
   """
-  overlay_img = "screen-capture-salon.PNG"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0  # Darken the image. Value in range 0-1.
+  overlay_img = "pic-project-connect.PNG"  
   
 [[item]]
   title = "援友医疗知识开源平台"
@@ -70,5 +69,5 @@ height = ""
 
 2017年12月至今，我们原创圆锥角膜及角膜移植相关科普及经验分享文章130余篇，仅公众号及知乎文章阅读量达400K，为国内首个专注于该领域的医疗知识平台。
   """
-  overlay_img = "screen-capture-salon.PNG"  # Image path relative to your `static/img/` folder.
+  overlay_img = "pic-project-wiki.PNG"  
 +++

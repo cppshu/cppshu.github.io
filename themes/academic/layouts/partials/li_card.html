@@ -6,9 +6,6 @@
 {{/* Dynamic view adjusts to content type. */}}
 {{ if eq $item.Type "post" }}
   {{ $microdata_type = "BlogPosting" }}
-{{ else if eq $item.Type "salon" }}
-  {{ $microdata_type = "Event" }}
-  {{ $show_buttons = true }}
 {{ else if eq $item.Type "publication" }}
   {{ $microdata_type = "ScholarlyArticle" }}
   {{ $show_buttons = true }}
@@ -28,26 +25,8 @@
 
 <div class="card-simple" itemscope itemtype="http://schema.org/{{$microdata_type}}">
 
-  {{ if eq $item.Type "salon" }}
-  <div class="article-metadata">
-    <!--
-    {{ if $item.Params.authors }}
-    <div itemprop="author">
-      {{ partial "page_metadata_authors" $item }}
-    </div>
-    {{ end }}
-	-->
-    <span itemprop="startDate">
-      {{ partial "functions/get_event_dates" $item }}
-    </span>
-    {{ with $item.Params.location }}
-    <span class="middot-divider"></span>
-    <span itemprop="location">{{ . }}</span>
-    {{ end }}
-  </div>
-  {{ else }}
-    {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
-  {{ end }}
+  
+  {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
 
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}

@@ -1,8 +1,9 @@
 ---
 title: 《2015圆锥角膜全球专家共识解读》西安市第一医院韦伟医生【援友公益沙龙第60期】
+video: https://pan.baidu.com/s/1WJlBblz20V4xq8riMGX-IQ
 summary: 7月20日周六21：00到23：00，西安市第一医院韦伟医生将为大家带来线上公众科普讲座。
 
-date: "2019-07-14T21:00:00Z"
+publishDate: "2019-07-14T21:00:00Z"
 
 tags: [圆锥角膜]
 categories: [公益沙龙]
@@ -15,8 +16,6 @@ image:
   focal_point: Right
 
 links:
-url_video: https://pan.baidu.com/s/1WJlBblz20V4xq8riMGX-IQ
-
 
 ---
 

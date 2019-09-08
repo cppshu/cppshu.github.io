@@ -50,7 +50,7 @@
         </div>
         {{ end }}
 		
-				{{ $items_type := $item.type | default "salon"}}
+				{{ $items_type := $item.type | default "news"}}
 				{{ $items_offset := $st.Params.content.offset | default 0 }}
 				{{ $items_count := $st.Params.content.count }}
 				{{ if eq $items_count 0 }}

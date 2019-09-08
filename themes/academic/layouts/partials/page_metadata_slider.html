@@ -20,7 +20,6 @@
   
   -->
 
-  {{ if not (in (slice "salon" "page") $page.Type) }}
   <span class="article-date" style="color:#EEEEEE; font-size:13px;">
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
     {{ if eq $page.Type "publication" }}
@@ -32,7 +31,6 @@
     {{ end }}
     <time>{{ $date }}</time>
   </span>
-  {{ end }}
 
   {{ if and (eq $is_list 1) (eq $page.Type "publication") }}
   <span class="middot-divider"></span>
@@ -59,19 +57,7 @@
   <a href="{{ $page.RelPermalink }}#disqus_thread"><!-- Count will be inserted here --></a>
   {{ end}}
 
-  {{ $taxonomy := "categories" }}
-  {{ with $page.Param $taxonomy }}
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i>
-    {{- range $index, $value := . -}}
-      {{- if gt $index 0 }}, {{ end -}}
-      <a href="{{ (site.GetPage (printf "/%s/%s" $taxonomy (. | urlize))).RelPermalink }}">{{ . }}</a>
-    {{- end -}}
-  </span>
-  {{ end }}
-
-  {{ if $share }}
+    {{ if $share }}
     {{ partial "share.html" $page }}
   {{ end }}
 

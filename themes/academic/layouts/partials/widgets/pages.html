@@ -55,13 +55,8 @@
 
 {{/* Localisation */}}
 {{ $i18n := "" }}
-{{ if eq $items_type "post" }}
-  {{ $i18n = "more_posts" }}
-{{ else if eq $items_type "publication" }}
-  {{ $i18n = "more_publications" }}
-{{ else }}
+
   {{ $i18n = "more_pages" }}
-{{ end }}
 
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
@@ -84,14 +79,13 @@
       {{ end }}
     {{end}}
 
-    {{ if gt $count $items_count }}
     <div class="see-all">
       <a href="{{ $archive_page.RelPermalink }}">
         {{ i18n $i18n | default "See all" }}
+		{{ $st.Title }}
         <i class="fas fa-angle-right"></i>
       </a>
     </div>
-    {{ end }}
 
   </div>
 </div>

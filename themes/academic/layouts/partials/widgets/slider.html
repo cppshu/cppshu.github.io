@@ -29,17 +29,13 @@
     background-image:
 	{{ if $item.overlay_img }}
     linear-gradient(to right, rgba(0, 0, 0, 0), rgba(159, 204, 159), rgba(76, 175, 80, 1)), 
-    url('{{ printf "img/%s?%s" $item.overlay_img .date }}');
+    url('{{ printf "/img/%s?%s" $item.overlay_img .date }}');
     {{ end }}
 	background-size:  cover;
 	backgroundRepeat: repeat;
 	backgroundPosition': top center
     ;">
-	<!--
-	<div class="hero-lead" style="color:#333333; text-align:left; font-size:45px; padding-top:30px; margin-left:100px">	
-		  Projects
-    </div> 
-	-->
+
 	<div class="container" style="text-align:center;">
       <div class="container" style="text-align:left;">	
 			<div class="hero-lead" style="color:#333333; {{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}}; font-size:1.5em;">

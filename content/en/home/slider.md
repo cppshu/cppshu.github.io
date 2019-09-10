@@ -44,7 +44,7 @@ height = ""
   type = "connect"
   url = "/connect/"
   content = """
-  The Yuanyou Connect Project is committed to building closer and wider connection between the social public welfare forces and the affected groups, promoting the flow of public welfare resources throughout the society, and helping to make more efficient use of public welfare resources. We collect, organize and disseminate public welfare information from all walks of life, all-round cohesion of public welfare force, accurate positioning of the object of assistance. We help the recipients connect public welfare resources in the simplest and fastest way, while pooling demand and calling for the mobilization of more social public welfare inputs.  
+  The Yuanyou Connect Project is committed to building closer and wider connection between the social public welfare forces and the affected groups, promoting the flow of public welfare resources throughout the society, and helping to make more efficient use of public welfare resources. We help the recipients connect public welfare resources in the simplest and fastest way, while pooling demand and calling for the mobilization of more social public welfare inputs.  
   """
   overlay_img = "pic-project-connect.PNG"  
   
@@ -53,7 +53,7 @@ height = ""
   url = "/wiki/"
   type = "wiki"
   content = """
-  We have written many original articles to promote the sensibilization and awareness of rare eye diseases among people with vision problems as well as among doctors. Moreover, we try to keep up with the research community and pharmaceutical companies by presenting latest advancements in treatments for rare eye diseases. Furthermore, as many patients don't know where to seek help or even which hospitals to go to, we have written a series of articles on hospitals and experts specialized for treatment of rare eye diseases in China.
+  We have written many original articles to promote the sensibilization and awareness of rare eye diseases among people with vision problems as well as among doctors. Moreover, we try to keep up with the research community and pharmaceutical companies by presenting latest advancements in treatments for rare eye diseases. 
   """
   overlay_img = "pic-project-wiki.PNG"  
 +++

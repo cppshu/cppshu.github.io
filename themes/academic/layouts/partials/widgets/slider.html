@@ -31,6 +31,9 @@
     linear-gradient(to right, rgba(0, 0, 0, 0), rgba(159, 204, 159), rgba(76, 175, 80, 1)), 
     url('{{ printf "img/%s?%s" $item.overlay_img .date }}');
     {{ end }}
+	background-size:  cover;
+	backgroundRepeat: repeat;
+	backgroundPosition': top center
     ;">
 	<!--
 	<div class="hero-lead" style="color:#333333; text-align:left; font-size:45px; padding-top:30px; margin-left:100px">	
@@ -39,8 +42,8 @@
 	-->
 	<div class="container" style="text-align:center;">
       <div class="container" style="text-align:left;">	
-			<div class="hero-lead" style="color:#333333; {{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}}; font-size:35px;">
-			  <span class="hero-lead" style="color:#0e6b20; font-size:45px;">
+			<div class="hero-lead" style="color:#333333; {{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}}; font-size:1.5em;">
+			  <span class="hero-lead" style="color:#0e6b20; font-size:1.5em;">
 			  {{ with $item.url }}<a style="text-decoration : none; color : #0e6b20;" href="{{ . }}" target="_blank" rel="noopener">{{ end }}
 			  {{ with $item.title }}{{ . | markdownify | emojify }}{{ end }}
 			  {{ if $item.url }}</a>{{ end }}
@@ -48,7 +51,7 @@
 			</div>  
 		
         {{ with $item.content }}
-        <div class="hero-lead" style="color:#03380e; {{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}}; font-size:20px;">
+        <div class="hero-lead " style="color:#03380e; {{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}}; font-size:1em;">
           {{ . | markdownify | emojify }}
         </div>
         {{ end }}
@@ -56,7 +59,7 @@
 				{{ $items_type := $item.type | default "news"}}
 				{{ $items_offset := $st.Params.content.offset | default 0 }}
 				{{ $items_count := $st.Params.content.count }}
-				{{ if eq $items_count 0 }}
+				{{ if eq $items_count -1 }}
 				  {{ $items_count = 65535 }}
 				{{ else }}
 				  {{ $items_count = $items_count | default 5 }}
@@ -87,8 +90,8 @@
 
 				{{ range $item_li_slider := $query }}
 				<div class="hero-lead" style="{{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}};">
-				  <i  class="far fa-file-alt pub-icon"></i>
-				  <a style="text-decoration : none; color:#07661a; font-size:18px;" href="{{$item_li_slider.RelPermalink}}" target="_blank" rel="noopener">{{ $item_li_slider.Title }}</a>
+				  <i  class="far fa-file-alt pub-icon" style="color: #111111;"></i>
+				  <a style="text-decoration : none; color:#07661a; font-size:0.68em;" href="{{$item_li_slider.RelPermalink}}" target="_blank" rel="noopener">{{ $item_li_slider.Title }}</a>
 				  &nbsp; 
 				  <span> {{ partial "page_metadata_slider" (dict "page" $item_li_slider "is_list" 1) }}  </span>
 				</div>
@@ -100,7 +103,7 @@
 				
 				{{if lt $items_count 999998}}
 				<div class="hero-lead" style="{{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}};">
-				  <a style="color:#07661a; font-size:18px;" href="{{ $archive_page.RelPermalink }}">
+				  <a style="color:#07661a; font-size:0.68em;" href="{{ $archive_page.RelPermalink }}">
 					{{ i18n $i18n | default "See all" }}
 					{{$item.title}}
 					<i class="fas fa-angle-right"></i>

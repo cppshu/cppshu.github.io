@@ -20,7 +20,7 @@
   
   -->
 
-  <span class="article-date" style="color:#EEEEEE; font-size:13px;">
+  <span class="article-date" style="color:#0B6121; font-size:0.85em;">
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
     {{ if eq $page.Type "publication" }}
       {{ $date = $page.Date.Format (site.Params.publications.date_format | default "January, 2006") }}

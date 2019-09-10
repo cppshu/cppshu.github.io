@@ -15,7 +15,7 @@ interval = 5000
 height = ""
 
 [content]
-  count = 3
+  count = 2
   offset = 0
   order = "desc"
 

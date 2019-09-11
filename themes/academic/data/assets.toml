@@ -9,8 +9,8 @@
 
 [js.jQuery]
   version = "3.4.1"
-  sri = "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  url = "https://cdnjs.cloudflare.com/ajax/libs/jquery/%s/jquery.min.js"
+  #sri = "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  url = "https://cdn.bootcss.com/jquery/%s/jquery.min.js"
 [js.highlight]
   version = "9.15.6"
   sri = "sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8="

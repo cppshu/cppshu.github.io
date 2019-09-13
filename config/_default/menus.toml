@@ -58,10 +58,10 @@
 #  url = "#history"
 #  weight = 50  
   
-#[[main]]
-#  name = "Partners"
-#  url = "#partners"
-#  weight = 60    
+[[main]]
+  name = "Partners"
+  url = "#partners"
+  weight = 60    
   
 [[main]]
   name = "Contact"

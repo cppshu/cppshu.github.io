@@ -74,10 +74,10 @@
 #  url = "#history"
 #  weight = 50  
   
-#[[main]]
-#  name = "合作伙伴"
-#  url = "#partners"
-#  weight = 60    
+[[main]]
+  name = "合作伙伴"
+  url = "#partners"
+  weight = 60    
   
 #[[main]]
 #  name = "联系我们"

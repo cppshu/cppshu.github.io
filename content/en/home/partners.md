@@ -1,5 +1,4 @@
 +++
-# A Skills section created with the Featurette widget.
 widget = "partners"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
@@ -8,36 +7,28 @@ weight = 70  # Order that this section will appear.
 title = "Partners"
 subtitle = ""
 
-# Showcase personal skills or business features.
-# 
-# Add/remove as many `[[feature]]` blocks below as you like.
-# 
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+[[partner]]
+  img = "helpblind.PNG"
+  name = "HelpBlind"
 
-[[feature]]
-  icon = "camera-retro"
-  url = "https://learnwebcode.com/images/lessons/insert-image-funny-dog.jpg"
-  icon_pack = "fab"
-  name = "SEE International"
-  description = "  "
-  
-[[feature]]
-  icon = "helpblind"
-  url = "https://learnwebcode.com/images/lessons/insert-image-funny-dog.jpg"
-  icon_pack = "fas"
-  name = "Jack McGovern Coats’ Disease Foundation"
-  description = "  " 
-  
-[[feature]]
-  icon = "helpblind"
-  icon_pack = "fas"
-  name = "The Coalition for Usher Syndrome Research"
-  description = "  "
+[[partner]]
+  img = "aier.PNG"
+  name = "AIER Eye Hospital"
 
-[[feature]]
-  icon = "helpblind"
-  icon_pack = "fas"
+[[partner]]
+  img = "lucidkorea.PNG"
+  name = "LucidKorea"
+
+[[partner]]
+  img = "chm.PNG"
   name = "Choroideremia Research Foundation"
-  description = "  "  
 
+[[partner]]
+  img = "ush.PNG"
+  name = "Usher Syndrome Coalition"  
+  
+  
 +++
+
+Here is a list of our partners.
+

@@ -2,24 +2,42 @@
 {{ $page := .page }}
 
 
-<div class="row partners">
+<div class="row">
   {{ with $page.Title }}
-  <div class="col-md-12 section-heading">
+  <div class="col-12 col-lg-4 section-heading">
     <h1>{{ . | markdownify | emojify }}</h1>
     {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
   </div>
   {{ end }}
+  
+  <div class="col-12 col-lg-8">
+  
+  {{ with $page.Content }}{{ . | markdownify | emojify }}{{ end }}
+  
+  <div class="row">
+  
+  {{ range $page.Params.partner }}
+  
+  <div class="col-sm-2">
+	<div>
+	<center><img src= "{{printf "/img/%s?%s" .img .date}}" style="padding-top: 1em;" WIDTH=130 HEIGHT=130 align="middle"></center>
+	</div>
+	<center><div style="font-size:0.8em;"> {{.name | markdownify | emojify}} </div></center>
+  </div>
+  
+  
+  {{ end }}
+  
+  <!--
 
-  <div class="col-12 col-sm-2">
+  <div class="col-sm-4">
 	<div>
 	<center><img src= "/img/helpblind.PNG?{{printf "%s" .date}}" style="padding-top: 3em;" WIDTH=150 HEIGHT=150 align="middle"></center>
 	</div>
 	<div style="font-size:1.0em;">  HelpBlind </div>
   </div>
   
-  
-  
-  <div class="col-12 col-sm-2">
+  <div class="col-sm-4">
 	<div>
 	<center>
 	<img src= "/img/aier.PNG?{{printf "%s" .date}}" style="padding-top: 3em;" alt="" WIDTH=150 HEIGHT=150 align="middle"> </center>
@@ -28,7 +46,7 @@
   </div>
   
 	
-	<div class="col-12 col-sm-2">
+	<div class="col-sm-4">
 	<center>
 	<img src= "/img/lucidkorea.PNG?{{printf "%s" .date}}" style="padding-top: 3em;" alt="" WIDTH=150 HEIGHT=150 align="middle">
 	</center>
@@ -36,21 +54,22 @@
   </div>
   
   
-  <div class="col-12 col-sm-2">
+  <div class="col-sm-4">
 	<center>
 	<img src= "/img/chm.PNG?{{printf "%s" .date}}v" style="padding-top: 3em;"  alt="" WIDTH=150 HEIGHT=150>
 	</center>
 	<div style="font-size:1.0em;">  Choroideremia Research Foundation  </div>
   </div>
   
-<div class="col-12 col-sm-2">
+<div class="col-sm-4">
 	<center>
 	<img src= "/img/ush.PNG?{{printf "%s" .date}}" style="padding-top: 3em;" alt="" WIDTH=150 HEIGHT=150>
 	</center>
 	<div style="font-size:1.0em;"> Usher Syndrome Coalition  </div>
   </div>
+  -->
   	
 	
-	
-	
+</div>		
+</div>	
 </div>

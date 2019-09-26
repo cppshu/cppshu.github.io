@@ -18,7 +18,7 @@ url_video:
 
 ---
 
-欢迎无脉络膜症患者跟援友公益取得联系，我们会帮助患者跟美国的 [choroideremia research foundation](https://www.curechm.org
+欢迎无脉络膜症患者跟援友公益取得联系，我们会帮助患者跟美国的 [Choroideremia Research Foundation](https://www.curechm.org
 ) 对接。一起商讨加入基因测试、参与试验型治疗的可能性。
 
 我们的联系方式是：kf@mail.yuanyou.site

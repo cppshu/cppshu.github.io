@@ -49,11 +49,10 @@ subtitle = ""
 
 Welcome to **Yuanyou NGO**!
 
-Yuanyou is the first and only NGO dedicated for rare eye diseases (Keratoconus, eye cancers, retinitis pigmentosa, corneal degeneration, Coats' disease, Usher syndrome, etc.) in China. 
+Yuanyou is the first and only NGO dedicated for rare eye diseases (Keratoconus, eye cancers, retinitis pigmentosa, corneal degeneration, Coats' disease, Usher syndrome, Choroideremia, etc.) in China. 
 The mission & objective & vision of our NGO is to:
 
-- To raise and enhance social awareness of rare eye diseases, among patients and ophthalmologist doctors, but also among the general people in China, on their signs, symptoms and effects.
-- To advocate rights for people with eye diseases and visual impairments, to safeguard their equal rights and interests in life, medical care, education and work, and to promote the protection of their legitimate rights and interests and the improvement of relevant policies.
+- To raise and enhance social awareness of rare eye diseases, among patients and ophthalmologist doctors, but also among the general people in China.
 - To integrate resources and share experiences among people with rare eye diseases, within China but also across the globe,  and to provide specialized medical, financial and psychological help to those patients and their family members.
 - To promote research into the causes, prevention and control of the rare eye diseases.
 

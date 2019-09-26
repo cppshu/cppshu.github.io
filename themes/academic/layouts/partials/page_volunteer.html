@@ -1,31 +1,31 @@
-{{/* Author profile box */}}
+{{/* Volunteer profile box */}}
 
 {{ if not (or (eq site.Params.profile false) (eq .Params.profile false)) }}
 
-{{/* Display superuser if superuser exists and page authors are not explicitly specified. */}}
-{{/* Otherwise, display first author if a profile for them exists. */}}
+{{/* Display superuser if superuser exists and page volunteers are not explicitly specified. */}}
+{{/* Otherwise, display first volunteer if a profile for them exists. */}}
 
-{{ $author_urlized := "" }}
-{{ if and (not .Params.authors) (.Scratch.Get "superuser_username") }}
-  {{ $author_urlized = (.Scratch.Get "superuser_username") }}
+{{ $volunteer_urlized := "" }}
+{{ if and (not .Params.volunteers) (.Scratch.Get "superuser_username") }}
+  {{ $volunteer_urlized = (.Scratch.Get "superuser_username") }}
 {{ else }}
-  {{ $first_author := "" }}
-  {{ if .Params.authors }}
-    {{ $first_author = index .Params.authors 0 }}
+  {{ $first_volunteer := "" }}
+  {{ if .Params.volunteers }}
+    {{ $first_volunteer = index .Params.volunteers 0 }}
   {{ end }}
-  {{ $author_urlized = urlize $first_author }}
+  {{ $volunteer_urlized = urlize $first_volunteer }}
 {{ end }}
 
-{{ $taxonomy := "authors" }}
-{{ $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $author_urlized) }}
+{{ $taxonomy := "volunteers" }}
+{{ $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $volunteer_urlized) }}
 {{ with $profile_page }}
-  {{/* If it's a personal site and primary page author is superuser, link to the homepage rather than their profile page. */}}
+  {{/* If it's a personal site and primary page volunteer is superuser, link to the homepage rather than their profile page. */}}
   {{ $profile_url := .RelPermalink }}
   {{ if and (not site.Data.organization.name) (eq .Params.superuser true) }}
     {{ $profile_url = site.BaseURL }}
   {{ end }}
   {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
-  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  <div class="media volunteer-card" itemscope itemtype="http://schema.org/Person">
     {{ if and site.Params.gravatar .Params.email }}
       <img class="portrait mr-3" src="https://s.gravatar.com/avatar/{{ md5 .Params.email }}?s=200')" itemprop="image" alt="Avatar">
     {{ else if $avatar }}

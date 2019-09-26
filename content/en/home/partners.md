@@ -29,6 +29,7 @@ subtitle = ""
   
   
 +++
-
+Yuanyou NGO recognizes the strength of unity.
+We are open-minded and look forward to working with other public welfare organizations, enterprises, syndicats, foundations, hospitals, civil affairs departments, etc. to work together to bring light and hope to rare eye disease patients. 
 Here is a list of our partners.
 

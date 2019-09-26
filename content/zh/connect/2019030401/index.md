@@ -5,7 +5,7 @@ summary:
 tags: [罕见病]
 categories: []
 topics: []
-publishDate: "2019-03-04T00:00:00Z"
+date: "2019-03-04T00:00:00Z"
 featured: false
 draft: false
 

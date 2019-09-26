@@ -38,7 +38,7 @@ tags = ["widgets",
 features = ["page builder", "widgets", "themes", "search", "research publication system", "filterable portfolio",
             "blog", "create courses", "salons", "events", "slides", "gallery", "contact form"]
 
-[author]
+[volunteer]
   name = "George Cushen"
   homepage = "https://georgecushen.com"
 

@@ -1,13 +1,13 @@
-{{/* Display author list. */}}
+{{/* Display volunteer list. */}}
 
 <!--
-{{ $taxonomy := "authors" }}
+{{ $taxonomy := "volunteers" }}
 {{ with .Param $taxonomy }}
   {{ range $index, $value := . }}
     {{- $profile_page := site.GetPage (printf "/%s/%s" $taxonomy (. | urlize)) -}}
     {{- $name := $profile_page.Params.name | default ($value|markdownify) -}}
     {{- if gt $index 0 }}, {{ end -}}
-    <span itemprop="author name" itemtype="http://schema.org/Person">
+    <span itemprop="volunteer name" itemtype="http://schema.org/Person">
       {{- with $profile_page -}}
         <a href="{{.RelPermalink}}">{{$name}}</a>
       {{- else -}}

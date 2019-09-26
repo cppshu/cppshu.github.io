@@ -1,10 +1,9 @@
 ---
 title: 《援助计划——低收入圆锥角膜患者RGP救助》援助结果第一次公示
-video: https://yuanyou.site/t/topic/1256
 
 summary: 2018年6月我们完成了第一批对两名圆锥角膜患者的公益救助，现将结果公示如下。
 
-publishDate: "2019-06-14T21:00:00Z"
+date: "2019-06-14T21:00:00Z"
 
 tags: [RGP, 圆锥角膜]
 

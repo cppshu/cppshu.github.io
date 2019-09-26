@@ -1,9 +1,9 @@
 ---
 # Display name
-name: 霄梦
+name: 管理员
 
 # Username (this should match the folder name)
-authors:
+volunteers:
 - admin
 
 # Is this the primary user of the site?

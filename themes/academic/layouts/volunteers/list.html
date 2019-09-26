@@ -1,4 +1,4 @@
-{{/* Author profile page. */}}
+{{/* Volunteer profile page. */}}
 
 {{- define "main" -}}
 
@@ -14,8 +14,8 @@
     {{/* Show the About widget if an account exists for this user. */}}
     {{ if .File }}
       {{ $widget := "widgets/about.html" }}
-      {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
-      {{ $params := dict "root" $ "page" . "author" $username }}
+      {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.volunteers 0` */}}
+      {{ $params := dict "root" $ "page" . "volunteer" $username }}
       {{ partial $widget $params }}
     {{end}}
 

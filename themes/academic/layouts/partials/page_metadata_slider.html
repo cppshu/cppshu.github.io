@@ -8,12 +8,12 @@
 <span class="article-metadata">
 
   <!--
-  {{/* If `authors` is set and is not empty. */}}
-  {{ if $page.Params.authors }}
-  {{ $authorLen := len $page.Params.authors }}
-  {{ if gt $authorLen 0 }}
+  {{/* If `volunteers` is set and is not empty. */}}
+  {{ if $page.Params.volunteers }}
+  {{ $volunteerLen := len $page.Params.volunteers }}
+  {{ if gt $volunteerLen 0 }}
   <div>
-    {{ partial "page_metadata_authors" $page }}
+    {{ partial "page_metadata_volunteers" $page }}
   </div>
   {{ end }}
   {{ end }}

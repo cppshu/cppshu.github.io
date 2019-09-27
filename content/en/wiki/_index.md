@@ -13,12 +13,6 @@ header:
   image: ""
 ---
 
-援友医疗知识开源平台是医疗知识的Github。我们倡导开放式、小型化、无地理限制的开源共享协作，强调健康教育资源的公益与公共属性，向全社会提供开放、免费、高质量的眼科患者教育知识及资讯服务。我们的宗旨是倡导人人享有平等的健康权利，构建公益性的全民健康信息知识库。
+# **Yuanyou Wiki**
 
-项目目标：
-
-1. 为广大医疗工作者、医学研究者以及普通大众构建医学知识开源协作平台，通过知识共享协议进行便捷的互联网化版权管理；
-2. 消除健康教育资源的分布不均，保证不同地区、年龄、教育水平的人群在获取医学知识时享有平等的权利；
-3. 帮助大众以更加便捷的方式获取免费、可靠、最新的医学知识与就医信息。 
-
-2017年12月至今，我们原创圆锥角膜及角膜移植相关科普及经验分享文章130余篇，仅公众号及知乎文章阅读量达400K，为国内首个专注于该领域的医疗知识平台。
+We have written many original articles to promote the sensibilization and awareness of rare eye diseases among people with vision problems as well as among doctors. Moreover, we try to keep up with the research community and pharmaceutical companies by presenting latest advancements in treatments for Keratoconus, eye cancers, retinitis pigmentosa, corneal degeneration, Coats' disease, Usher syndrome, etc.. As those scientific articles are written in English, we translate them into Chinese in a synthetic manner. Furthermore, as many patients don't know where to seek help or even which hospitals to go to, we have written a series of articles on hospitals and experts specialized for treatment of rare eye diseases in China.

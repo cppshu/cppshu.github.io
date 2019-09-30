@@ -1,0 +1,40 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+
+<div class="row">
+  {{ with $page.Title }}
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+  
+  <div class="col-12 col-lg-8">
+  
+  {{ with $page.Content }}{{ . | markdownify | emojify }}{{ end }}
+  
+  <div class="row">
+  
+  {{ range $page.Params.volunteer }}
+  
+  <div class="col-sm-3">
+	<div>
+	{{ with .url }}<a style="text-decoration : none; color : #0e6b20;" href="{{ . }}" target="_blank"
+			rel="noopener">{{ end }}
+	<center><img src= "{{printf "/img/%s?%s" .img .date}}" style="padding-top: 1em;" WIDTH=130 HEIGHT=130 align="middle"></center>
+	{{ if .url }}</a>{{ end }}
+	</div>
+	{{ with .url }}<a style="text-decoration : none; color : #0e6b20;" href="{{ . }}" target="_blank"
+		rel="noopener">{{ end }}
+	<center><div style="font-size:0.8em;"> {{.name | markdownify | emojify}} </div></center>
+	{{ if .url }}</a>{{ end }}
+  </div>
+  
+  
+  {{ end }}
+  
+	
+</div>		
+</div>	
+</div>

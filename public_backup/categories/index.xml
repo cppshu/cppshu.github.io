@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Yuanyou NGO</title>
+    <link>c:///Users/lunde/yuanyou_ngo_website/public/categories/</link>
+      <atom:link href="c:///Users/lunde/yuanyou_ngo_website/public/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2017-2019 Yuanyou NGO All Rights Reserved</copyright><lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>c:///Users/lunde/yuanyou_ngo_website/public/img/icon-192.png</url>
+      <title>Categories</title>
+      <link>c:///Users/lunde/yuanyou_ngo_website/public/categories/</link>
+    </image>
+    
+    <item>
+      <title>Wiki</title>
+      <link>c:///Users/lunde/yuanyou_ngo_website/public/categories/wiki/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>c:///Users/lunde/yuanyou_ngo_website/public/categories/wiki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yuanyou Salon</title>
+      <link>c:///Users/lunde/yuanyou_ngo_website/public/categories/yuanyou-salon/</link>
+      <pubDate>Sun, 22 Sep 2019 21:00:00 +0000</pubDate>
+      <guid>c:///Users/lunde/yuanyou_ngo_website/public/categories/yuanyou-salon/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

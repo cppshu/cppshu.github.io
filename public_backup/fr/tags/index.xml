@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | ONG Yuanyou</title>
+    <link>c:///Users/lunde/yuanyou_ngo_website/public/fr/tags/</link>
+      <atom:link href="c:///Users/lunde/yuanyou_ngo_website/public/fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><copyright>©2017-2019 Tous les droits reservés à ONG Yuanyou</copyright>
+    <image>
+      <url>c:///Users/lunde/yuanyou_ngo_website/public/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>c:///Users/lunde/yuanyou_ngo_website/public/fr/tags/</link>
+    </image>
+    
+  </channel>
+</rss>

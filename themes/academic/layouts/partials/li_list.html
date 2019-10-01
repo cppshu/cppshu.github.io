@@ -16,10 +16,6 @@
 {{ if eq $item.Type "post" }}
   {{ $microdata_type = "BlogPosting" }}
   {{ $icon = "fa-newspaper" }}
-{{ else if eq $item.Type "publication" }}
-  {{ $microdata_type = "ScholarlyArticle" }}
-  {{ $show_volunteers = true }}
-  {{ $show_buttons = true }}
 {{ else if eq $item.Type "project" }}
   {{ $microdata_type = "CreativeWork" }}
   {{ $icon_pack = "fas" }}

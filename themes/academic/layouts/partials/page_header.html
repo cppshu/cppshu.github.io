@@ -9,8 +9,6 @@
     {{ $title = i18n "posts" }}
   {{ else if eq .Type "salon" }}
     {{ $title = i18n "salons" }}
-  {{ else if eq .Type "publication" }}
-    {{ $title = i18n "publications" }}
   {{end}}
 {{end}}
 

@@ -13,10 +13,6 @@
 {{/* Dynamic view adjusts to content type. */}}
 {{ if eq $item.Type "post" }}
   {{ $microdata_type = "BlogPosting" }}
-{{ else if eq $item.Type "publication" }}
-  {{ $microdata_type = "ScholarlyArticle" }}
-  {{ $show_volunteers_only = false }}
-  {{ $show_buttons = true }}
 {{ else if eq $item.Type "project" }}
   {{ $microdata_type = "CreativeWork" }}
   {{ $show_volunteers_only = false }}

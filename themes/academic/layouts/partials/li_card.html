@@ -6,9 +6,6 @@
 {{/* Dynamic view adjusts to content type. */}}
 {{ if eq $item.Type "post" }}
   {{ $microdata_type = "BlogPosting" }}
-{{ else if eq $item.Type "publication" }}
-  {{ $microdata_type = "ScholarlyArticle" }}
-  {{ $show_buttons = true }}
 {{ end }}
 
 {{/* Get summary. */}}

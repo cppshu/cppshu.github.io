@@ -22,26 +22,12 @@
 
   <span class="article-date">
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
-    {{ if eq $page.Type "publication" }}
-      {{ $date = $page.Date.Format (site.Params.publications.date_format | default "January, 2006") }}
-    {{ else }}
       {{ if ne $page.Params.Lastmod $page.Params.Date }}
           {{ i18n "last_updated" }}
       {{ end }}
-    {{ end }}
+
     <time>{{ $date }}</time>
   </span>
-
-  {{ if and (eq $is_list 1) (eq $page.Type "publication") }}
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    {{ if $page.Params.publication_short }}
-      {{ $page.Params.publication_short | markdownify }}
-    {{ else if $page.Params.publication }}
-      {{ $page.Params.publication | markdownify }}
-    {{ end }}
-  </span>
-  {{ end }}
 
   {{ if and (eq $page.Type "post") (not (or (eq site.Params.reading_time false) (eq $page.Params.reading_time false))) }}
   <span class="middot-divider"></span>

@@ -5,9 +5,12 @@
 {{ partial "page_header.html" . }}
 
 <div class="universal-wrapper">
-  {{ with .Content }}
-  <div class="article-style" itemprop="articleBody">{{ . }}</div>
-  {{ end }}
+
+  <div class="article-style" itemprop="articleBody"> 
+  Yuanyou NGO has always functioned with the help of volunteers.
+</div>
+
+<div style="padding-top: 2em;"> </div>
 
   <ul>
     {{ $paginator := .Paginate .Data.Pages }}

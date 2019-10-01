@@ -8,26 +8,22 @@ title = "Volunteers"
 subtitle = ""
 
 [[volunteer]]
-  img = "volunteer_xiaomeng.PNG"
   name = "Xiaomeng"
-  url = "/volunteers/xiaomeng"
+  id = "xiaomeng"
 
 [[volunteer]]
-  img = "volunteer_baijie.PNG"
   name = "Bai Jie"
-  url = "/volunteers/baijie"
+  id = "baijie"
 
 [[volunteer]]
-  img = "volunteer_reveurmk.PNG"
   name = "reveurmk"
-  url = "/volunteers/reveurmk"
+  id = "reveurmk"
 
 [[volunteer]]
-  img = "volunteer_windandlonglong.PNG"
   name = "Wind And Longlong"
-  url = "/volunteers/windandlonglong"
+  id = "windandlonglong"
 
   
   
 +++
-Here are volunteers of Yuanyou NGO. Click to find out what are their contributions.
+Here are volunteers of Yuanyou NGO. 

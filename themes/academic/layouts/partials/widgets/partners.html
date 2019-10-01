@@ -13,6 +13,8 @@
   <div class="col-12 col-lg-8">
   
   {{ with $page.Content }}{{ . | markdownify | emojify }}{{ end }}
+
+<div style="padding-top: 2.5em;"> </div>
   
   <div class="row">
   
@@ -20,55 +22,13 @@
   
   <div class="col-sm-2">
 	<div>
-	<center><img src= "{{printf "/img/%s?%s" .img .date}}" style="padding-top: 1em;" WIDTH=130 HEIGHT=130 align="middle"></center>
+	<center><img src= "{{printf "/img/%s?%s" .img .date}}" style="" WIDTH=130 HEIGHT=130 align="middle"></center>
 	</div>
 	<center><div style="font-size:0.8em;"> {{.name | markdownify | emojify}} </div></center>
   </div>
   
   
   {{ end }}
-  
-  <!--
-
-  <div class="col-sm-4">
-	<div>
-	<center><img src= "/img/helpblind.PNG?{{printf "%s" .date}}" style="padding-top: 3em;" WIDTH=150 HEIGHT=150 align="middle"></center>
-	</div>
-	<div style="font-size:1.0em;">  HelpBlind </div>
-  </div>
-  
-  <div class="col-sm-4">
-	<div>
-	<center>
-	<img src= "/img/aier.PNG?{{printf "%s" .date}}" style="padding-top: 3em;" alt="" WIDTH=150 HEIGHT=150 align="middle"> </center>
-	</div>
-	<center><div style="font-size:1.0em;">  AIER Eye Hospital  </div></center>
-  </div>
-  
-	
-	<div class="col-sm-4">
-	<center>
-	<img src= "/img/lucidkorea.PNG?{{printf "%s" .date}}" style="padding-top: 3em;" alt="" WIDTH=150 HEIGHT=150 align="middle">
-	</center>
-	<div style="font-size:1.0em;">  LucidKorea  </div>
-  </div>
-  
-  
-  <div class="col-sm-4">
-	<center>
-	<img src= "/img/chm.PNG?{{printf "%s" .date}}v" style="padding-top: 3em;"  alt="" WIDTH=150 HEIGHT=150>
-	</center>
-	<div style="font-size:1.0em;">  Choroideremia Research Foundation  </div>
-  </div>
-  
-<div class="col-sm-4">
-	<center>
-	<img src= "/img/ush.PNG?{{printf "%s" .date}}" style="padding-top: 3em;" alt="" WIDTH=150 HEIGHT=150>
-	</center>
-	<div style="font-size:1.0em;"> Usher Syndrome Coalition  </div>
-  </div>
-  -->
-  	
 	
 </div>		
 </div>	

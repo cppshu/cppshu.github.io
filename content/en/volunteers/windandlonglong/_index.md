@@ -1,10 +1,10 @@
 ---
 # Display name
-name: 管理员
+name: Wind And Longlong
 
 # Username (this should match the folder name)
 volunteers:
-- admin
+- windandlonglong
 
 # Is this the primary user of the site?
 superuser: true
@@ -70,4 +70,4 @@ email: ""
 #- Visitors
 ---
 
-Programmer based in Seattle. Keratoconus patient. Founder of Yuanyou NGO.
+Wind And Longlong.

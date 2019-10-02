@@ -1,35 +1,31 @@
 {{ if not (or (eq site.Params.profile false) (eq .Params.profile false)) }}
 
-{{/* Display superuser if superuser exists and page volunteers are not explicitly specified. */}}
-{{/* Otherwise, display first volunteer if a profile for them exists. */}}
-
-{{ $volunteer_urlized := "" }}
-
-{{ $first_volunteer := "" }}
-{{ if .Params.volunteers }}
-  {{ $first_volunteer = index .Params.volunteers 0 }}
-{{ end }}
-{{ $volunteer_urlized = urlize $first_volunteer }}
-
-
-{{ $taxonomy := "volunteers" }}
-
-<!-- @@@@@@@@@@@@@@@@@ -->
-{{ $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $volunteer_urlized) }}
-
-{{ with $profile_page }}
-  {{/* If it's a personal site and primary page volunteer is superuser, link to the homepage rather than their profile page. */}}
-  {{ $profile_url := .RelPermalink }}
-  {{ if and (not site.Data.organization.name) (eq .Params.superuser true) }}
-    {{ $profile_url = site.BaseURL }}
-  {{ end }}
-  
-
 <div style="padding-top: 3em;"> </div>
 <div> Those people have contributed to this: </div>
 <div style="padding-top: 2em;"> </div>
 
   <div class="col-sm-3">
+
+    {{ $volunteer_urlized := "" }}
+    
+    {{ $first_volunteer := "" }}
+    {{ if .Params.volunteers }}
+    {{ $first_volunteer = index .Params.volunteers 0 }}
+    {{ end }}
+    {{ $volunteer_urlized = urlize $first_volunteer }}
+    
+    
+    {{ $taxonomy := "volunteers" }}
+    
+    <!-- @@@@@@@@@@@@@@@@@ -->
+    {{ $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $volunteer_urlized) }}
+    
+    {{ with $profile_page }}
+    {{/* If it's a personal site and primary page volunteer is superuser, link to the homepage rather than their profile page. */}}
+    {{ $profile_url := .RelPermalink }}
+    {{ if and (not site.Data.organization.name) (eq .Params.superuser true) }}
+    {{ $profile_url = site.BaseURL }}
+    {{ end }}
     
    
     <div>

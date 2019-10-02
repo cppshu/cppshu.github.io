@@ -1,45 +1,54 @@
 {{ if not (or (eq site.Params.profile false) (eq .Params.profile false)) }}
 
-<div style="padding-top: 3em;"> </div>
-<div> Those people have contributed to this: </div>
-<div style="padding-top: 2em;"> </div>
 
-  <div class="col-sm-3">
+<div style="background: #FFFFFF;">
+
+<div style="padding-top: 3em;"> </div>
+<div><h2> Contrubitors </h2></div>
+<div> Those volunteers have contributed to this: </div>
+<div style="padding-top: 2em;"> </div>
 
     {{ $volunteer_urlized := "" }}
     
     {{ $first_volunteer := "" }}
     {{ if .Params.volunteers }}
-    {{ $first_volunteer = index .Params.volunteers 0 }}
-    {{ end }}
-    {{ $volunteer_urlized = urlize $first_volunteer }}
-    
-    
-    {{ $taxonomy := "volunteers" }}
-    
-    <!-- @@@@@@@@@@@@@@@@@ -->
-    {{ $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $volunteer_urlized) }}
-    
-    {{ with $profile_page }}
-    {{/* If it's a personal site and primary page volunteer is superuser, link to the homepage rather than their profile page. */}}
-    {{ $profile_url := .RelPermalink }}
-    {{ if and (not site.Data.organization.name) (eq .Params.superuser true) }}
-    {{ $profile_url = site.BaseURL }}
-    {{ end }}
-    
-   
-    <div>
-    <center><img src="{{printf "/img/volunteers/%s.PNG?%s" $first_volunteer now}}"
-      style="height:150px; width:150px; border-radius:150px; background:white;" WIDTH=250 HEIGHT=250></center>
+
+
+      <div class="row">
+      {{ range $first_volunteer := .Params.volunteers }}
+      
+        {{ $volunteer_urlized = urlize $first_volunteer }}
+              
+        {{ $taxonomy := "volunteers" }}
         
+        {{ $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $volunteer_urlized) }}
+        
+        {{ with $profile_page }}
+        {{/* If it's a personal site and primary page volunteer is superuser, link to the homepage rather than their profile page. */}}
+        {{ $profile_url := .RelPermalink }}
+        {{ if and (not site.Data.organization.name) (eq .Params.superuser true) }}
+        {{ $profile_url = site.BaseURL }}
+        {{ end }}
+        
+        <div class="col-sm-3">
+        <div>
+        <center><a href="{{$profile_url}}"><img src="{{printf "/img/volunteers/%s.PNG?%s" $first_volunteer now}}"
+          style="height:120px; width:120px; border-radius:120px; background:white;" WIDTH=250 HEIGHT=250></a></center>
+            
+        </div>
+
+        <div style="padding-top: 0.5em;"> </div>
+
+        <div>
+          <center><a href="{{$profile_url}}">{{.Params.name}}</a></center>
+        </div>
+      {{end}}  
+      </div>
+      {{end}}
+
+      
     </div>
-
-    <div style="padding-top: 0.5em;"> </div>
-
-    <div>
-      <center><a href="{{$profile_url}}">{{.Params.name}}</a></center>
-    </div>
-
-  </div>
-{{end}}{{/* Profile page block */}}
+  {{end}}{{/* Profile page block */}}
 {{end}}{{/* Show profile block */}}
+
+</div>

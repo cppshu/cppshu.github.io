@@ -4,18 +4,19 @@
 {{/* Otherwise, display first volunteer if a profile for them exists. */}}
 
 {{ $volunteer_urlized := "" }}
-{{ if and (not .Params.volunteers) (.Scratch.Get "superuser_username") }}
-  {{ $volunteer_urlized = (.Scratch.Get "superuser_username") }}
-{{ else }}
-  {{ $first_volunteer := "" }}
-  {{ if .Params.volunteers }}
-    {{ $first_volunteer = index .Params.volunteers 0 }}
-  {{ end }}
-  {{ $volunteer_urlized = urlize $first_volunteer }}
+
+{{ $first_volunteer := "" }}
+{{ if .Params.volunteers }}
+  {{ $first_volunteer = index .Params.volunteers 0 }}
 {{ end }}
+{{ $volunteer_urlized = urlize $first_volunteer }}
+
 
 {{ $taxonomy := "volunteers" }}
+
+<!-- @@@@@@@@@@@@@@@@@ -->
 {{ $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $volunteer_urlized) }}
+
 {{ with $profile_page }}
   {{/* If it's a personal site and primary page volunteer is superuser, link to the homepage rather than their profile page. */}}
   {{ $profile_url := .RelPermalink }}
@@ -23,17 +24,26 @@
     {{ $profile_url = site.BaseURL }}
   {{ end }}
   
-  <div class="media volunteer-card" itemscope itemtype="http://schema.org/Person">
-    
-    
-<img class="portrait" src="{{printf "/img/volunteers/%s.PNG?%s" $profile_url now}}"
-  style="height:250px; width:250px; border-radius:250px; background:white;" WIDTH=250 HEIGHT=250>
-    
 
-    <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="{{$profile_url}}">{{.Params.name}}</a></h5>
-      {{ with .Params.role }}<h6 class="card-subtitle">{{. | markdownify | emojify}}</h6>{{end}}      
+<div style="padding-top: 3em;"> </div>
+<div> Those people have contributed to this: </div>
+<div style="padding-top: 2em;"> </div>
+
+  <div class="col-sm-3">
+    
+   
+    <div>
+    <center><img src="{{printf "/img/volunteers/%s.PNG?%s" $first_volunteer now}}"
+      style="height:150px; width:150px; border-radius:150px; background:white;" WIDTH=250 HEIGHT=250></center>
+        
     </div>
+
+    <div style="padding-top: 0.5em;"> </div>
+
+    <div>
+      <center><a href="{{$profile_url}}">{{.Params.name}}</a></center>
+    </div>
+
   </div>
 {{end}}{{/* Profile page block */}}
 {{end}}{{/* Show profile block */}}

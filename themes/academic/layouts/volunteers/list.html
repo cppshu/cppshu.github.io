@@ -19,7 +19,11 @@
       {{ partial $widget $params }}
     {{end}}
 
-    {{ $query := where .Pages ".IsNode" false }}
+    {{ $items_type := "salon" }}
+    {{ $query_tmp := where .Pages ".IsNode" false }}
+
+    {{ $query := where $query_tmp "Type" $items_type }}
+
     {{ $count := len $query }}
     {{ if $count }}
     <div class="article-widget">

@@ -2,6 +2,9 @@
 
 {{- define "main" -}}
 
+{{ $page := . }}
+
+
 {{/* If an account has not been created for this user, just display their name as the title. */}}
 {{ if not .File }}
 <div class="universal-wrapper pt-3">
@@ -19,24 +22,28 @@
       {{ partial $widget $params }}
     {{end}}
 
-    {{ $items_type := "salon" }}
-    {{ $query_tmp := where .Pages ".IsNode" false }}
+    <h3> He/She has contributed to those Yuanyou projects : </h3>
 
-    {{ $query := where $query_tmp "Type" $items_type }}
+    {{ range $items_type := (slice "salon" "news") }}
 
-    {{ $count := len $query }}
-    {{ if $count }}
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
-      <ul>
-        {{ range $query }}
-        <li>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
+      {{ $query_tmp := where $page.Pages ".IsNode" false }}
+
+      {{ $query := where $query_tmp "Type" (printf "%s" $items_type) }}
+
+      {{ $count := len $query }}
+      {{ if $count }}
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3> {{ printf "%s" $items_type }} : </h3>
+        <ul>
+          {{ range $query }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
     {{ end }}
   </div>
 </section>

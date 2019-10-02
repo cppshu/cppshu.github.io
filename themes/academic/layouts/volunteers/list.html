@@ -13,18 +13,37 @@
 {{ end }}
 
 <section id="profile-page" class="pt-5">
-  <div class="container">
-    {{/* Show the About widget if an account exists for this user. */}}
-    {{ if .File }}
-      {{ $widget := "widgets/about.html" }}
-      {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.volunteers 0` */}}
-      {{ $params := dict "root" $ "page" . "volunteer" $username }}
-      {{ partial $widget $params }}
-    {{end}}
+  {{/* Show the About widget if an account exists for this user. */}}
 
-    <h3> He/She has contributed to those Yuanyou projects : </h3>
+  {{ $widget := "widgets/about.html" }}
+  {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.volunteers 0` */}}
+  {{ $params := dict "root" $ "page" . "volunteer" $username }}
+ 
+  
+  
 
-    {{ range $items_type := (slice "salon" "news") }}
+  <div class="row">
+    
+<div class="col-12 col-lg-1"> </div>
+
+  <div class="col-12 col-lg-3">  
+    
+      <div>
+    
+      <img class="portrait" src="{{printf "/img/volunteers/%s.PNG?%s" $username now}}"
+        style="height:250px; width:250px; border-radius:250px; background:white;" WIDTH=250 HEIGHT=250>
+    
+      </div>
+  </div>
+
+  <div class="col-12 col-lg-5">
+    {{ partial $widget $params }}
+    
+    <div style="padding-top: 2em;"> </div>
+    <div class="hr-light"></div>
+    <h3> <b>He/She has contributed to those Yuanyou projects : </b></h3>
+
+    {{ range $items_type := (slice "salon" "news" "wiki" "aid" ) }}
 
       {{ $query_tmp := where $page.Pages ".IsNode" false }}
 
@@ -33,7 +52,7 @@
       {{ $count := len $query }}
       {{ if $count }}
       <div class="article-widget">
-        <div class="hr-light"></div>
+        
         <h3> {{ printf "%s" $items_type }} : </h3>
         <ul>
           {{ range $query }}
@@ -45,6 +64,7 @@
       </div>
       {{ end }}
     {{ end }}
+  </div>
   </div>
 </section>
 

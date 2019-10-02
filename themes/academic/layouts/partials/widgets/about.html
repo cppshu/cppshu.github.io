@@ -18,27 +18,9 @@
 
 <!-- About widget -->
 
-<div class="row" itemprop="volunteer" itemscope itemtype="http://schema.org/Person" itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      <img class="portrait" src="{{printf "/img/volunteers/%s.PNG?%s" .volunteer now}}" 
-      style="height:250px; width:250px; border-radius:250px; background:white;"  WIDTH=250 HEIGHT=250 >
-
-      <div class="portrait-title">
-        <h2 itemprop="name">{{ $person.name }}</h2>
-        {{ with $person.role }}<h3 itemprop="jobTitle">{{ . | markdownify | emojify }}</h3>{{ end }}
-
-      </div>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8" itemprop="description">
 
     {{/* Only display widget title in explicit instances of about widget, not in volunteer pages. */}}
     {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
 
     {{ $person_page.Content }}
 
-  </div>
-</div>

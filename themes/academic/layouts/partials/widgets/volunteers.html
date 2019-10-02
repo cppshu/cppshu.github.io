@@ -29,7 +29,7 @@
 	<div>
 	{{ with .id }}<a style="text-decoration : none; color : #0e6b20;" href="/volunteers/{{ . }}" target="_blank"
 			rel="noopener">{{ end }}
-	<center><img src= "{{printf "/img/volunteers/%s.PNG?%s" .id .date}}" style="height:130px;
+	<center><img src= "{{printf "/img/volunteers/%s.PNG?%s" .id now}}" style="height:130px;
   width:130px;
   border-radius:130px;
   background:white;"  WIDTH=130 HEIGHT=130 align="middle"></center>

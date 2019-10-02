@@ -5,6 +5,8 @@ summary: We (Yuanyou NGO) could help patients of Usher Syndrome in China to reac
 
 date: "2019-09-20T21:00:00Z"
 
+volunteers: [xiaomeng, reveurmk]
+
 tags: [Usher Syndrome]
 
 # Is this a featured salon? (true/false)

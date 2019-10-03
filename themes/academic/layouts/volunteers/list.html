@@ -7,12 +7,11 @@
 
 {{/* If an account has not been created for this user, just display their name as the title. */}}
 {{ if not .File }}
-<div class="universal-wrapper pt-3">
+<div>
   <h1 itemprop="name">{{ .Title }}</h1>
 </div>
 {{ end }}
 
-<section id="profile-page" class="pt-5">
   {{/* Show the About widget if an account exists for this user. */}}
 
   {{ $widget := "widgets/about.html" }}
@@ -30,31 +29,38 @@
 
 
 
-  <div class="row">
+<div class="row" style="padding: 2em 2em; max-width: 100%">
     
-<div class="col-12 col-lg-1"> </div>
+<div class="col-12 col-lg-2"> </div>
 
   <div class="col-12 col-lg-3">  
     
       <div>
     
       <img class="portrait" src="{{printf "/img/volunteers/%s.PNG?%s" $username now}}"
-        style="height:250px; width:250px; border-radius:250px; background:white;" WIDTH=250 HEIGHT=250>
+        style="height:250px; width:250px; border-radius:250px; background:white;">
     
       </div>
       <center> <h2 itemprop="name">{{ $person.name }}</h2> </center>
   </div>
 
-  <div class="col-12 col-lg-5">
+  <div class="col-12 col-lg-4">
     {{ partial $widget $params }}
     
     <div style="padding-top: 2em;"> </div>
+    
+
+    {{ $query_tmp := where $page.Pages ".IsNode" false }}
+
+    {{ $count_tmp := len $query_tmp }}
+
+    {{ if $count_tmp }}
+
     <div class="hr-light"></div>
+
     <h3> <b>He/She has contributed to those Yuanyou projects : </b></h3>
 
     {{ range $items_type := (slice "salon" "news" "wiki" "aid" ) }}
-
-      {{ $query_tmp := where $page.Pages ".IsNode" false }}
 
       {{ $query := where $query_tmp "Type" (printf "%s" $items_type) }}
 
@@ -73,8 +79,9 @@
       </div>
       {{ end }}
     {{ end }}
+    {{ end }}
   </div>
   </div>
-</section>
+
 
 {{- end -}}

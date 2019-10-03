@@ -14,17 +14,17 @@
   
   {{ with $page.Content }}{{ . | markdownify | emojify }}{{ end }}
 
-<div style="padding-top: 2.5em;"> </div>
+<div style="padding-top: 1em;"> </div>
   
   <div class="row">
   
   {{ range $page.Params.partner }}
   
-  <div class="col-sm-2">
-	<div>
-	<center><img src= "{{printf "/img/%s?%s" .img .date}}" style="" WIDTH=130 HEIGHT=130 align="middle"></center>
+  <div class="col-12 col-sm-2">
+	<div style="padding-top: 1.5em;">
+	<center><img src= "{{printf "/img/%s?%s" .img now}}"  style="border:1px solid rgb(224, 247, 206);" WIDTH=130 HEIGHT=130 align="middle" ></center>
 	</div>
-	<center><div style="font-size:0.8em;"> {{.name | markdownify | emojify}} </div></center>
+	<center><div style="font-size:0.8em; padding-top: 0.8em;"> {{.name | markdownify | emojify}} </div></center>
   </div>
   
   

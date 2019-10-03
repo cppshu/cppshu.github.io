@@ -4,8 +4,7 @@
 <div style="background: #FFFFFF;">
 
 <div style="padding-top: 1em;"> </div>
-<div class="hr-light"></div>
-<div><h4> Volunteers & Contrubitors of this article : </h4></div>
+
 <div style="padding-top: 2em;"> </div>
 
     {{ $volunteer_urlized := "" }}
@@ -13,6 +12,11 @@
     {{ $first_volunteer := "" }}
     {{ if .Params.volunteers }}
 
+    <div class="hr-light"></div>
+
+    <div>
+      <h4> Volunteers & Contrubitors of this article : </h4>
+    </div>
 
       <div class="row">
       {{ range $first_volunteer := .Params.volunteers }}

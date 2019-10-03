@@ -13,12 +13,13 @@
     {{ if .Params.replicate_content_from_zh_site }}
     
     <div class="article-style" itemprop="articleBody">
-      HELLO WORLD
-
-      {{ with .Site.GetPage "/salon/2019062201" }}{{ .Title }}{{ end }}
-
-      {{ with .Site.GetPage "/zh/salon/2019062201/index.md" }}{{ .Title }}{{ end }}
-
+     
+      {{ range .Translations }}
+      {{ if eq .Lang "zh"}}
+      {{ .Content }}
+      {{ end }}
+      {{ end }}
+      
     </div>
     {{ end }}
 

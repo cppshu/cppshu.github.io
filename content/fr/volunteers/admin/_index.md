@@ -1,6 +1,6 @@
 ---
 # Display name
-name: 霄梦
+name: Admin
 
 # Username (this should match the folder name)
 volunteers:
@@ -70,4 +70,4 @@ email: ""
 #- Visitors
 ---
 
-Programmer based in Seattle. Keratoconus patient. Founder of Yuanyou NGO.
+Admin

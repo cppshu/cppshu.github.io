@@ -10,17 +10,19 @@
       {{ .Content }}
     </div>
 
-    {{ if .Params.replicate_content_from_zh_site }}
+    {{ if not .Params.different_content_zh_en }}
     
-    <div class="article-style" itemprop="articleBody">
-     
-      {{ range .Translations }}
-      {{ if eq .Lang "zh"}}
-      {{ .Content }}
-      {{ end }}
-      {{ end }}
+      <div class="article-style" itemprop="articleBody">
       
-    </div>
+        {{ range .Translations }}
+          {{ if eq .Lang "zh"}}
+            {{ if lt (len .Content) 10 }}
+              {{.Content}}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        
+      </div>
     {{ end }}
 
     {{ partial "page_edit" . }}

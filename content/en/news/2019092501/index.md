@@ -5,6 +5,8 @@ summary: We (Yuanyou NGO) could help patients of Choroideremia in China to reach
 
 date: "2019-09-25T21:00:00Z"
 
+different_content_zh_en: true
+
 tags: [choroideremia]
 
 # Is this a featured salon? (true/false)
@@ -21,5 +23,6 @@ url_video:
 欢迎无脉络膜症患者跟援友公益取得联系，我们会帮助患者跟美国的 [Choroideremia Research Foundation](https://www.curechm.org
 ) 对接。一起商讨加入基因测试、参与试验型治疗的可能性。
 
+We (Yuanyou NGO) could help patients of Choroideremia in China to reach out to choroideremia research foundation.
 
 我们的联系方式是：kf@mail.yuanyou.site

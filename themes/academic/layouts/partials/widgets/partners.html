@@ -2,6 +2,7 @@
 {{ $page := .page }}
 
 
+
 <div class="row">
   {{ with $page.Title }}
   <div class="col-12 col-lg-4 section-heading">
@@ -33,3 +34,7 @@
 </div>		
 </div>	
 </div>
+
+{{- range .Params.js }}
+<script src="/js/{{ . }}"></script>
+{{- end }}

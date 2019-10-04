@@ -7,6 +7,9 @@ weight = 70  # Order that this section will appear.
 title = "Partners"
 subtitle = ""
 
+js = ["piao.js"]
+
+
 [[partner]]
   img = "helpblind.PNG"
   name = "HelpBlind"

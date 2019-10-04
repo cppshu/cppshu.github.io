@@ -6,14 +6,9 @@ name: Bai Jie
 volunteers:
 - baijie
 
-# Is this the primary user of the site?
-superuser: false
+js: ["piao.js"]
 
 
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-  
 ---
 
 Bai Jie

@@ -29,3 +29,7 @@
     {{ end }}
   </p>
 </footer>
+
+{{- range .Params.js }}
+<script src="/js/{{ . }}"></script>
+{{- end }}

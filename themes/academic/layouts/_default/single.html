@@ -6,24 +6,21 @@
 
   <div class="article-container">
 
-    <div class="article-style" itemprop="articleBody">
-      {{ .Content }}
-    </div>
 
-    {{ if not .Params.different_content_zh_en }}
-    
       <div class="article-style" itemprop="articleBody">
-      
-        {{ range .Translations }}
-          {{ if eq .Lang "zh"}}
-            {{ if lt (len .Content) 10 }}
-              {{.Content}}
+
+      {{ if gt (len .Content) 2 }}
+        {{ .Content }}
+      {{else}}
+          {{ range .Translations }}
+            {{ if eq .Lang "zh"}}
+              {{ if gt (len .Content) 2 }}
+                {{.Content}}
+              {{ end }}
             {{ end }}
           {{ end }}
-        {{ end }}
-        
+      {{ end }}
       </div>
-    {{ end }}
 
     {{ partial "page_edit" . }}
 

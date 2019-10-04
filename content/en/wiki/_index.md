@@ -1,5 +1,5 @@
 ---
-title: 援友医疗知识开源平台
+title: Yuanyou Wiki
 
 # View.
 #   1 = List

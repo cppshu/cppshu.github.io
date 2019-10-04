@@ -6,8 +6,6 @@ date: "2019-09-22T21:00:00Z"
 
 volunteers: [xiaomeng, reveurmk]
 
-different_content_zh_en: false
-
 tags: [Keratoconus]
 categories: [Yuanyou Salon]
 

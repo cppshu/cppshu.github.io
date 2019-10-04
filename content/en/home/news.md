@@ -8,7 +8,6 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "News"
-subtitle = "News"
 
 [content]
   # Page type to display. E.g. post, salon, or publication.

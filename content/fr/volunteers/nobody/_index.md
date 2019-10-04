@@ -7,5 +7,3 @@ volunteers:
 superuser: true
 
 ---
-
-Admin

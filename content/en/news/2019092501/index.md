@@ -5,6 +5,8 @@ summary: We (Yuanyou NGO) could help patients of Choroideremia in China to reach
 
 date: "2019-09-25T21:00:00Z"
 
+volunteers: [xiaomeng, reveurmk, jasonliu]
+
 tags: [choroideremia]
 
 # Is this a featured salon? (true/false)

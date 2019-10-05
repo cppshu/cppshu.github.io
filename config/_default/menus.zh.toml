@@ -75,6 +75,11 @@
 #  weight = 50  
   
 [[main]]
+  name = "志愿者"
+  url = "#volunteers"
+  weight = 59  
+
+[[main]]
   name = "合作伙伴"
   url = "#partners"
   weight = 60    

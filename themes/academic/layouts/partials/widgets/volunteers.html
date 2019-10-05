@@ -2,8 +2,6 @@
 {{ $page := .page }}
 
 
-
-
 <div class="row">
   {{ with $page.Title }}
   <div class="col-12 col-lg-4 section-heading">
@@ -21,29 +19,35 @@
   <div class="row">
   
 
-
-
-  {{ range $page.Params.volunteer }}
+  {{ range $page.Params.volunteers }}
   
   {{ $v := (printf "%s" (urlize .)) }}
 
-  <div class="col-sm-3">
+  <div class="col-sm-2">
 	<div style="padding-top: 2em;">
-	{{ with .id }}<a style="text-decoration : none; color : #0e6b20;" href="/volunteers/{{ . }}" target="_blank"
-			rel="noopener">{{ end }}
-	<center><img src= "{{printf "/img/volunteers/%s.PNG?%s" .id now}}" style="
+	<a style="text-decoration : none; color : #0e6b20;" href="/volunteers/{{ $v }}" target="_blank"
+			rel="noopener">
+	<center><img src= "{{printf "/img/volunteers/%s.PNG?%s" $v now}}" style="
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   border:1px solid rgb(224, 247, 206);"  align="middle"></center>
-	{{ if .id }}</a>{{ end }}
+  </a>
+  
+  {{ $person_page_path := (printf "/volunteers/%s" (urlize $v)) }}
+  {{ $person_page := site.GetPage $person_page_path }}
+  {{ if not $person_page }}
+  {{ errorf "Could not find an volunteer page at `%s`. Please check the value of `volunteer` in your About widget and create an associated volunteer page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
+  {{end}}
+  {{ $person := $person_page.Params }}
+
 	</div>
-	{{ with .id }}<a style="text-decoration : none; color : #222222;" href="/volunteers/{{ . }}" target="_blank"
-		rel="noopener">{{ end }}
-	<center><div style="font-size:0.8em; padding-top: 1em;"> {{.name | markdownify | emojify}} </div></center>
-	{{ if .id }}</a>{{ end }}
+	<a style="text-decoration : none; color : #222222;" href="/volunteers/{{ $v }}" target="_blank"
+		rel="noopener">
+	<center><div style="font-size:0.8em; padding-top: 1em;"> {{$person.name | markdownify | emojify}} </div></center>
+  </a>
   </div>
   
   

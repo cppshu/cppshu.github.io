@@ -1,9 +1,11 @@
 ---
 title: 欢迎无脉络膜症患者跟援友公益取得联系
 
-summary: 欢迎无脉络膜症患者跟援友公益取得联系，我们会帮助患者跟美国的 choroideremia research foundation 对接。
+summary: 欢迎无脉络膜症患者跟援友公益取得联系，我们会帮助患者跟美国的 Choroideremia Research Foundation 对接。
 
 date: "2019-09-25T21:00:00Z"
+
+volunteers: [xiaomeng, reveurmk, jasonliu]
 
 tags: [无脉络膜症]
 

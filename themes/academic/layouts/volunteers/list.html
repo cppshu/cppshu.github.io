@@ -27,7 +27,7 @@
 {{end}}
 {{ $person := $person_page.Params }}
 
-
+<center><h1  style="padding: 1em" > Volunteers of Yuanyou NGO </h1></center>
 
 <div class="row" style="padding: 2em 2em; max-width: 100%">
     
@@ -58,7 +58,7 @@
 
     <div class="hr-light"></div>
 
-    <h3> <b>He/She has contributed to those Yuanyou projects : </b></h3>
+    <h3> <b> {{ $person.name }} has contributed to those Yuanyou projects : </b></h3>
 
     {{ range $items_type := (slice "salon" "news" "wiki" "aid" ) }}
 

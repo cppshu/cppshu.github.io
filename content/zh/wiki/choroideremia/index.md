@@ -2,6 +2,7 @@
 title: 无脉络膜症
 #subtitle: 
 summary: 无脉络膜症的概述、历史、发病机制、流行性、病因、诊断、症状、检查、治疗和日常管理。
+volunteers: [xiaomeng, reveurmk, jasonliu]
 tags: [choroideremia]
 categories: [Wiki]
 date: "2019-09-26T00:00:00Z"

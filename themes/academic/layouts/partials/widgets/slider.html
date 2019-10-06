@@ -17,12 +17,24 @@
 
 
 
+<div id="particles-js-slider" style="position: absolute;
+										width: 100%; z-index: 1; 
+								height: 100%;">
+</div>
+
 
 <!-- Carousel slides wrapper -->
 <div class="carousel-inner">
   {{ range $index, $item := $page.Params.item }}
+	
+	<!-- <div id="{{ with $item.js_id }}{{ printf $item.js_id }}{{else}}particles-js-slider-destroy{{ end }}" style="position: absolute;
+										width: 100%; z-index: {{ if $item.js_id }}1{{else}}-1{{end}}; 
+								height: 100%; !important">
+	</div> -->
   		
-  <div class="wg-hero dark carousel-item{{if eq $index 0}} active{{end}}" style="{{with $page.Params.height}}{{printf "height: %s;" . | safeCSS}}{{end}}
+  <div class="wg-hero dark carousel-item{{if eq $index 0}} active{{end}}" 
+  style="z-index: auto; position: relative; 
+  {{with $page.Params.height}}{{printf "height: %s;" . | safeCSS}}{{end}}
     {{ if $item.overlay_color }}
     background-color: {{ $item.overlay_color | default "transparent" }};
     {{ end }}
@@ -32,22 +44,31 @@
     url('{{ printf "/img/%s?%s" $item.overlay_img .date }}');
     {{ end }}
 	background-size:  cover;
-	backgroundRepeat: repeat;
-	backgroundPosition': top center
+	backgroundPosition: top center
     ;">
 
-	<div class="container" style="text-align:center;">
+
+
+
+	<div class="container" style="
+	text-align:center; z-index: 22; position:relative;">
+
+	  
+
       <div class="container" style="text-align:left;">	
 			<div class="hero-lead" style="color:#333333; {{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}}; font-size:1.5em;">
-			  <span class="hero-lead" style="color:#0e6b20; font-size:1.5em;">
-			  {{ with $item.url }}<a style="text-decoration : none; color : #0e6b20;" href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+			  <span class="hero-lead" style="color:#0e6b20; font-size:1.5em; z-index: 22; position:relative;">
+			  {{ with $item.url }}<a style="z-index: 22; position:relative; text-decoration : none; color : #0e6b20;" href="{{ . }}" target="_blank" rel="noopener">{{ end }}
 			  {{ with $item.title }}{{ . | markdownify | emojify }}{{ end }}
 			  {{ if $item.url }}</a>{{ end }}
 			  </span>   
 			</div>  
+
+
+		
 		
         {{ with $item.content }}
-        <div class="hero-lead " style="color:#03380e; {{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}}; font-size:1em;">
+        <div class="hero-lead " style="z-index: 22; position:relative; color:#03380e; {{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}}; font-size:1em;">
           {{ . | markdownify | emojify }}
         </div>
         {{ end }}
@@ -87,7 +108,7 @@
 				{{ range $item_li_slider := $query }}
 				<div class="hero-lead" style="{{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}};">
 				  <i  class="far fa-file-alt pub-icon" style="color: #111111;"></i>
-				  <a style="text-decoration : none; color:#07661a; font-size:0.68em;" href="{{$item_li_slider.RelPermalink}}" target="_blank" rel="noopener">{{ $item_li_slider.Title }}</a>
+				  <a style="z-index: 22; position:relative; text-decoration : none; color:#07661a; font-size:0.68em;" href="{{$item_li_slider.RelPermalink}}" target="_blank" rel="noopener">{{ $item_li_slider.Title }}</a>
 				  &nbsp; 
 				  <span> {{ partial "page_metadata_slider" (dict "page" $item_li_slider "is_list" 1) }}  </span>
 				</div>
@@ -116,7 +137,7 @@
 
 <!-- Left and right controls -->
 <a class="carousel-control-prev" href="#{{$hash_id}}" data-slide="prev">
-  <span class="carousel-control-prev-icon"></span>
+  <span class="carousel-control-prev-icon" ></span>
   <span class="sr-only">Previous</span>
 </a>
 <a class="carousel-control-next" href="#{{$hash_id}}" data-slide="next">

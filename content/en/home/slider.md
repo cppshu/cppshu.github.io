@@ -43,6 +43,7 @@ height = ""
   title = "Yuanyou Connect"
   type = "connect"
   url = "/connect/"
+  js_id = "particles-js-slider"
   content = """
   The Yuanyou Connect Project is committed to building closer and wider connection between the social public welfare forces and the affected groups, promoting the flow of public welfare resources throughout the society, and helping to make more efficient use of public welfare resources. We help the recipients connect public welfare resources in the simplest and fastest way, while pooling demand and calling for the mobilization of more social public welfare inputs.  
   """

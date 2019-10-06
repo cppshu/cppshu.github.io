@@ -1,4 +1,5 @@
-   particlesJS("particles-js", {
+   particlesJS(
+   "particles-js-connect", {
         "particles": {
             "number": {
                 "value": 40,

@@ -7,7 +7,7 @@ title: Yuanyou Wiki
 #   3 = Card
 view: 2
 
-js: ["canvas-nest.min.js"]
+# js: ["canvas-nest.min.js"]
 
 # Optional header image (relative to `static/img/` folder).
 header:

@@ -12,7 +12,7 @@ view: 2
 # https://github.com/zhichaosong/particles.js-demo
 # https://github.com/VincentGarreau/particles.js/
 
-js: ["particles.min.js", "particles.connect.js"]
+# js: ["particles.min.js", "particles.connect.js"]
 
 # Optional header image (relative to `static/img/` folder).
 header:

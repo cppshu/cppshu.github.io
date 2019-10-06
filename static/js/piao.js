@@ -311,7 +311,7 @@
 	return Factory
 });
 
-Ribbons("piao-id", {
+Ribbons({
 	colorSaturation: "60%",
 	colorBrightness: "50%",
 	colorAlpha: 0.5,

@@ -7,6 +7,8 @@ title: Yuanyou Aid
 #   3 = Card
 view: 2
 
+js: ["piao.js"]
+
 # Optional header image (relative to `static/img/` folder).
 header:
   caption: ""

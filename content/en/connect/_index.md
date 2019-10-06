@@ -7,6 +7,13 @@ title: Yuanyou Connect
 #   3 = Card
 view: 2
 
+# http://ochukai.me/
+# https://alligator.io/js/background-effects-particlesjs/
+# https://github.com/zhichaosong/particles.js-demo
+# https://github.com/VincentGarreau/particles.js/
+
+js: ["particles.min.js", "particles.connect.js"]
+
 # Optional header image (relative to `static/img/` folder).
 header:
   caption: ""

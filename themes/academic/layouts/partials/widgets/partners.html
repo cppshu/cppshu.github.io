@@ -4,6 +4,7 @@
 
 
 <div class="row">
+
   {{ with $page.Title }}
   <div class="col-12 col-lg-4 section-heading">
     <h1>{{ . | markdownify | emojify }}</h1>
@@ -34,7 +35,3 @@
 </div>		
 </div>	
 </div>
-
-{{- range .Params.js }}
-<script src="/js/{{ . }}"></script>
-{{- end }}

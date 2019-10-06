@@ -6,9 +6,6 @@ name: Bai Jie
 volunteers:
 - baijie
 
-js: ["piao.js"]
-
-
 ---
 
 Bai Jie

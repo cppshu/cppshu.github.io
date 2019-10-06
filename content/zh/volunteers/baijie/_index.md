@@ -6,9 +6,6 @@ name: 白洁
 volunteers:
 - baijie
 
-js: ["piao.js"]
-
-
 ---
 
 白洁

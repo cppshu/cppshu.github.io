@@ -38,42 +38,6 @@
   url = "#news"
   weight = 40 
 
-#[[main]]
-#  name = "更多资源"
-#  url = "/resources"
-#  weight = 50 
-
-[[main]]
-  name = "联系我们"
-  url = "#contact"
-  weight = 200
-
-
-#[[main]]
-#  name = "关于"
-#  url = "#about"
-#  weight = 10
-
-#[[main]]
-#  name = "援友沙龙"
-#  url = "#salon"
-#  weight = 20
-
-#[[main]]
-#  name = "博客"
-#  url = "#posts"
-#  weight = 30
-
-#[[main]]
-#  name = "罕见眼科疾病在中国"
-#  url = "#rare_eye_diseases_in_china"
-#  weight = 40
-
-#[[main]]
-#  name = "援友历史"
-#  url = "#history"
-#  weight = 50  
-  
 [[main]]
   name = "志愿者"
   url = "#volunteers"
@@ -83,8 +47,13 @@
   name = "合作伙伴"
   url = "#partners"
   weight = 60    
+
+[[main]]
+  name = "罕见眼科疾病"
+  url = "#rare-eye-diseases"
+  weight = 70   
   
-#[[main]]
-#  name = "联系我们"
-#  url = "#contact"
-#  weight = 200
+[[main]]
+  name = "联系我们"
+  url = "#contact"
+  weight = 200

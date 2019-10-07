@@ -552,3 +552,44 @@ ul.ul-edu li .description p.institution {
   height: 350px;
   width: 100%;
 }
+
+
+/*************************************************
+ *  Rare Eye Disease
+ **************************************************/
+
+
+.rare-flex-container {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+.rare-flex-item {
+flex: 1;
+margin: 0.2em;  
+
+border-radius: 5px;
+
+font-size:0.8em; 
+
+color: #333333;
+
+padding: 0.8em 0.8em; 
+
+border:1px solid rgb(224, 247, 206);
+
+background-color: rgb(224, 247, 206);
+
+transition: all .05s ease-in-out; 
+
+}
+
+.rare-flex-item:hover {
+background-color: rgb(76, 175, 80);
+font-weight: bold;
+color: #fff;
+transform: scale(1.1); 
+}

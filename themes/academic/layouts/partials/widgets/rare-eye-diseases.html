@@ -1,0 +1,40 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+
+<div id="piao-id" class="row">
+  {{ with $page.Title }}
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+  
+  <div class="col-12 col-lg-8">
+  
+    {{ with $page.Content }}{{ . | markdownify | emojify }}{{ end }}
+  
+      <div style="padding-top: 2em;">  </div>
+        
+      
+      
+          
+          <div class="rare-flex-container"> 
+           
+            {{ range $page.Params.disease }}
+      
+            
+
+            <a href="#rare-eye-diseases"  style="text-decoration: none;" >  
+              <div class="rare-flex-item"> {{.name | markdownify | emojify}} </div>
+            </a>
+
+            {{ end }}
+
+
+          </div>  
+      
+      
+   </div>	
+  
+</div>

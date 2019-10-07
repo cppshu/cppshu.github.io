@@ -70,8 +70,10 @@
   url = "#partners"
   weight = 60    
 
-
-
+[[main]]
+  name = "Rare Eye Diseases"
+  url = "#rare-eye-diseases"
+  weight = 70 
   
 [[main]]
   name = "Contact"

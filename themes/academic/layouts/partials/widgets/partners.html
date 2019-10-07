@@ -23,13 +23,13 @@
   {{ range $page.Params.partner }}
   
   <div class="col-12 col-sm-2">
-  <div style="padding-top: 1.5em;">
+  <div style="padding-top: 1.5em;" class="image-to-hover" >
   <a href="#partners" style="text-decoration: none;">
   <center><img src= "{{printf "/img/%s?%s" .img now}}"  style="border-radius: 8px; border:1px solid rgb(224, 247, 206);" WIDTH=130 HEIGHT=130 align="middle" ></center>
   </a>
   </div>
   <a href="#partners" style="text-decoration: none; color: #333333">
-  <center><div style="font-size:0.8em; padding-top: 0.8em;"> {{.name | markdownify | emojify}} </div></center>
+  <center><div class="text-to-hover" style="font-size:0.8em; padding-top: 0.8em;"> {{.name | markdownify | emojify}} </div></center>
   </a>
   </div>
   

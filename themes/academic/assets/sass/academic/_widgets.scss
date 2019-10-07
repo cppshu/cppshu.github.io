@@ -594,3 +594,36 @@ font-weight: bold;
 color: #fff;
 transform: scale(1.1); 
 }
+
+
+/*************************************************
+ *  Volunteers and Partners
+ **************************************************/
+
+
+.general-flex-container {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.general-flex-item {
+  max-width: 20%;
+  margin: 0.5em;  
+  padding-top: 1.5em;
+  transition: all .05s ease-in-out; 
+}
+
+
+.general-flex-item:hover {
+  transform: scale(1.1); 
+}
+
+.image-to-hover:hover{
+  transform: scale(1.1);
+}
+
+
+.text-to-hover:hover{
+  color:rgb(76, 175, 80);
+}

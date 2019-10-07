@@ -24,7 +24,7 @@
   {{ $v := (printf "%s" (urlize .)) }}
 
   <div class="col-sm-2">
-	<div style="padding-top: 2em;">
+	<div style="padding-top: 2em;" class="image-to-hover">
 	<a style="text-decoration : none; color : #0e6b20;" href="volunteers/{{ $v }}" target="_blank"
 			rel="noopener">
 	<center><img src= "{{printf "/img/volunteers/%s.PNG?%s" $v now}}" style="
@@ -46,7 +46,7 @@
 	</div>
 	<a style="text-decoration : none; color : #222222;" href="volunteers/{{ $v }}" target="_blank"
 		rel="noopener">
-	<center><div style="font-size:0.8em; padding-top: 1em;"> {{$person.name | markdownify | emojify}} </div></center>
+	<center><div style="font-size:0.8em; padding-top: 1em;" class="text-to-hover" > {{$person.name | markdownify | emojify}} </div></center>
   </a>
   </div>
   

@@ -1,10 +1,22 @@
 
+
+
+// reference: https://github.com/VincentGarreau/particles.js/issues/30
+
+var width = $(document).width();
+if (width > 768) {
+    num_nb = Math.round(Math.sqrt(width * 0.3));
+} else {
+    num_nb = Math.round(Math.sqrt(width * 0.13));
+}
+console.log(num_nb);
+
    particlesJS(
-   
+
    "particles-js-slider", {
         "particles": {
             "number": {
-                "value": 30,
+                "value": num_nb,
                 "density": {
                     "enable": true,
                     "value_area": 800

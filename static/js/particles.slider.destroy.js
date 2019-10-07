@@ -12,12 +12,11 @@ var reload = function(){
 	// reference: https://github.com/VincentGarreau/particles.js/issues/30
     var num_nb = 10;
 	var width = $(document).width();
-	if (width > 1300) {
+	if (width > 1000) {
 		num_nb = Math.round(Math.sqrt(width * 0.3));
 	} else {
 		num_nb = Math.min(8, Math.round(Math.sqrt(width * 0.04)));
 	}
-
 
 	window.pJSDom = [];
 	window.particlesJS(

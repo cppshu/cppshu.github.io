@@ -7,7 +7,7 @@ var width = $(document).width();
 if (width > 768) {
     num_nb = Math.round(Math.sqrt(width * 0.3));
 } else {
-    num_nb = Math.round(Math.sqrt(width * 0.13));
+    num_nb = Math.round(Math.sqrt(width * 0.05));
 }
 console.log(num_nb);
 

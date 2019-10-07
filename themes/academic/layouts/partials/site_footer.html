@@ -33,8 +33,34 @@
 {{- range .Params.js }}
 <script src="/js/{{ . }}"></script>
 {{- end }}
+
+<!-- 
+<div>  {{  printf "%v" site.BaseURL | absURL }} </div>
+<div> {{  printf "%v" .Page }} </div>
+<div> {{  printf "%v" .Page | absLangURL }} </div>
+<div> {{  printf "%v" .Page.IsHome }} </div>
+<div> {{  printf "%v" .Page.Dir }} </div> -->
+
+{{ if .Page.IsHome }}
+
 <script src="/js/particles.min.js"></script>
 <script src="/js/particles.slider.js"></script>
 <script src="/js/particles.slider.destroy.js"></script>
 
+{{ end }}
 
+
+<!-- {{ range $p := site.Pages}}
+  {{ if in (printf "%v" $p.Dir) "volunteers"  }}
+    {{ if in (printf "%v" $p) "_index.md"  }}
+    <div> {{  printf "%v" $p }} </div>
+    {{ end }}
+  {{ end }}
+{{ end }} -->
+
+
+{{ if in (printf "%v" .Page.Dir) "volunteers"  }}
+  {{ if in (printf "%v" .Page) "_index.md"  }}
+    <script src="/js/piao.js"></script>
+  {{ end }}
+{{ end }}

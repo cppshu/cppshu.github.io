@@ -10,69 +10,80 @@ subtitle = ""
 # Rare Eye Diseases to_display_in_first_page
 
 [[disease]]
-  name = "Keratocunos"
+  name = "圆锥角膜"
   url = ""
 
 [[disease]]
-  name = "Coats' Disease"
+  name = "Coats'病"
   url = ""
 
 [[disease]]
-  name = "Usher Syndrome"
+  name = "Usher 综合征"
   url = ""
 
 [[disease]]
-  name = "Retinitis Pigmentosa (RP)"
+  name = "视网膜色素病变 (RP)"
   url = ""
 
 [[disease]]
-  name = "Stargardt Disease"
+  name = "少年型黄斑变性"
   url = ""
 
 [[disease]]
-  name = "Retinoblastoma"
+  name = "视网膜母细胞瘤"
   url = ""
 
 [[disease]]
-  name = "Idiopathic intracranial hypertension"
-  url = ""  
-
-[[disease]]
-  name = "Microphthalmia (missing or small eyes)"
+  name = "先天性小眼球"
   url = ""
 
 [[disease]]
-  name = "Bietti’s crystalline dystrophy"
+  name = "眼白塞病"
   url = ""
 
 [[disease]]
-  name = "Behçet’s disease of the eye"
+  name = "无脉络膜症 (CHM)"
+  url = ""
+
+[[disease]]
+  name = "幼年性x连锁视网膜裂"
+  url = ""
+
+[[disease]]
+  name = "脉络膜视网膜回旋萎缩"
+  url = ""
+
+[[disease]]
+  name = "Leber视神经萎缩"
+  url = ""
+
+[[disease]]
+  name = "卵黄状黄斑营养不良 (Best病)"
+  url = ""
+
+[[disease]]
+  name = "眼癌"
+  url = ""
+
+[[disease]]
+  name = "Graves眼病"
   url = ""
 
 
 [[disease]]
-  name = "Choroideremia (CHM)"
+  name = "视网膜脱离"
   url = ""
 
-[[disease]]
-  name = "Juvenile X-Linked Retinoschisis"
-  url = ""
 
 [[disease]]
-  name = "Gyrate Atrophy"
+  name = "角膜白斑"
   url = ""
 
-[[disease]]
-  name = "Leber Hereditary Optic Neuropathy"
-  url = ""
 
 [[disease]]
-  name = "Vitelliform Macular Dystrophy (Best Disease)"
+  name = "囊样黄斑水肿"
   url = ""
 
-[[disease]]
-  name = "Eye Cancer"
-  url = ""
-  
+
 +++
 点击了解以下罕见眼科疾病。

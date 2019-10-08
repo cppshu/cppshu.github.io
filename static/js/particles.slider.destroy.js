@@ -13,9 +13,9 @@ var reload = function(){
     var num_nb = 10;
 	var width = $(document).width();
 	if (width > 1000) {
-		num_nb = Math.round(Math.sqrt(width * 0.3));
+		num_nb = Math.round(Math.sqrt(width * 0.2));
 	} else {
-		num_nb = Math.min(8, Math.round(Math.sqrt(width * 0.04)));
+		num_nb = 8;
 	}
 
 	window.pJSDom = [];
@@ -26,8 +26,8 @@ var reload = function(){
 			"number": {
 				"value": num_nb,
 				"density": {
-					"enable": true,
-					"value_area": 800
+					"enable": false,
+					"value_area": 1000
 				}
 			},
 			"color": {
@@ -48,33 +48,33 @@ var reload = function(){
 				"random": false,
 				"anim": {
 					"enable": true,
-					"speed": 0.1,
+					"speed": 0.05,
 					"opacity_min": 0.01,
 					"sync": false
 				}
 			},
 			"size": {
 				"value": 70,
-				"random": true,
+				"random": false,
 				"anim": {
-					"enable": false,
-					"speed": 30,
-					"size_min": 0.1,
+					"enable": true,
+					"speed": 10,
+					"size_min": 30,
 					"sync": false
 				}
 			},
 			"line_linked": {
 				"enable": true,
-				"distance": 250,
+				"distance": 200,
 				"color": "#E1F5A9",
-				"opacity": 0.1,
-				"width": 1
+				"opacity": 0.2,
+				"width": 1.5
 			},
 			"move": {
 				"enable": true,
-				"speed": 2,
+				"speed": 2.5,
 				"direction": "right",
-				"random": true,
+				"random": false,
 				"straight": false,
 				"out_mode": "out",
 				"bounce": true,
@@ -99,13 +99,7 @@ var reload = function(){
 				"resize": false
 			},
 			"modes": {
-				"grab": {
-					"distance": 100,
-					"line_linked": {
-						"opacity": 0.3
-					}
-				},
-
+				
 			}
 		},
 		"retina_detect": true

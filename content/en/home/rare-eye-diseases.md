@@ -10,7 +10,7 @@ subtitle = ""
 # Rare Eye Diseases to_display_in_first_page
 
 [[disease]]
-  name = "Keratocunos"
+  name = "Keratoconus"
   url = ""
 
 [[disease]]
@@ -34,15 +34,7 @@ subtitle = ""
   url = ""
 
 [[disease]]
-  name = "Idiopathic intracranial hypertension"
-  url = ""  
-
-[[disease]]
   name = "Microphthalmia (missing or small eyes)"
-  url = ""
-
-[[disease]]
-  name = "Bietti’s crystalline dystrophy"
   url = ""
 
 [[disease]]
@@ -59,7 +51,7 @@ subtitle = ""
   url = ""
 
 [[disease]]
-  name = "Gyrate Atrophy"
+  name = "Gyrate Atrophy of Choroid and Retina"
   url = ""
 
 [[disease]]
@@ -74,5 +66,23 @@ subtitle = ""
   name = "Eye Cancer"
   url = ""
   
+[[disease]]
+  name = "Graves’ Disease"
+  url = ""
+
+
+[[disease]]
+  name = "Retinal Detachment"
+  url = ""
+  
+[[disease]]
+  name = "Leucoma"
+  url = ""
+
+[[disease]]
+  name = "Cystoid Macular Edema"
+  url = ""
+
+
 +++
 Here are a list of Rare Eye Diseases. Click to learn more about those diseases.

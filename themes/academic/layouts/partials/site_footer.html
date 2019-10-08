@@ -31,7 +31,7 @@
 </footer>
 
 {{- range .Params.js }}
-<script src="/js/{{ . }}"></script>
+<script src="/js/{{ . }}?{{printf "%s" now}}"></script>
 {{- end }}
 
 <!-- 
@@ -43,8 +43,8 @@
 
 {{ if .Page.IsHome }}
 
-<script src="/js/particles.min.js"></script>
-<script src="/js/particles.slider.destroy.js"></script>
+<script src="/js/particles.min.js?{{printf  "%s" now}}"></script>
+<script src="/js/particles.slider.destroy.js?{{printf  "%s" now}}"></script>
 
 {{ end }}
 
@@ -60,6 +60,6 @@
 
 {{ if in (printf "%v" .Page.Dir) "volunteers"  }}
   {{ if in (printf "%v" .Page) "_index.md"  }}
-    <script src="/js/piao.js"></script>
+    <script src="/js/piao.js?{{printf  "%s" now}}"></script>
   {{ end }}
 {{ end }}

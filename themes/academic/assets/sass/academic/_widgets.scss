@@ -563,13 +563,15 @@ ul.ul-edu li .description p.institution {
   display: flex; 
   flex-direction: row;
   flex-wrap: wrap;
+  // width:100%;
+  // justify-content: space-between;
 }
 
 
 
 .rare-flex-item {
 flex: 1;
-margin: 0.2em;  
+margin: 0.3em 0.4em;  //topbottom leftright
 
 border-radius: 5px;
 

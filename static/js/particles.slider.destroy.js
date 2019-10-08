@@ -10,12 +10,12 @@ var reload = function(){
 
 
 	// reference: https://github.com/VincentGarreau/particles.js/issues/30
-    var num_nb = 10;
+    var num_nb = 12;
 	var width = $(document).width();
 	if (width > 1000) {
 		num_nb = Math.round(Math.sqrt(width * 0.2));
 	} else {
-		num_nb = 8;
+		num_nb = 12;
 	}
 
 	window.pJSDom = [];

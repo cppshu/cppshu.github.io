@@ -13,21 +13,46 @@
   <div class="col-12 col-lg-8">
   
     {{ with $page.Content }}{{ . | markdownify | emojify }}{{ end }}
-  
+
+
       <div style="padding-top: 2em;">  </div>
         
-      
-      
-          
           <div class="rare-flex-container"> 
-           
-            {{ range $page.Params.disease }}
-      
-            
 
-            <a href="#rare-eye-diseases"  style="text-decoration: none;" >  
-              <div class="rare-flex-item"> {{.name | markdownify | emojify}} </div>
-            </a>
+            {{ $zh_page_path := (printf "list-of-all-rare-eye-diseases") }}
+            {{ $zh_page := site.GetPage $zh_page_path }}
+
+            {{ $en_page := site.GetPage $zh_page_path }}
+
+
+            {{ if eq (printf "%s" .Lang) "en"}}
+              {{ range $en_page.Translations }}
+                  {{ if eq (printf "%s" .Lang) "zh"}}
+                      {{ $zh_page = . }}
+                  {{end}}
+              {{end}}
+            {{end}}
+            
+            {{ $list_rare_diseases := $zh_page.Params.disease }}
+
+            <div> {{  printf "%v" $zh_page}} </div>
+            <div> {{  printf "%v" $list_rare_diseases}} </div>
+
+            {{ range $list_rare_diseases }}
+
+              <a href="#rare-eye-diseases"  style="text-decoration: none;" >  
+                <div class="rare-flex-item"> 
+                  {{ if eq ( printf "%s" $page.Lang) "en" }}
+                    {{ with .name_en }}
+                      {{. | markdownify | emojify}}
+                    {{ end }}
+                  {{ else }}
+                    {{ with .name_cn }}
+                      {{. | markdownify | emojify}}
+                    {{ end }}
+                  {{ end }}
+                </div>
+              </a>
 
             {{ end }}
 
@@ -38,3 +63,5 @@
    </div>	
   
 </div>
+
+

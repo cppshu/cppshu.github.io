@@ -11,7 +11,7 @@
 
 
       {{ if gt (len .Content) 2 }}
-        {{ .Content }}
+          {{ .Content }}
       {{else}}
           {{ range .Translations }}
             {{ if eq .Lang "zh"}}

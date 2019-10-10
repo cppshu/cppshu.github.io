@@ -6,7 +6,6 @@ var destroy = function (){
 
 
 
-
 var reload = function(){
 
 	var num_nb = 10;
@@ -116,9 +115,18 @@ var reload = function(){
 
 reload();
 
+
+var prev_width = $(document).width();
+
 window.addEventListener('resize', function () { // use ".addEventListener", not ".onresize"
-		console.log("window.addEventListener;");
+	console.log("window.addEventListener;");
+	var curr_width = $(document).width();
+	if (curr_width < 1000 && prev_width < 1000){
+	}
+	else{
 		destroy();
 		reload();
+	}
+	prev_width = curr_width;
 }, true);
 

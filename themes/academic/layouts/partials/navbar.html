@@ -3,12 +3,14 @@
   <div class="container">
 
     <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href="{{ "/" | relLangURL }}">
+      <a class="navbar-brand" href="{{ "/" | relLangURL }} "  
+        style="filter: drop-shadow(0px 0px 0px #ceebcf);" >
         {{- if site.Params.logo -}}
-        <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ site.Title }}">
-        {{- else -}}
-        {{- site.Title -}}
+        <img src="{{ printf "/img/%s" site.Params.logo | relURL }}"  class="navbarimage" alt="{{ site.Title }}">
         {{- end -}}
+        <span> &nbsp  </span>
+        {{- site.Title -}}
+        
       </a>
       {{ if or site.Menus.main .IsTranslated }}
       <button type="button" class="navbar-toggler" data-toggle="collapse"

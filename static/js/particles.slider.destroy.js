@@ -4,19 +4,24 @@ var destroy = function (){
 	console.log("window.pJSDom[0].pJS.fn.vendors.destroypJS();");
 }
 
+
+
+
 var reload = function(){
 
-	console.log("reload;");
-
-
-	// reference: https://github.com/VincentGarreau/particles.js/issues/30
-    var num_nb = 10;
+	var num_nb = 10;
 	var width = $(document).width();
 	if (width > 1000) {
 		num_nb = Math.round(Math.sqrt(width * 0.2));
 	} else {
 		num_nb = 10;
 	}
+
+	console.log("reload;");
+
+
+	// reference: https://github.com/VincentGarreau/particles.js/issues/30
+
 
 	window.pJSDom = [];
 	window.particlesJS(
@@ -109,13 +114,11 @@ var reload = function(){
 
 }
 
-
 reload();
 
-
 window.addEventListener('resize', function () { // use ".addEventListener", not ".onresize"
-	console.log("window.addEventListener;");
-	destroy();
-	reload();
+		console.log("window.addEventListener;");
+		destroy();
+		reload();
 }, true);
 

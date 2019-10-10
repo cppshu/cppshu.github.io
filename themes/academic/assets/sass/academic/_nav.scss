@@ -196,3 +196,33 @@ nav#navbar-main li.nav-item {
     display: block !important;
   }
 }
+
+
+
+.navbarimage {
+
+  float: left; 
+  width: auto;
+  height: 70%;
+
+  -webkit-filter: drop-shadow(0px 0px 8px  #ceebcf);
+  filter: drop-shadow(0px 0px 8px #ceebcf);
+
+  animation: rotationnvaimage 20s infinite linear;
+
+}
+
+@keyframes rotationnvaimage {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(359deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

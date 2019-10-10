@@ -27,7 +27,7 @@
 	<div style="padding-top: 2em;" class="image-to-hover">
 	<a style="text-decoration : none; color : #0e6b20;" href="volunteers/{{ $v }}" target="_blank"
 			rel="noopener">
-	<center><img src= "{{printf "/img/volunteers/%s.PNG?%s" $v now}}" style="
+	<center><img src= "{{printf "/img/volunteers/%s.PNG?%s" $v now  | relURL  }}" style="
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;

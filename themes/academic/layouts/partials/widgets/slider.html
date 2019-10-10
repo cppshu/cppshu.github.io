@@ -44,7 +44,7 @@ https://stackoverflow.com/questions/9651466/how-to-attach-slide-slid-events-to-t
     background-image:
 	{{ if $item.overlay_img }}
     linear-gradient(to right, rgba(0, 0, 0, 0), rgba(159, 204, 159), rgba(76, 175, 80, 1)), 
-    url('{{ printf "/img/%s?%s" $item.overlay_img .date }}');
+    url('{{ printf "/img/%s?%s" $item.overlay_img .date  | relURL }}');
     {{ end }}
 	background-size:  cover;
 	backgroundPosition: top center

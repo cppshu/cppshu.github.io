@@ -115,7 +115,6 @@ var reload = function(){
 
 reload();
 
-
 var prev_width = $(document).width();
 
 window.addEventListener('resize', function () { // use ".addEventListener", not ".onresize"

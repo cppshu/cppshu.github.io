@@ -208,7 +208,7 @@ nav#navbar-main li.nav-item {
   -webkit-filter: drop-shadow(0px 0px 3px  #ceebcf);
   filter: drop-shadow(0px 0px 3px #ceebcf);
 
-  animation: rotationnvaimage 20s infinite linear;
+  animation: rotationnvaimage 25s infinite linear;
 
 }
 
@@ -219,7 +219,7 @@ nav#navbar-main li.nav-item {
   30% {
     transform: rotate(0deg);
   }
-  70% {
+  55% {
     transform: rotate(359deg);
   }
   100% {

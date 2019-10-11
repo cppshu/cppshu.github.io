@@ -1,8 +1,13 @@
 {{ $taxonomy := "tags" }}
 {{ with .Param $taxonomy }}
+
 <div class="article-tags">
   {{ range $index, $value := . }}
-  <a class="badge badge-light" href="{{ (site.GetPage (printf "/%s/%s" $taxonomy . )).RelPermalink }}">{{ . }}</a>
+  {{ if in $value " " }}
+  <a class="badge badge-light" href="{{ (site.GetPage (printf "/%s/%s" $taxonomy (. | urlize))).RelPermalink }}">{{ . }} </a>
+  {{ else }}
+  <a class="badge badge-light" href="{{ (site.GetPage (printf "/%s/%s" $taxonomy .)).RelPermalink }}">{{ . }} </a>
+  {{ end }}
   {{ end }}
 </div>
 {{ end }}

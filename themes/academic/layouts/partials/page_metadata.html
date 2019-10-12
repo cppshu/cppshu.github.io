@@ -50,10 +50,11 @@
     <i class="fas fa-folder mr-1"></i>
     {{- range $index, $value := . -}}
       {{- if gt $index 0 }}, {{ end -}}
-      {{ if eq (printf "%s" $page.Lang) "zh" }}
-      <a href="{{ (site.GetPage (printf "/%s/%s" $taxonomy . )).RelPermalink }}">{{ . }}</a>
-      {{else}}
+      {{ if in $value " " }}
       <a href="{{ (site.GetPage (printf "/%s/%s" $taxonomy (. | urlize))).RelPermalink }}">{{ . }}</a>
+      {{else}}
+      <a href="{{ (site.GetPage (printf "/%s/%s" $taxonomy . )).RelPermalink }}">{{ . }}</a>
+
       {{ end }}
     {{- end -}}
   </span>

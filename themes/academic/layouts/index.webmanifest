@@ -6,7 +6,7 @@
   "theme_color": "{{ $scr.Get "primary" }}",
   "background_color": "{{ $scr.Get "primary" }}",
   "icons": [{
-    "src": "img/icon-192.png",
+    "src": "/img/icon-192.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {

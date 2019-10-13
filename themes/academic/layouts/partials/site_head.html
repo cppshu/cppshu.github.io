@@ -145,17 +145,17 @@
   {{ if $featured_image }}
     {{ $og_image = $featured_image.Permalink }}
   {{ else if .Params.header.image }}
-    {{ $og_image = printf "img/%s" .Params.header.image | absURL }}
+    {{ $og_image = printf "/img/%s" .Params.header.image | absURL }}
   {{ else if site.Params.sharing_image }}
     {{ $og_image = printf "img/%s" site.Params.sharing_image | absURL }}
   {{ else if site.Params.logo }}
-    {{ $og_image = (printf "img/%s" site.Params.logo) | absURL }}
+    {{ $og_image = (printf "/img/%s" site.Params.logo) | absURL }}
     {{ $twitter_card = "summary" }}
   {{ else if site.Params.avatar }}
     {{ $og_image = (printf "img/%s" site.Params.avatar) | absURL }}
     {{ $twitter_card = "summary" }}
   {{ else }}
-    {{ $og_image = "img/icon-192.png" | absURL }}
+    {{ $og_image = "/img/icon-192.png" | absURL }}
     {{ $twitter_card = "summary" }}
   {{ end }}
   {{ $scr.Set "og_image" $og_image }}{{/* Set `og_image` globally for `rss.xml`. */}}

@@ -5,9 +5,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
       <a class="navbar-brand" href="{{ "/" | relLangURL }} "  
         style="filter: drop-shadow(0px 0px 0px #ceebcf);" >
-        {{- if site.Params.logo -}}
-        <img src="{{ printf "/img/icon-32.png" | relURL }}"  class="navbarimage" alt="{{ site.Title }}">
-        {{- end -}}
+        <img src="{{ printf "/img/icon-32.png?%s" now | relURL }}"  class="navbarimage" alt="{{ site.Title }}">
         <span> &nbsp  </span>
         {{- site.Title -}}
         

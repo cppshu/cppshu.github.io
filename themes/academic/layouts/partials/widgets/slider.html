@@ -36,19 +36,20 @@ https://stackoverflow.com/questions/9651466/how-to-attach-slide-slid-events-to-t
 	</div> -->
   		
   <div class="wg-hero dark carousel-item{{if eq $index 0}} active{{end}}" 
-  style="z-index: auto; position: relative; 
-  {{with $page.Params.height}}{{printf "height: %s;" . | safeCSS}}{{end}}
+  style="
+  	z-index: auto; 
+	position: relative; 
+  	{{with $page.Params.height}}{{printf "height: %s;" . | safeCSS}}{{end}}
     {{ if $item.overlay_color }}
-    background-color: {{ $item.overlay_color | default "transparent" }};
-    {{ end }}
+    	background-color: {{ $item.overlay_color | default "transparent" }};
+	{{ end }}
     background-image:
-	{{ if $item.overlay_img }}
-    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(159, 204, 159), rgba(76, 175, 80, 1)), 
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(159, 204, 159, 1), rgba(76, 175, 80, 1)), 
     url('{{ printf "/img/%s?%s" $item.overlay_img now  | relURL }}');
-    {{ end }}
 	background-size:  cover;
-	backgroundPosition: top center
-    ;">
+	backgroundPosition: top center;
+	background-repeat: no-repeat, no-repeat;
+	">
 
 
 	<div class="container" style="

@@ -627,3 +627,24 @@ color: #fff;
 .text-to-hover:hover{
   color:rgb(76, 175, 80);
 }
+
+
+#rainbow-heart {
+padding-top: 0.2em; 
+padding-left:0.15em; 
+font-size: 1.4em; 
+background: url(/img/rainbow.jpg);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-size: 75px 50px;
+animation: rainbow-heart-move 40s infinite linear forwards;
+}
+
+@keyframes rainbow-heart-move {
+
+  100% {
+    background-position: 750px 0;
+  }
+
+
+}

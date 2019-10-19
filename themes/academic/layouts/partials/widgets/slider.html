@@ -60,10 +60,30 @@ https://stackoverflow.com/questions/9651466/how-to-attach-slide-slid-events-to-t
       <div class="container" style="text-align:left;">	
 			<div class="hero-lead" style="color:#333333; {{if eq $page.Params.align "center"}}margin: 0 auto 0 auto;{{else if eq $page.Params.align "right"}}margin-left: auto; margin-right: 0{{end}}; font-size:1.5em;">
 			  <span class="hero-lead" style="color:#0e6b20; font-size:1.5em; z-index: 22; position:relative;">
-			  {{ with $item.url }}<a style="z-index: 22; position:relative; text-decoration : none; color : #0e6b20;" href="{{ . }}" target="_blank" rel="noopener">{{ end }}
-			  {{ with $item.title }}{{ . | markdownify | emojify }}{{ end }}
+			  {{ with $item.url }}<a style="z-index: 22; position:relative; text-decoration : none; color : #0e6b20;" 
+				  href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+				  
+				{{ with $item.title }}{{ . | markdownify | emojify }}{{ end }}
+				{{ if eq $item.type  "salon" }}
+					<i class='fas fa-video' style='padding-left: 0.2em; font-size:1em; color:#3d8e41;'></i>
+				{{ end }}
+				{{ if eq $item.type  "aid" }}
+					<i class='fas fa-heart' style='padding-left: 0.2em; font-size:0.9em; color:#3d8e41;'></i>
+				{{ end }}
+
+				{{ if eq $item.type  "wiki" }}
+					<i class='fas fa-book-medical' style='padding-left: 0.2em; font-size:0.8em; color:#3d8e41;'></i>
+				{{ end }}
+
+				{{ if eq $item.type  "connect" }}
+					<i class='fas fa-globe' style='padding-left: 0.2em; font-size:0.9em; color:#3d8e41;'></i>
+				{{ end }}
+					
 			  {{ if $item.url }}</a>{{ end }}
-			  </span>   
+			  </span> 
+
+			
+			
 			</div>  
 
 

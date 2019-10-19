@@ -7,7 +7,7 @@
 
   {{ with $page.Title }}
   <div class="col-12 col-lg-4 section-heading">
-    <h1>{{ . | markdownify | emojify }}</h1>
+    <h1>{{ . | markdownify | emojify }} <i id="rainbow-hand" class='fas fa-handshake' aria-hidden="true"></i> </h1>
     {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
   </div>
   {{ end }}

@@ -640,11 +640,28 @@ background-size: 75px 50px;
 animation: rainbow-heart-move 40s infinite linear forwards;
 }
 
-@keyframes rainbow-heart-move {
 
+
+@keyframes rainbow-heart-move {
   100% {
     background-position: 750px 0;
   }
+}
 
 
+#rainbow-hand {
+padding-top: 0.2em; 
+padding-left:0.15em; 
+font-size: 1.4em; 
+background: url(/img/rainbow.jpg);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-size: 150px 100px;
+animation: rainbow-hand-move 40s infinite linear forwards;
+}
+
+@keyframes rainbow-hand-move {
+  100% {
+    background-position: 750px 0;
+  }
 }

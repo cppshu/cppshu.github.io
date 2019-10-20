@@ -45,7 +45,7 @@ url_video: https://pan.baidu.com/s/1WJlBblz20V4xq8riMGX-IQ
 
 QQ群（613523553）在线语音视频会议，
 
-https://yuanyou.s3.cn-north-1.amazonaws.com.cn/original/2X/c/c0775687866e46361592441e51a42e2860c89054.jpeg
+![image](/img/57.jpeg) 
 
 # 下期预告
 

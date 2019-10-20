@@ -39,6 +39,12 @@
   weight = 40 
 
 [[main]]
+  name = "视频"
+  url = "#videos"
+  weight = 40 
+
+
+[[main]]
   name = "志愿者"
   url = "#volunteers"
   weight = 59  

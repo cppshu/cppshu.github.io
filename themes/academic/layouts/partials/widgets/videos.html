@@ -1,0 +1,39 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+
+
+<div class="row">
+
+  {{ with $page.Title }}
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ . | markdownify | emojify }} </h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+  
+
+  <div class="col-12 col-lg-8">
+  
+  {{ with $page.Content }}{{ . | markdownify | emojify }}{{ end }}
+  <div style="padding-top: 1.5em;"> </div>
+
+  <div class="row">
+  
+    {{ range $page.Params.video }}
+    
+      
+      <div style="padding-top: 4.5em; "> </div>
+
+        <iframe src="{{ .src }}" scrolling="no" border="0"
+          frameborder="no" framespacing="0" width="90%" height="360" allowfullscreen="true"  style="padding-left: 1em; "   > </iframe>
+        <p style="padding-top: 1.0em; padding-left: 2em; width: 90%; font-size: 0.8em; text-align: center;"> 
+          {{  .video_title  }} 
+          <span style="padding-top: 0.0em; font-size: 0.8em; float: left;"> {{ .date  }} </span> 
+        </p> 
+        
+    {{ end }}
+	
+</div>		
+</div>	
+</div>

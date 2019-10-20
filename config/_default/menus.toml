@@ -41,7 +41,11 @@
   name = "News"
   url = "#news"
   weight = 40  
-  
+
+[[main]]
+  name = "Videos"
+  url = "#videos"
+  weight = 41  
 
 #[[main]]
 #  name = "Posts"

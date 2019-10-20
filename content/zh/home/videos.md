@@ -9,7 +9,7 @@ subtitle = ""
 number_of_videos_to_show = 4
 
 [[video]]
-  src = "//player.bilibili.com/player.html?aid=71750335&cid=124315200&page=1"
+  src="//player.bilibili.com/player.html?aid=71865562&cid=124517638&page=1"
   date = "2019年7月20日"
   video_title = "韦伟医生《2015圆锥角膜全球共识解读》(上)"
 

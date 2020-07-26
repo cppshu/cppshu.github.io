@@ -8,7 +8,7 @@ title = "志愿者"
 subtitle = ""
 
 # volunteers_to_display_in_first_page
-volunteers = ["xiaomeng", "baijie", "reveurmk", "windandlonglong", "jasonliu", "zhutao", "yuyang", "lianglele", "qujinxuan", "wangting", "yangshuaitao"]  
+volunteers = ["reveurmk", "xiaomeng", "baijie",  "windandlonglong", "jasonliu", "zhutao", "yuyang", "lianglele", "qujinxuan", "wangting", "yangshuaitao"]  
 
 
   

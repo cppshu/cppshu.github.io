@@ -1,11 +1,11 @@
 ---
 # Display name
-name: reveurmk
+name: Lunde Chen
 
 # Username (this should match the folder name)
 volunteers:
-- reveurmk
+- Lunde Chen
 
 ---
 
-A Dreamer.
+Assistant professor in Computer Science at Shanghai University.

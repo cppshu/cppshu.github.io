@@ -1,4 +1,4 @@
-name: yuanyou-ngo-website
+name: ccpshu
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --baseURL=https://crazycheng.github.io/yuanyou_ngo_website
+      run: hugo --baseURL=https://ccpshu.github.io
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0

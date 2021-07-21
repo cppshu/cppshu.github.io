@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wiki | Yuanyou NGO</title>
+    <link>https://cppshu.github.io/categories/wiki/</link>
+      <atom:link href="https://cppshu.github.io/categories/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wiki</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2017-2021 Yuanyou NGO All Rights Reserved</copyright><lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cppshu.github.io/img/icon-192.png</url>
+      <title>Wiki</title>
+      <link>https://cppshu.github.io/categories/wiki/</link>
+    </image>
+    
+    <item>
+      <title>Choroideremia</title>
+      <link>https://cppshu.github.io/wiki/choroideremia/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/wiki/choroideremia/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

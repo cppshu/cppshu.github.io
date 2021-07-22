@@ -9,31 +9,31 @@
   weight = 10
 
 [[main]]
-  name = "Projects"
+  name = "Courses"
   weight = 30 
   url = "#slider"  
   
 [[main]]
-  name = "Yuanyou Salon"
-  parent = "Projects"
+  name = "Introduction to Programming in C (LO01)"
+  parent = "Courses"
   weight = 31 
   url = "/salon"
 
 [[main]]
-  name = "Yuanyou Aid"
-  parent = "Projects"
+  name = "Algorithm and Programming in C++ (LO02)"
+  parent = "Courses"
   weight = 32
   url = "/aid"    
 
 [[main]]
-  name = "Yuanyou Connect"
-  parent = "Projects"
+  name = "Machine Learning (ML01)"
+  parent = "Courses"
   weight = 33
   url = "/connect"   
    
 [[main]]
-  name = "Yuanyou Wiki"
-  parent = "Projects"
+  name = "Data Engineering"
+  parent = "Courses"
   weight = 34
   url = "/wiki" 
 
@@ -64,7 +64,7 @@
   
 
 [[main]]
-  name = "Volunteers"
+  name = "Assistants"
   url = "#volunteers"
   weight = 50 
 
@@ -75,7 +75,7 @@
   weight = 60    
 
 [[main]]
-  name = "Rare Eye Diseases"
+  name = "Tags"
   url = "#rare-eye-diseases"
   weight = 70 
   

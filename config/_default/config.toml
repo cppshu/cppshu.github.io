@@ -5,7 +5,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Yuanyou NGO"
+title = "UTSEUS CS Courses"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -13,7 +13,7 @@ title = "Yuanyou NGO"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "&copy;2017-{year} Yuanyou NGO All Rights Reserved"
+copyright = "&copy;2020-{year} Shanghai University All Rights Reserved"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""

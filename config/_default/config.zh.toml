@@ -5,7 +5,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "援友公益"
+title = "上大中欧CS课程"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -13,7 +13,7 @@ title = "援友公益"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "&copy;2017-{year} 援友公益版权所有"
+copyright = "&copy;2020-{year} 上海大学版权所有"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""

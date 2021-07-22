@@ -14,19 +14,19 @@
   url = "#slider"  
   
 [[main]]
-  name = "Introduction to Programming in C (LO01)"
+  name = "Introduction to Programming in C"
   parent = "Courses"
   weight = 31 
   url = "/salon"
 
 [[main]]
-  name = "Algorithm and Programming in C++ (LO02)"
+  name = "Algorithms and Programming in C++"
   parent = "Courses"
   weight = 32
   url = "/aid"    
 
 [[main]]
-  name = "Machine Learning (ML01)"
+  name = "Machine Learning in R & Python"
   parent = "Courses"
   weight = 33
   url = "/connect"   

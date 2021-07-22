@@ -22,7 +22,7 @@ height = ""
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "Introduction to Programming in C (LO01)"
+  title = "Introduction to Programming in C"
   url = "/salon/"
   type = "salon"
   content = """
@@ -31,7 +31,7 @@ height = ""
   overlay_img = "pic-project-salon.PNG"  
   
 [[item]]
-  title = "Algorithm and Programming in C++ (LO02)"
+  title = "Algorithms and Programming in C++"
   url = "/aid/"
   type = "aid"
   content = """
@@ -40,7 +40,7 @@ height = ""
   overlay_img = "pic-project-aid.PNG"  
 
 [[item]]
-  title = "Machine Learning (ML01)"
+  title = "Machine Learning in R & Python"
   type = "connect"
   url = "/connect/"
   js_id = "particles-js-slider"

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>援助计划 | 援友公益</title>
+    <title>援助计划 | 上大中欧CS课程</title>
     <link>https://cppshu.github.io/zh/aid/</link>
       <atom:link href="https://cppshu.github.io/zh/aid/index.xml" rel="self" type="application/rss+xml" />
     <description>援助计划</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>©2017-2021 援友公益版权所有</copyright><lastBuildDate>Sat, 06 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>©2020-2021 上海大学版权所有</copyright><lastBuildDate>Sat, 06 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cppshu.github.io/img/icon-192.png</url>
       <title>援助计划</title>

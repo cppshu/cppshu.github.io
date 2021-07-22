@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Yuanyou Salons
+title: Introduction to Programming in C (LO01)
 
 # View.
 #   1 = List

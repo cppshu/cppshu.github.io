@@ -22,7 +22,7 @@ height = ""
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "Yuanyou Salon"
+  title = "Introduction to Programming in C (LO01)"
   url = "/salon/"
   type = "salon"
   content = """
@@ -31,7 +31,7 @@ height = ""
   overlay_img = "pic-project-salon.PNG"  
   
 [[item]]
-  title = "Yuanyou Aid"
+  title = "Algorithm and Programming in C++ (LO02)"
   url = "/aid/"
   type = "aid"
   content = """
@@ -40,7 +40,7 @@ height = ""
   overlay_img = "pic-project-aid.PNG"  
 
 [[item]]
-  title = "Yuanyou Connect"
+  title = "Machine Learning (ML01)"
   type = "connect"
   url = "/connect/"
   js_id = "particles-js-slider"
@@ -50,7 +50,7 @@ height = ""
   overlay_img = "pic-project-connect.PNG"  
   
 [[item]]
-  title = "Yuanyou Wiki"
+  title = "Data Engineering in Python"
   url = "/wiki/"
   type = "wiki"
   content = """

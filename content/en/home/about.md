@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "About Yuanyou NGO"
+title = "About UTSEUS CS Courses"
 subtitle = ""
 
 [design]
@@ -47,7 +47,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to **Yuanyou NGO**!
+Welcome to **UTSEUS CS Courses**!
 
 Yuanyou is the first and only NGO dedicated for rare eye diseases (Keratoconus, eye cancers, retinitis pigmentosa, corneal degeneration, Coats' disease, Usher syndrome, Choroideremia, etc.) in China. 
 The mission & objective & vision of our NGO is to:

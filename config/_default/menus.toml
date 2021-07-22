@@ -32,13 +32,13 @@
   url = "/connect"   
    
 [[main]]
-  name = "Data Engineering"
+  name = "Data Engineering in Python"
   parent = "Courses"
   weight = 34
   url = "/wiki" 
 
 [[main]]
-  name = "News"
+  name = "Blogs"
   url = "#news"
   weight = 40  
 
@@ -47,22 +47,6 @@
   url = "#videos"
   weight = 41  
 
-#[[main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 30
-
-#[[main]]
-#  name = "Rare Eye Diseases in China"
-#  url = "#rare_eye_diseases_in_china"
-#  weight = 40
-
-#[[main]]
-#  name = "History"
-#  url = "#history"
-#  weight = 50  
-  
-
 [[main]]
   name = "Assistants"
   url = "#volunteers"
@@ -70,7 +54,7 @@
 
 
 [[main]]
-  name = "Partners"
+  name = "Tools"
   url = "#partners"
   weight = 60    
 

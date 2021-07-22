@@ -1,5 +1,5 @@
 ---
-title: Yuanyou Aid
+title: Algorithm and Programming in C++ (LO02)
 
 # View.
 #   1 = List

@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Yuanyou Wiki</title>
+      <title>Data Engineering in Python</title>
       <link>https://cppshu.github.io/wiki/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://cppshu.github.io/wiki/</guid>
@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>News</title>
+      <title>Blogs</title>
       <link>https://cppshu.github.io/news/</link>
       <pubDate>Wed, 25 Sep 2019 21:00:00 +0000</pubDate>
       <guid>https://cppshu.github.io/news/</guid>
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>Recent &amp; Upcoming Yuanyou Salons</title>
+      <title>Introduction to Programming in C (LO01)</title>
       <link>https://cppshu.github.io/salon/</link>
       <pubDate>Sun, 22 Sep 2019 21:00:00 +0000</pubDate>
       <guid>https://cppshu.github.io/salon/</guid>
@@ -48,7 +48,7 @@
     </item>
     
     <item>
-      <title>Yuanyou Aid</title>
+      <title>Algorithm and Programming in C&#43;&#43; (LO02)</title>
       <link>https://cppshu.github.io/aid/</link>
       <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://cppshu.github.io/aid/</guid>
@@ -57,7 +57,7 @@
     </item>
     
     <item>
-      <title>Yuanyou Connect</title>
+      <title>Machine Learning (ML01)</title>
       <link>https://cppshu.github.io/connect/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://cppshu.github.io/connect/</guid>

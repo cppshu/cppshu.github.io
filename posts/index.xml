@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs | UTSEUS CS Courses</title>
-    <link>https://cppshu.github.io/news/</link>
-      <atom:link href="https://cppshu.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://cppshu.github.io/posts/</link>
+      <atom:link href="https://cppshu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <description>Blogs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2021 Shanghai University All Rights Reserved</copyright><lastBuildDate>Wed, 25 Sep 2019 21:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cppshu.github.io/img/icon-192.png</url>
       <title>Blogs</title>
-      <link>https://cppshu.github.io/news/</link>
+      <link>https://cppshu.github.io/posts/</link>
     </image>
     
     <item>
       <title>Call for Patients of Choroideremia -- Please contact Yuanyou NGO</title>
-      <link>https://cppshu.github.io/news/2019092501/</link>
+      <link>https://cppshu.github.io/posts/2019092501/</link>
       <pubDate>Wed, 25 Sep 2019 21:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/news/2019092501/</guid>
+      <guid>https://cppshu.github.io/posts/2019092501/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Call for Usher Syndrome Patients -- Please contact Yuanyou NGO</title>
-      <link>https://cppshu.github.io/news/2019092001/</link>
+      <link>https://cppshu.github.io/posts/2019092001/</link>
       <pubDate>Fri, 20 Sep 2019 21:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/news/2019092001/</guid>
+      <guid>https://cppshu.github.io/posts/2019092001/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Receivers of free RGP Glasses in the program of Yuanyou Aid &amp; LucidKorea</title>
-      <link>https://cppshu.github.io/news/2019061401/</link>
+      <link>https://cppshu.github.io/posts/2019061401/</link>
       <pubDate>Thu, 14 Jun 2018 21:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/news/2019061401/</guid>
+      <guid>https://cppshu.github.io/posts/2019061401/</guid>
       <description></description>
     </item>
     

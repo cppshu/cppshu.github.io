@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>新闻 | 上大中欧CS课程</title>
-    <link>https://cppshu.github.io/zh/news/</link>
-      <atom:link href="https://cppshu.github.io/zh/news/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://cppshu.github.io/zh/posts/</link>
+      <atom:link href="https://cppshu.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" />
     <description>新闻</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>©2020-2021 上海大学版权所有</copyright><lastBuildDate>Wed, 25 Sep 2019 21:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cppshu.github.io/img/icon-192.png</url>
       <title>新闻</title>
-      <link>https://cppshu.github.io/zh/news/</link>
+      <link>https://cppshu.github.io/zh/posts/</link>
     </image>
     
     <item>
       <title>欢迎无脉络膜症患者跟援友公益取得联系</title>
-      <link>https://cppshu.github.io/zh/news/2019092501/</link>
+      <link>https://cppshu.github.io/zh/posts/2019092501/</link>
       <pubDate>Wed, 25 Sep 2019 21:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/zh/news/2019092501/</guid>
+      <guid>https://cppshu.github.io/zh/posts/2019092501/</guid>
       <description>&lt;p&gt;欢迎无脉络膜症患者跟援友公益取得联系，我们会帮助患者跟美国的 &lt;a href=&#34;https://www.curechm.org&#34;&gt;Choroideremia Research Foundation&lt;/a&gt; 对接。一起商讨加入基因测试、参与试验型治疗的可能性。&lt;/p&gt;
 &lt;p&gt;我们的联系方式是：kf@mail.yuanyou.site&lt;/p&gt;
 </description>
@@ -24,9 +24,9 @@
     
     <item>
       <title>欢迎Usher综合征患者跟援友公益取得联系</title>
-      <link>https://cppshu.github.io/zh/news/2019092001/</link>
+      <link>https://cppshu.github.io/zh/posts/2019092001/</link>
       <pubDate>Fri, 20 Sep 2019 21:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/zh/news/2019092001/</guid>
+      <guid>https://cppshu.github.io/zh/posts/2019092001/</guid>
       <description>&lt;p&gt;欢迎无脉络膜症患者跟援友公益取得联系，我们会帮助患者跟美国的 &lt;a href=&#34;https://usher-syndrome.org&#34;&gt;Usher Syndrome Coalition&lt;/a&gt; 对接。一起商讨加入基因测试、参与试验型治疗的可能性。&lt;/p&gt;
 &lt;p&gt;我们的联系方式是：kf@mail.yuanyou.site&lt;/p&gt;
 </description>
@@ -34,9 +34,9 @@
     
     <item>
       <title>《援助计划——低收入圆锥角膜患者RGP救助》援助结果第一次公示</title>
-      <link>https://cppshu.github.io/zh/news/2019061401/</link>
+      <link>https://cppshu.github.io/zh/posts/2019061401/</link>
       <pubDate>Fri, 14 Jun 2019 21:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/zh/news/2019061401/</guid>
+      <guid>https://cppshu.github.io/zh/posts/2019061401/</guid>
       <description>&lt;p&gt;2018年6月我们完成了第一批对两名圆锥角膜患者的公益救助，现将结果公示如下。&lt;/p&gt;
 &lt;h1 id=&#34;受助案例一&#34;&gt;受助案例一&lt;/h1&gt;
 &lt;ul&gt;

@@ -37,11 +37,11 @@ height = ""
   
 [[item]]
   title = "援助计划"
-  url = "/zh/aid/"
-  type = "aid"
+  url = "/zh/cpp/"
+  type = "cpp"
   content = """ 援助计划项目是援友社区推出的一系列公益救助项目的总称，是由援友社区发起的全国性角膜病民间系列公益救助工程，针对角膜病患者提供个性化针对性的全方位公益支持。我们希望通过民间资金力量援助圆锥角膜等疑难角膜病社群，撬动社会政策改善及多方援助资源介入，提升患者群体生命权、健康权的获得感，提升罕见角膜病医疗保障水平，为角膜病群体提供有针对性的专业医疗援助。
   """
-  overlay_img = "pic-project-aid.PNG"  
+  overlay_img = "pic-project-cpp.PNG"  
 
 [[item]]
   title = "援友社会公益"

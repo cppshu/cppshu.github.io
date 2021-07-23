@@ -23,7 +23,7 @@
   name = "Aider par Yuanyou"
   parent = "Projects"
   weight = 32
-  url = "../aid"
+  url = "../cpp"
 
 [[main]]
   name = "Connecter par Yuanyou"

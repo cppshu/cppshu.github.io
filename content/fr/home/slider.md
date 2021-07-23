@@ -32,12 +32,12 @@ height = ""
   
 [[item]]
   title = "Yuanyou Aid"
-  url = "/aid/"
-  type = "aid"
+  url = "/cpp/"
+  type = "cpp"
   content = """
   We provide material aid to people with financial difficulties by collaboration with commercial companies. For example, for many poor Chinese, even a pair of RGP glasses is beyond their financial capabilities. We have hence launched a program with LucidKorea to provide a pair of RGP glasses for free for KC patients who live in poverty. Other collaborations to help poor patients are also envisioned.
   """
-  overlay_img = "pic-project-aid.PNG"  
+  overlay_img = "pic-project-cpp.PNG"  
 
 [[item]]
   title = "Yuanyou Connect"

@@ -23,7 +23,7 @@
   name = "Algorithms and Programming in C++"
   parent = "Courses"
   weight = 32
-  url = "/aid"
+  url = "/cpp"
 
 [[main]]
   name = "Machine Learning in R & Python"

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Myoring | UTSEUS CS Courses</title>
+    <title>MyoRing | UTSEUS CS Courses</title>
     <link>https://cppshu.github.io/tags/myoring/</link>
       <atom:link href="https://cppshu.github.io/tags/myoring/index.xml" rel="self" type="application/rss+xml" />
-    <description>Myoring</description>
+    <description>MyoRing</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2021 Shanghai University All Rights Reserved</copyright><lastBuildDate>Thu, 14 Mar 2019 21:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cppshu.github.io/img/icon-192.png</url>
-      <title>Myoring</title>
+      <title>MyoRing</title>
       <link>https://cppshu.github.io/tags/myoring/</link>
     </image>
     
@@ -22,9 +22,9 @@
     
     <item>
       <title>Questions and Answers with Professor Daxer of Austria on MyoRing</title>
-      <link>https://cppshu.github.io/wiki/questions-and-answers-with-professor-daxer-of-austria-on-myoring/</link>
+      <link>https://cppshu.github.io/rl/questions-and-answers-with-professor-daxer-of-austria-on-myoring/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/wiki/questions-and-answers-with-professor-daxer-of-austria-on-myoring/</guid>
+      <guid>https://cppshu.github.io/rl/questions-and-answers-with-professor-daxer-of-austria-on-myoring/</guid>
       <description></description>
     </item>
     

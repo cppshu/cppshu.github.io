@@ -29,7 +29,7 @@
   name = "Machine Learning in R & Python"
   parent = "Courses"
   weight = 33
-  url = "/connect"
+  url = "/ml"
 
 [[main]]
   name = "Data Engineering in Python"

@@ -29,7 +29,7 @@
   name = "Connecter par Yuanyou"
   parent = "Projects"
   weight = 33
-  url = "../connect"
+  url = "../ml"
 
 [[main]]
   name = "Wiki de Yuanyou"

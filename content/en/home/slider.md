@@ -50,7 +50,7 @@ height = ""
   overlay_img = "pic-project-ml.PNG"  
   
 [[item]]
-  title = "Data Engineering in Python"
+  title = "Reinforcement Learning in Python"
   url = "/rl/"
   type = "rl"
   content = """

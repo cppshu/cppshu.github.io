@@ -1,5 +1,5 @@
 ---
-title: Introduction to Programming in C (LO01)
+title: Introduction to Programming in C
 
 # View.
 #   1 = List

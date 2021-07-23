@@ -1,5 +1,5 @@
 ---
-title: Algorithm and Programming in C++ (LO02)
+title: Algorithms and Programming in C++
 
 # View.
 #   1 = List

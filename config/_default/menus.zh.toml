@@ -7,58 +7,58 @@
 [[main]]
   name = "公益项目"
   url = "#slider"
-  weight = 30  
-  
+  weight = 30
+
 [[main]]
   name = "援友公益沙龙"
   parent = "公益项目"
-  weight = 31 
+  weight = 31
   url = "/salon"
 
 [[main]]
   name = "援助计划"
   parent = "公益项目"
   weight = 32
-  url = "/aid"    
+  url = "/aid"
 
 [[main]]
   name = "援友社会公益"
   parent = "公益项目"
   weight = 33
-  url = "/connect" 
-  
+  url = "/connect"
+
 [[main]]
   name = "援友公益百科"
   parent = "公益项目"
   weight = 34
-  url = "/wiki" 
+  url = "/wiki"
 
 [[main]]
   name = "新闻"
   url = "#news"
-  weight = 40 
+  weight = 40
 
 [[main]]
   name = "视频"
   url = "#videos"
-  weight = 40 
+  weight = 40
 
 
 [[main]]
   name = "志愿者"
-  url = "#volunteers"
-  weight = 59  
+  url = "#ta"
+  weight = 59
 
 [[main]]
   name = "合作伙伴"
   url = "#partners"
-  weight = 60    
+  weight = 60
 
 [[main]]
   name = "罕见眼科疾病"
   url = "#rare-eye-diseases"
-  weight = 70   
-  
+  weight = 70
+
 [[main]]
   name = "联系我们"
   url = "#contact"

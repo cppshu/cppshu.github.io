@@ -560,7 +560,7 @@ ul.ul-edu li .description p.institution {
 
 
 .rare-flex-container {
-  display: flex; 
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   // width:100%;
@@ -575,17 +575,17 @@ margin: 0.3em 0.4em;  //topbottom leftright
 
 border-radius: 5px;
 
-font-size:0.8em; 
+font-size:0.8em;
 
 color: #333333;
 
-padding: 0.8em 0.8em; 
+padding: 0.8em 0.8em;
 
 border:1px solid #97de9d;
 
 background-color: #F6FBF5;
 
-transition: all .05s ease-in-out; 
+transition: all .05s ease-in-out;
 
 }
 
@@ -597,26 +597,26 @@ color: #fff;
 
 
 /*************************************************
- *  Volunteers and Partners
+ *  TAs and Partners
  **************************************************/
 
 
 .general-flex-container {
-  display: flex; 
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .general-flex-item {
   max-width: 20%;
-  margin: 0.5em;  
+  margin: 0.5em;
   padding-top: 1.5em;
-  transition: all .05s ease-in-out; 
+  transition: all .05s ease-in-out;
 }
 
 
 .general-flex-item:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 .image-to-hover:hover{
@@ -630,9 +630,9 @@ color: #fff;
 
 
 #rainbow-heart {
-padding-top: 0.2em; 
-padding-left:0.15em; 
-font-size: 1.4em; 
+padding-top: 0.2em;
+padding-left:0.15em;
+font-size: 1.4em;
 background: url(/img/rainbow.jpg);
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
@@ -650,9 +650,9 @@ animation: rainbow-heart-move 40s infinite linear forwards;
 
 
 #rainbow-hand {
-padding-top: 0.2em; 
-padding-left:0.15em; 
-font-size: 1.4em; 
+padding-top: 0.2em;
+padding-left:0.15em;
+font-size: 1.4em;
 background: url(/img/rainbow.jpg);
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
@@ -684,11 +684,11 @@ animation: rainbow-hand-move 40s infinite linear forwards;
   padding-bottom: 56%;
 
 
-} 
+}
 
 
 #iframe-container  iframe {
-  padding-left: 1em; 
+  padding-left: 1em;
 
   position: absolute;
   width: 100%;

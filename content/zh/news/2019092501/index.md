@@ -5,7 +5,7 @@ summary: 欢迎无脉络膜症患者跟援友公益取得联系，我们会帮�
 
 date: "2019-09-25T21:00:00Z"
 
-volunteers: [xiaomeng, reveurmk, jasonliu]
+ta: [xiaomeng, reveurmk, jasonliu]
 
 tags: [无脉络膜症]
 

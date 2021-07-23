@@ -1,5 +1,5 @@
 ---
-title: Machine Learning (ML01)
+title: Machine Learning with R & Python
 
 # View.
 #   1 = List

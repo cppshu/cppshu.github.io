@@ -13,7 +13,7 @@ cd scripts/
 rsync -av ../themes/academic/exampleSite/config/ ../config/
 
 # Install demo user
-rsync -av ../themes/academic/exampleSite/content/volunteers/ ../content/volunteers/
+rsync -av ../themes/academic/exampleSite/content/ta/ ../content/ta/
 
 # Install page sharer button customizer
 rsync -av ../themes/academic/data/page_sharer.toml ../data/

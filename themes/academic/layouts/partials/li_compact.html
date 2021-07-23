@@ -1,7 +1,7 @@
 {{ $item := . }}
 
 {{ $microdata_type := "CreativeWork" }}
-{{ $show_volunteers_only := false }}{{/* Show volunteers only or full metadata? */}}
+{{ $show_ta_only := false }}{{/* Show ta only or full metadata? */}}
 {{ $show_buttons := false }}
 {{ $link := $item.RelPermalink }}
 {{ $target := "" }}
@@ -15,7 +15,7 @@
   {{ $microdata_type = "BlogPosting" }}
 {{ else if eq $item.Type "project" }}
   {{ $microdata_type = "CreativeWork" }}
-  {{ $show_volunteers_only = false }}
+  {{ $show_ta_only = false }}
   {{ $show_buttons = true }}
 {{ end }}
 
@@ -31,7 +31,7 @@
 
 <div class="media stream-item" itemscope itemtype="http://schema.org/{{$microdata_type}}">
   <div class="media-body">
-  
+
     <h3 class="article-title mb-0 mt-0" itemprop="name">
       <a href="{{$link}}" {{ $target | safeHTMLAttr }} itemprop="url">{{ $item.Title }}</a>
     </h3>
@@ -51,14 +51,14 @@
         </span>
       </div>
 	  -->
-      
 
-	  <!-- 
-      {{ if and $show_volunteers_only $item.Params.volunteers }}
-      <div itemprop="volunteer">
-        {{ partial "page_metadata_volunteers" $item }}
+
+	  <!--
+      {{ if and $show_ta_only $item.Params.ta }}
+      <div itemprop="ta">
+        {{ partial "page_metadata_ta" $item }}
       </div>
-      {{ else if not $show_volunteers_only }}
+      {{ else if not $show_ta_only }}
         {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
       {{ end }}
 	  -->

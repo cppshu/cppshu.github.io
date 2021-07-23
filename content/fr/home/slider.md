@@ -26,7 +26,7 @@ height = ""
   url = "/salon/"
   type = "salon"
   content = """
-  We organize activities (mostly online) where volunteer ophthalmologist doctors (often from some of the best hospitals in China) provide free courses & seminars or diagnosis to patients in a QQ chatroom, or one or several patients with rare eye diseases share their experiences with their rare eye diseases, how they got diagnosed and treated, and how their life becomes afterwards. 
+  We organize activities (mostly online) where ta ophthalmologist doctors (often from some of the best hospitals in China) provide free courses & seminars or diagnosis to patients in a QQ chatroom, or one or several patients with rare eye diseases share their experiences with their rare eye diseases, how they got diagnosed and treated, and how their life becomes afterwards. 
   """
   overlay_img = "pic-project-salon.PNG"  
   

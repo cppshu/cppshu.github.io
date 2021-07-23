@@ -4,7 +4,7 @@ summary: 9月28日周六21：00到23：00，西安第四医院魏升升大夫将
 
 date: "2019-09-22T21:00:00Z"
 
-volunteers: [xiaomeng, reveurmk]
+ta: [xiaomeng, reveurmk]
 
 tags: [Keratoconus]
 categories: [Yuanyou Salon]

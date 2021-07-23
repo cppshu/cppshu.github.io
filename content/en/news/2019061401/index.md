@@ -6,7 +6,7 @@ summary: In June 2018, we completed the first program of Yuanyou Aid, and the re
 
 date: "2018-06-14T21:00:00Z"
 
-volunteers: [xiaomeng, reveurmk]
+ta: [xiaomeng, reveurmk]
 
 tags: [RGP, Keratoconus]
 

@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/gcushen/hugo-academic.git"
   },
-  "volunteer": "George Cushen",
+  "ta": "George Cushen",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gcushen/hugo-academic/issues"

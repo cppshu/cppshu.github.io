@@ -38,7 +38,7 @@ tags = ["widgets",
 features = ["page builder", "widgets", "themes", "search", "research system", "filterable portfolio",
             "blog", "create courses", "salons", "events", "slides", "gallery", "contact form"]
 
-[volunteer]
+[ta]
   name = " "
   homepage = " "
 

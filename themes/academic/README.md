@@ -37,7 +37,7 @@
 - **Media Galleries** - Display your images and videos with captions in a customizable gallery
 - **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
 - **Multi-language** - 15+ language packs including English, 中文, and Português
-- **Multi-user** - Each volunteer gets their own profile page
+- **Multi-user** - Each ta gets their own profile page
 - **Privacy Pack** - Assists with GDPR
 - **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
 - **One-Click Deployment** - No servers. No databases. Only files.

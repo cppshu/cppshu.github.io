@@ -8,16 +8,16 @@
 <div class="article-metadata">
 
   <!--
-  {{/* If `volunteers` is set and is not empty. */}}
-  {{ if $page.Params.volunteers }}
-  {{ $volunteerLen := len $page.Params.volunteers }}
-  {{ if gt $volunteerLen 0 }}
+  {{/* If `ta` is set and is not empty. */}}
+  {{ if $page.Params.ta }}
+  {{ $taLen := len $page.Params.ta }}
+  {{ if gt $taLen 0 }}
   <div>
-    {{ partial "page_metadata_volunteers" $page }}
+    {{ partial "page_metadata_ta" $page }}
   </div>
   {{ end }}
   {{ end }}
-  
+
   -->
 
   <span class="article-date">
@@ -60,7 +60,7 @@
   </span>
   {{ end }}
 
-  
+
   {{ if $share }}
     {{ partial "share.html" $page }}
   {{ end }}

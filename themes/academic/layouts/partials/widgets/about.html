@@ -1,25 +1,25 @@
 {{ $ := .root }}
 {{ $page := .page }}
 
-{{ $volunteer := "" }}
-{{ if .volunteer }}
-  {{ $volunteer = .volunteer }}
+{{ $ta := "" }}
+{{ if .ta }}
+  {{ $ta = .ta }}
 {{ else }}
-  {{ $volunteer = $page.Params.volunteer }}
+  {{ $ta = $page.Params.ta }}
 {{end}}
 
 
-{{ $person_page_path := (printf "/volunteers/%s" (urlize $volunteer)) }}
+{{ $person_page_path := (printf "/ta/%s" (urlize $ta)) }}
 {{ $person_page := site.GetPage $person_page_path }}
 {{ if not $person_page }}
-  {{ errorf "Could not find an volunteer page at `%s`. Please check the value of `volunteer` in your About widget and create an associated volunteer page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
+  {{ errorf "Could not find an ta page at `%s`. Please check the value of `ta` in your About widget and create an associated ta page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
 {{end}}
 {{ $person := $person_page.Params }}
 
 <!-- About widget -->
 
 <div>
-{{/* Only display widget title in explicit instances of about widget, not in volunteer pages. */}}
+{{/* Only display widget title in explicit instances of about widget, not in ta pages. */}}
 {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
 
 {{ $person_page.Content }}

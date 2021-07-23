@@ -1,0 +1,58 @@
+{{ if not (or (eq site.Params.profile false) (eq .Params.profile false)) }}
+
+
+<div style="background: #FFFFFF;">
+
+<div style="padding-top: 1em;"> </div>
+
+<div style="padding-top: 1em;"> </div>
+
+    {{ $ta_urlized := "" }}
+
+    {{ $first_ta := "" }}
+    {{ if .Params.ta }}
+
+    <div class="hr-light"></div>
+
+    <div>
+      <h4> TAs & Contrubitors of this article : </h4>
+    </div>
+
+      <div class="row">
+      {{ range $first_ta := .Params.ta }}
+
+        {{ $ta_urlized = urlize $first_ta }}
+
+        {{ $taxonomy := "ta" }}
+
+        {{ $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $ta_urlized) }}
+
+        {{ with $profile_page }}
+        {{/* If it's a personal site and primary page ta is superuser, link to the homepage rather than their profile page. */}}
+        {{ $profile_url := .RelPermalink }}
+        {{ if and (not site.Data.organization.name) (eq .Params.superuser true) }}
+        {{ $profile_url = site.BaseURL }}
+        {{ end }}
+
+        <div style="padding-top: 1em;" class="col-sm-3">
+        <div>
+        <center><a href="{{$profile_url}}"><img src="{{printf "/img/ta/%s.PNG?%s" $first_ta now  | relURL }}"
+          style="height:100px; width:100px; border-radius:100px; background:white; border:1px solid rgb(224, 247, 206);" WIDTH=250 HEIGHT=250></a></center>
+
+        </div>
+
+        <div style="padding-top: 0.5em;"> </div>
+
+        <div>
+          <center><a href="{{$profile_url}}">{{.Params.name}}</a></center>
+        </div>
+      {{end}}
+      </div>
+      {{end}}
+
+
+    </div>
+  {{end}}{{/* Profile page block */}}
+{{end}}{{/* Show profile block */}}
+
+</div>

@@ -8,25 +8,25 @@
 <span class="article-metadata">
 
   <!--
-  {{/* If `volunteers` is set and is not empty. */}}
-  {{ if $page.Params.volunteers }}
-  {{ $volunteerLen := len $page.Params.volunteers }}
-  {{ if gt $volunteerLen 0 }}
+  {{/* If `ta` is set and is not empty. */}}
+  {{ if $page.Params.ta }}
+  {{ $taLen := len $page.Params.ta }}
+  {{ if gt $taLen 0 }}
   <div>
-    {{ partial "page_metadata_volunteers" $page }}
+    {{ partial "page_metadata_ta" $page }}
   </div>
   {{ end }}
   {{ end }}
-  
+
   -->
 
   <span class="article-date" style="color:#0B6121; font-size:0.85em;">
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
-    
+
       {{ if ne $page.Params.Lastmod $page.Params.Date }}
           {{ i18n "last_updated" }}
       {{ end }}
-    
+
     <time>{{ $date }}</time>
   </span>
 

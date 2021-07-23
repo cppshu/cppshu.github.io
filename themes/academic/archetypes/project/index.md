@@ -3,7 +3,7 @@
 
 title: "{{ replace .Name "-" " " | title }}"
 summary: ""
-volunteers: []
+ta: []
 tags: []
 categories: []
 date: {{ .Date }}

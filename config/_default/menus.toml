@@ -10,59 +10,60 @@
 
 [[main]]
   name = "Courses"
-  weight = 30 
-  url = "#slider"  
-  
+  weight = 30
+  url = "#slider"
+
 [[main]]
   name = "Introduction to Programming in C"
   parent = "Courses"
-  weight = 31 
+  weight = 31
   url = "/salon"
 
 [[main]]
   name = "Algorithms and Programming in C++"
   parent = "Courses"
   weight = 32
-  url = "/aid"    
+  url = "/aid"
 
 [[main]]
   name = "Machine Learning in R & Python"
   parent = "Courses"
   weight = 33
-  url = "/connect"   
-   
+  url = "/connect"
+
 [[main]]
   name = "Data Engineering in Python"
   parent = "Courses"
   weight = 34
-  url = "/wiki" 
+  url = "/wiki"
 
 [[main]]
-  name = "Blogs"
+  name = "Posts"
   url = "#news"
-  weight = 40  
+  weight = 40
 
 [[main]]
   name = "Videos"
   url = "#videos"
-  weight = 41  
+  weight = 41
 
 [[main]]
-  name = "Assistants"
-  url = "#volunteers"
-  weight = 50 
+  name = '''Teaching
+  Assistants'''
+  url = "#ta"
+  weight = 50
 
 
 [[main]]
   name = "Tools"
   url = "#partners"
-  weight = 60    
+  weight = 60
 
 [[main]]
   name = "Tags"
   url = "#rare-eye-diseases"
-  weight = 70 
-  
+  weight = 70
+
 [[main]]
   name = "Contact"
   url = "#contact"

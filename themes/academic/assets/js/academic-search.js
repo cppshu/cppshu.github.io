@@ -22,7 +22,7 @@ let fuseOptions = {
   keys: [
     {name:'title', weight:0.99}, /* 1.0 doesn't work o_O */
     {name:'summary', weight:0.6},
-    {name:'volunteers', weight:0.5},
+    {name:'ta', weight:0.5},
     {name:'content', weight:0.2},
     {name:'tags', weight:0.5},
     {name:'categories', weight:0.5}

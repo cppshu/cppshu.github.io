@@ -3,7 +3,7 @@ title: Best Ophthalmologists in Guangdong Province
 #subtitle: 
 summary: A presentation of best Ophthalmologists in Guangdong Province
 
-volunteers: [xiaomeng, reveurmk]
+ta: [xiaomeng, reveurmk]
 
 tags: [Guangdong, Ophthalmologists]
 categories: []

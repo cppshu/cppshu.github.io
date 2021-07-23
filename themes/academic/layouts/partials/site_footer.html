@@ -7,7 +7,7 @@
     {{ with site.GetPage "terms.md" }}
       {{ if site.GetPage "privacy.md" }} &middot; {{ end }}
       {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
-    {{ end }}    
+    {{ end }}
   </p>
   {{ end }}
 
@@ -34,7 +34,7 @@
 <script src="/js/{{ . }}?{{printf "%s" now}}"></script>
 {{- end }}
 
-<!-- 
+<!--
 <div>  {{  printf "%v" site.BaseURL | absURL }} </div>
 <div> {{  printf "%v" .Page }} </div>
 <div> {{  printf "%v" .Page | absLangURL }} </div>
@@ -50,7 +50,7 @@
 
 
 <!-- {{ range $p := site.Pages}}
-  {{ if in (printf "%v" $p.Dir) "volunteers"  }}
+  {{ if in (printf "%v" $p.Dir) "ta"  }}
     {{ if in (printf "%v" $p) "_index.md"  }}
     <div> {{  printf "%v" $p }} </div>
     {{ end }}
@@ -58,7 +58,7 @@
 {{ end }} -->
 
 
-{{ if in (printf "%v" .Page.Dir) "volunteers"  }}
+{{ if in (printf "%v" .Page.Dir) "ta"  }}
   {{ if in (printf "%v" .Page) "_index.md"  }}
     <script src="/js/piao.js?{{printf  "%s" now}}"></script>
   {{ end }}

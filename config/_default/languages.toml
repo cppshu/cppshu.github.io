@@ -4,13 +4,13 @@
 
 [en]
   languageCode = "en-us"
-  contentDir = "content/en"  
-  
+  contentDir = "content/en"
+
 [fr]
   languageCode = "fr-fr"
-  contentDir = "content/fr"  
+  contentDir = "content/fr"
 
 [zh]
   languageCode = "zh-Hans"
-  contentDir = "content/zh"  
- 
+  contentDir = "content/zh"
+

@@ -54,15 +54,15 @@
   weight = 50
 
 
-[[main]]
-  name = "Tools"
-  url = "#partners"
-  weight = 60
-
-[[main]]
-  name = "Tags"
-  url = "#rare-eye-diseases"
-  weight = 70
+# [[main]]
+#   name = "Tools"
+#   url = "#partners"
+#   weight = 60
+#
+# [[main]]
+#   name = "Tags"
+#   url = "#rare-eye-diseases"
+#   weight = 70
 
 [[main]]
   name = "Contact"

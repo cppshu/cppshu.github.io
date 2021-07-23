@@ -32,10 +32,10 @@
   url = "/ml"
 
 [[main]]
-  name = "Data Engineering in Python"
+  name = "Reinforcement Learning in Python"
   parent = "Courses"
   weight = 34
-  url = "/wiki"
+  url = "/rl"
 
 [[main]]
   name = "Posts"

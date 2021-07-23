@@ -35,7 +35,7 @@
   name = "Wiki de Yuanyou"
   parent = "Projects"
   weight = 34
-  url = "../wiki"
+  url = "../rl"
 
 #[[main]]
 #  name = "Actualités"

@@ -19,7 +19,7 @@ image:
 
 ## 林顺潮
 
-![image|84x106](/img/wiki/linshunchao.png) 
+![image|84x106](/img/rl/linshunchao.png) 
 
 香港大学内外全科医学士; 爱尔兰皇家内外科医学院眼科文凭; 英国格拉斯哥皇家内外科医学院眼科文凭;
 
@@ -37,7 +37,7 @@ image:
 
 
 ## 黄挺
-![image|337x500](/img/wiki/huangting.jpeg) .
+![image|337x500](/img/rl/huangting.jpeg) .
 
 主任医师，教授，博士研究生导师。中山大学中山眼科中心角膜病科主任。
 

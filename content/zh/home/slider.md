@@ -53,9 +53,9 @@ height = ""
   
 [[item]]
   title = "援友公益百科"
-  url = "/zh/wiki/"
-  type = "wiki"
+  url = "/zh/rl/"
+  type = "rl"
   content = """ 援友公益百科是医疗知识的 GitHub + Wikipedia。我们倡导开放式、小型化、无地理限制的开源共享协作，强调健康教育资源的公益与公共属性，向全社会提供开放、免费、高质量的眼科患者教育知识及资讯服务。我们的宗旨是倡导人人享有平等的健康权利，构建公益性的全民健康信息知识库。
   """
-  overlay_img = "pic-project-wiki.PNG"  
+  overlay_img = "pic-project-rl.PNG"  
 +++

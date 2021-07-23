@@ -51,10 +51,10 @@ height = ""
   
 [[item]]
   title = "Data Engineering in Python"
-  url = "/wiki/"
-  type = "wiki"
+  url = "/rl/"
+  type = "rl"
   content = """
   We have written many original articles to promote the sensibilization and awareness of rare eye diseases among people with vision problems as well as among doctors. Moreover, we try to keep up with the research community and pharmaceutical companies by presenting latest advancements in treatments for rare eye diseases. 
   """
-  overlay_img = "pic-project-wiki.PNG"  
+  overlay_img = "pic-project-rl.PNG"  
 +++

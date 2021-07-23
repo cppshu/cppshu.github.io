@@ -50,10 +50,10 @@ height = ""
   
 [[item]]
   title = "Yuanyou Wiki"
-  url = "/wiki/"
-  type = "wiki"
+  url = "/rl/"
+  type = "rl"
   content = """
   We have written many original articles to promote the sensibilization and awareness of rare eye diseases among people with vision problems as well as among doctors. Moreover, we try to keep up with the research community and pharmaceutical companies by presenting latest advancements in treatments for rare eye diseases. Furthermore, as many patients don't know where to seek help or even which hospitals to go to, we have written a series of articles on hospitals and experts specialized for treatment of rare eye diseases in China.
   """
-  overlay_img = "pic-project-wiki.PNG"  
+  overlay_img = "pic-project-rl.PNG"  
 +++

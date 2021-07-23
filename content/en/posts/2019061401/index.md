@@ -10,7 +10,7 @@ ta: [xiaomeng, reveurmk]
 
 tags: [RGP, Keratoconus]
 
-# Is this a featured salon? (true/false)
+# Is this a featured c? (true/false)
 featured: false
 
 image:

@@ -54,7 +54,7 @@
   translation: See all
 - id: more_posts
   translation: Bài Đăng Khác
-- id: more_salons
+- id: more_cs
   translation: Thuyết Trình Khác
 - id: more_publications
   translation: Các Công Trình
@@ -106,7 +106,7 @@
   translation: Bài Đăng
 - id: publications
   translation: Công Trình
-- id: salons
+- id: cs
   translation: Thuyết Trình
 - id: projects
   translation: Dự Án

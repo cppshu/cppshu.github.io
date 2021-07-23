@@ -7,7 +7,7 @@ date: "2019-06-14T21:00:00Z"
 
 tags: [RGP, 圆锥角膜]
 
-# Is this a featured salon? (true/false)
+# Is this a featured c? (true/false)
 featured: false
 
 image:

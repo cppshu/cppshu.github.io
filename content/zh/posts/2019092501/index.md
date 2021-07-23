@@ -9,7 +9,7 @@ ta: [xiaomeng, reveurmk, jasonliu]
 
 tags: [无脉络膜症]
 
-# Is this a featured salon? (true/false)
+# Is this a featured c? (true/false)
 featured: true
 
 image:

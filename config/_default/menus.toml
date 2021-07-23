@@ -17,7 +17,7 @@
   name = "Introduction to Programming in C"
   parent = "Courses"
   weight = 31
-  url = "/salon"
+  url = "/c"
 
 [[main]]
   name = "Algorithms and Programming in C++"

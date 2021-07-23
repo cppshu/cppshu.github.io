@@ -54,7 +54,7 @@
   translation: See all
 - id: more_posts
   translation: Περισσότερες αναρτήσεις
-- id: more_salons
+- id: more_cs
   translation: Περισσότερες ομιλίες
 - id: more_publications
   translation: Περισσότερες δημοσιεύσεις
@@ -106,7 +106,7 @@
   translation: Αναρτήσεις
 - id: publications
   translation: Δημοσιεύσεις
-- id: salons
+- id: cs
   translation: Ομιλίες
 - id: projects
   translation: Ερευνητικά προγράμματα

@@ -54,7 +54,7 @@
   translation: See all
 - id: more_posts
   translation: Więcej postów
-- id: more_salons
+- id: more_cs
   translation: Więcej wystąpień
 - id: more_publications
   translation: Więcej publikacji
@@ -106,7 +106,7 @@
   translation: Posty
 - id: publications
   translation: Publikacje
-- id: salons
+- id: cs
   translation: Wystąpienia
 - id: projects
   translation: Projects

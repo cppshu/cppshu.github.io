@@ -54,7 +54,7 @@
   translation: Vezi tot
 - id: more_posts
   translation: Mai multe postări
-- id: more_salons
+- id: more_cs
   translation: Mai multe discuții
 - id: more_publications
   translation: Mai multe publicații
@@ -106,7 +106,7 @@
   translation: Articole
 - id: publications
   translation: Publicații
-- id: salons
+- id: cs
   translation: Conferințe
 - id: projects
   translation: Proiecte

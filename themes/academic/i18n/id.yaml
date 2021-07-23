@@ -54,7 +54,7 @@
   translation: See all
 - id: more_posts
   translation: Tulisan lainnya
-- id: more_salons
+- id: more_cs
   translation: Presentasi lainnya
 - id: more_publications
   translation: Publikasi lainnya
@@ -106,7 +106,7 @@
   translation: Tulisan
 - id: publications
   translation: Publikasi
-- id: salons
+- id: cs
   translation: Presentasi
 - id: projects
   translation: Proyek

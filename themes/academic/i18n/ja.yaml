@@ -54,7 +54,7 @@
   translation: See all
 - id: more_posts
   translation: 投稿一覧
-- id: more_salons
+- id: more_cs
   translation: 登壇一覧
 - id: more_publications
   translation: 発表文献一覧
@@ -106,7 +106,7 @@
   translation: 投稿
 - id: publications
   translation: 発表文献
-- id: salons
+- id: cs
   translation: 登壇
 - id: projects
   translation: プロジェクト

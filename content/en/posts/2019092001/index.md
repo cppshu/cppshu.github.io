@@ -9,7 +9,7 @@ ta: [xiaomeng, reveurmk]
 
 tags: [Usher Syndrome]
 
-# Is this a featured salon? (true/false)
+# Is this a featured c? (true/false)
 featured: true
 
 image:

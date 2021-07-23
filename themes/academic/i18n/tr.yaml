@@ -54,7 +54,7 @@
   translation: See all
 - id: more_posts
   translation: Daha fazla blog içeriği
-- id: more_salons
+- id: more_cs
   translation: Daha fazla konuşma
 - id: more_publications
   translation: Daha fazla yayınlar
@@ -106,7 +106,7 @@
   translation: Blog içerikleri
 - id: publications
   translation: Yayınlar
-- id: salons
+- id: cs
   translation: Konuşmalar
 - id: projects
   translation: Projects

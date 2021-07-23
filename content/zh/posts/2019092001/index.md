@@ -7,7 +7,7 @@ date: "2019-09-20T21:00:00Z"
 
 tags: [Usher综合征]
 
-# Is this a featured salon? (true/false)
+# Is this a featured c? (true/false)
 featured: true
 
 image:

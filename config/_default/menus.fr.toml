@@ -17,7 +17,7 @@
   name = "Sallon de Yuanyou "
   parent = "Projects"
   weight = 31
-  url = "../salon"
+  url = "../c"
 
 [[main]]
   name = "Aider par Yuanyou"

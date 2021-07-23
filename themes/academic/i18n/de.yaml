@@ -56,7 +56,7 @@
   translation: Alle anzeigen
 - id: more_posts
   translation: Weitere Blogbeiträge
-- id: more_salons
+- id: more_cs
   translation: Weitere Vorträge
 - id: more_publications
   translation: Weitere Publikationen
@@ -108,7 +108,7 @@
   translation: Blog
 - id: publications
   translation: Publikationen
-- id: salons
+- id: cs
   translation: Vorträge
 - id: projects
   translation: Projekte

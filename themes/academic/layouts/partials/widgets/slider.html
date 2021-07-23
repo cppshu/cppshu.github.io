@@ -64,7 +64,7 @@ https://stackoverflow.com/questions/9651466/how-to-attach-slide-slid-events-to-t
 				  href="{{ . }}" target="_blank" rel="noopener">{{ end }}
 
 				{{ with $item.title }}{{ . | markdownify | emojify }}{{ end }}
-				{{ if eq $item.type  "salon" }}
+				{{ if eq $item.type  "c" }}
 					<i class='fas fa-video' style='padding-left: 0.2em; font-size:1em; color:#3d8e41;'></i>
 				{{ end }}
 				{{ if eq $item.type  "cpp" }}

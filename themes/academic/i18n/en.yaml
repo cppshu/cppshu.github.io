@@ -99,8 +99,8 @@
 - id: more_posts
   translation: See all posts
 
-- id: more_salons
-  translation: See all salons
+- id: more_cs
+  translation: See all cs
 
 - id: more_publications
   translation: See all publications
@@ -185,7 +185,7 @@
 - id: publications
   translation: Publications
 
-- id: salons
+- id: cs
   translation: Salons
 
 - id: projects

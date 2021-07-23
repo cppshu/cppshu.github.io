@@ -54,7 +54,7 @@
   translation: See all
 - id: more_posts
   translation: További posztok
-- id: more_salons
+- id: more_cs
   translation: Előadások
 - id: more_publications
   translation: További publikációk
@@ -106,7 +106,7 @@
   translation: Posztok
 - id: publications
   translation: Publikációk
-- id: salons
+- id: cs
   translation: Előadások
 - id: projects
   translation: Projektek

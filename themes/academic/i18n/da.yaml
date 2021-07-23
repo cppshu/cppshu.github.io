@@ -54,7 +54,7 @@
   translation: Se alle
 - id: more_posts
   translation: Se alle indlæg
-- id: more_salons
+- id: more_cs
   translation: Se alle foredrag
 - id: more_publications
   translation: Se alle udgivelser
@@ -106,7 +106,7 @@
   translation: Indlæg
 - id: publications
   translation: Udgivelser
-- id: salons
+- id: cs
   translation: Foredrag
 - id: projects
   translation: Projekter

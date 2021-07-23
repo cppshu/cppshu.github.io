@@ -7,8 +7,8 @@
 {{ if and (not $title) .IsNode }}
   {{ if eq .Type "post" }}
     {{ $title = i18n "posts" }}
-  {{ else if eq .Type "salon" }}
-    {{ $title = i18n "salons" }}
+  {{ else if eq .Type "c" }}
+    {{ $title = i18n "cs" }}
   {{end}}
 {{end}}
 
@@ -71,40 +71,40 @@
 
 <!--
 <div> Featured image : {{ printf "%s" $featured }}  </div>
- <div> $featured.RelPermalink 
+ <div> $featured.RelPermalink
  : {{printf "%s" $featured.RelPermalink}}  </div>
-  
- 
+
+
 
    <div> Lang : {{printf "%s" .Lang }}  </div>
 		{{ range .Translations }}
             {{ if eq .Lang "zh"}}
      	 <div> Lang : {{printf "%s" .Lang}}  </div>
-	 
+
 <div> IsTranslated
  : {{printf "%s" .IsTranslated }}  </div>
- 
+
   <div> Resources
  : {{printf "%s" (.Resources)}}  </div>
- 
+
  <div> Resources 0
  : {{printf "%s" (index .Resources 0)}}  </div>
- 
+
  <div> Range Resources:
  {{range .Resources}}
  {{printf "%s" .}} {{end}} </div>
 
- 
- <div> RelPermalink 
+
+ <div> RelPermalink
  : {{printf "%s" (index .Resources 0).RelPermalink}}  </div>
-  
- 
+
+
 <div> <img src="{{ (index .Resources 0).Content | base64Encode }}">  </div>
 
 <img src="{{ (.Resources.GetMatch "*featured*").RelPermalink }}" alt="" class="featured-image">
- 
- 
- 
+
+
+
             {{ end }}
         {{ end }}
 

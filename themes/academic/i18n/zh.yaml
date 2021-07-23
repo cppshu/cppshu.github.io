@@ -54,7 +54,7 @@
   translation: 查看全部
 - id: more_posts
   translation: 查看全部文章
-- id: more_salons
+- id: more_cs
   translation: 查看全部演讲
 - id: more_publications
   translation: 查看全部出版物
@@ -106,7 +106,7 @@
   translation: 文章
 - id: publications
   translation: 出版物
-- id: salons
+- id: cs
   translation: 演讲
 - id: projects
   translation: 项目

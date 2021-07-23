@@ -54,7 +54,7 @@
   translation: See all
 - id: more_posts
   translation: Bidalketa gehiago
-- id: more_salons
+- id: more_cs
   translation: Hitzaldi gehiago
 - id: more_publications
   translation: Argitalpen gehiago
@@ -106,7 +106,7 @@
   translation: Bidalketak
 - id: publications
   translation: Argitalpenak
-- id: salons
+- id: cs
   translation: Hitzaldiak
 - id: projects
   translation: Projects

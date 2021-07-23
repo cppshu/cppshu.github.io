@@ -54,7 +54,7 @@
   translation: See all
 - id: more_posts
   translation: Més entrades
-- id: more_salons
+- id: more_cs
   translation: Més xerrades
 - id: more_publications
   translation: Més publicacions
@@ -106,7 +106,7 @@
   translation: Entrada
 - id: publications
   translation: Publicació
-- id: salons
+- id: cs
   translation: Conferència
 - id: projects
   translation: Projectes

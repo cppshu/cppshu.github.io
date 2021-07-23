@@ -1,6 +1,6 @@
 +++
 # A Recent and Upcoming Salons section created with the Pages widget.
-# This section displays recent salons from `content/salon/`.
+# This section displays recent cs from `content/c/`.
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -10,7 +10,7 @@ weight = 40  # Order that this section will appear.
 title = "Posts"
 
 [content]
-  # Page type to display. E.g. post, salon, or publication.
+  # Page type to display. E.g. post, c, or publication.
   page_type = "posts"
   
   # Choose how much pages you would like to display (0 = all pages)

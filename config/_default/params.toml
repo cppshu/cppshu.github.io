@@ -148,7 +148,7 @@ sharing = true
   #   4: Citation (publications only)
   post_view = 2
   publication_view = 2
-  salon_view = 2
+  c_view = 2
 
 # Comments.
 [comments]
@@ -159,7 +159,7 @@ sharing = true
   engine = 0
 
   # Which page types are commentable?
-  commentable = {page = true, post = true, docs = true, project = true, publication = true, salon = true}
+  commentable = {page = true, post = true, docs = true, project = true, publication = true, c = true}
 
   # Configuration of Disqus.
   [comments.disqus]

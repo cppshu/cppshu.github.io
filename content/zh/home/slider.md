@@ -29,11 +29,11 @@ height = ""
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = "援友公益沙龙"
-  url = "/zh/salon/"
-  type = "salon"
+  url = "/zh/c/"
+  type = "c"
   content = """ 援友公益沙龙是面向全国的公益性健康教育平台，旨在使人们自觉地采纳有益于眼健康的行为和生活方式，消除或减轻影响健康的危险因素。以此达到预防眼睛疾病，促进眼健康，提高生活质量的目标。我们结合了互联网直播、线下沙龙等多种活动类型，形式简单、方便参加、易于互动，向大众提供健康科普宣教、经验交流、就医信息分享等资讯及教育内容。
   """
-  overlay_img = "pic-project-salon.PNG" 
+  overlay_img = "pic-project-c.PNG" 
   
 [[item]]
   title = "援助计划"

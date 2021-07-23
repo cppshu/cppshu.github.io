@@ -36,7 +36,7 @@ tags = ["widgets",
         "slide"
         ]
 features = ["page builder", "widgets", "themes", "search", "research system", "filterable portfolio",
-            "blog", "create courses", "salons", "events", "slides", "gallery", "contact form"]
+            "blog", "create courses", "cs", "events", "slides", "gallery", "contact form"]
 
 [ta]
   name = " "

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Engineering in Python | UTSEUS CS Courses</title>
+    <title>Reinforcement Learning in Python | UTSEUS CS Courses</title>
     <link>https://cppshu.github.io/rl/</link>
       <atom:link href="https://cppshu.github.io/rl/index.xml" rel="self" type="application/rss+xml" />
-    <description>Data Engineering in Python</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2021 Shanghai University All Rights Reserved</copyright><lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <description>Reinforcement Learning in Python</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2021 Lunde Chen and All Teaching Assistants All Rights Reserved</copyright><lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cppshu.github.io/img/icon-192.png</url>
-      <title>Data Engineering in Python</title>
+      <title>Reinforcement Learning in Python</title>
       <link>https://cppshu.github.io/rl/</link>
     </image>
     

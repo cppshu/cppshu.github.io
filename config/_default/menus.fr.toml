@@ -10,48 +10,48 @@
 
 [[main]]
   name = "Projects"
-  weight = 30 
-  url = ""  
-  
+  weight = 30
+  url = ""
+
 [[main]]
   name = "Sallon de Yuanyou "
   parent = "Projects"
-  weight = 31 
+  weight = 31
   url = "../salon"
 
 [[main]]
   name = "Aider par Yuanyou"
   parent = "Projects"
   weight = 32
-  url = "../aid"    
+  url = "../aid"
 
 [[main]]
   name = "Connecter par Yuanyou"
   parent = "Projects"
   weight = 33
-  url = "../connect"   
-   
+  url = "../connect"
+
 [[main]]
   name = "Wiki de Yuanyou"
   parent = "Projects"
   weight = 34
-  url = "../wiki" 
+  url = "../wiki"
 
 #[[main]]
 #  name = "Actualités"
-#  url = "#news"
-#  weight = 40  
-     
+#  url = "#posts"
+#  weight = 40
+
 #[[main]]
 #  name = "Histoire"
 #  url = "#history"
-#  weight = 50  
-  
+#  weight = 50
+
 #[[main]]
 #  name = "Partenaires"
 #  url = "#partners"
-#  weight = 60    
-  
+#  weight = 60
+
 [[main]]
   name = "Nous Contacter"
   url = "#contact"

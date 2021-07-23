@@ -60,7 +60,7 @@
 
     <h3> <b> {{ $person.name }} has contributed to those Yuanyou projects : </b></h3>
 
-    {{ range $items_type := (slice "salon" "news" "wiki" "aid" ) }}
+    {{ range $items_type := (slice "salon" "posts" "wiki" "aid" ) }}
 
       {{ $query := where $query_tmp "Type" (printf "%s" $items_type) }}
 

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ta | UTSEUS CS Courses</title>
+    <link>https://cppshu.github.io/ta/</link>
+      <atom:link href="https://cppshu.github.io/ta/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ta</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2021 Shanghai University All Rights Reserved</copyright><lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cppshu.github.io/img/icon-192.png</url>
+      <title>Ta</title>
+      <link>https://cppshu.github.io/ta/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://cppshu.github.io/ta/jasonliu/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/jasonliu/</guid>
+      <description>&lt;p&gt;Jason Liu comes from Beijing, China. Now he is a high school student in California.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cppshu.github.io/ta/reveurmk/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/reveurmk/</guid>
+      <description>&lt;p&gt;Assistant professor in Computer Science at Shanghai University.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cppshu.github.io/ta/xiaomeng/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/xiaomeng/</guid>
+      <description>&lt;p&gt;Programmer based in Seattle. Keratoconus patient. Founder of Yuanyou NGO.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cppshu.github.io/ta/baijie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/baijie/</guid>
+      <description>&lt;p&gt;Bai Jie&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cppshu.github.io/ta/lianglele/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/lianglele/</guid>
+      <description>&lt;p&gt;Lele Liang&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cppshu.github.io/ta/qujinxuan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/qujinxuan/</guid>
+      <description>&lt;p&gt;Jinxuan Qu&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cppshu.github.io/ta/wangting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/wangting/</guid>
+      <description>&lt;p&gt;Ting Wang&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cppshu.github.io/ta/windandlonglong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/windandlonglong/</guid>
+      <description>&lt;p&gt;Wind And Longlong.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cppshu.github.io/ta/yangshuaitao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/yangshuaitao/</guid>
+      <description>&lt;p&gt;Shuaitao Yang&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cppshu.github.io/ta/yuyang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/yuyang/</guid>
+      <description>&lt;p&gt;Yang Yu&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cppshu.github.io/ta/zhutao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/zhutao/</guid>
+      <description>&lt;p&gt;Tao Zhu&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cppshu.github.io/fr/volunteers/nobody/</loc>
+    <loc>https://cppshu.github.io/fr/ta/nobody/</loc>
   </url><url>
     <loc>https://cppshu.github.io/fr/categories/</loc>
     <xhtml:link
@@ -55,6 +55,23 @@
                 href="https://cppshu.github.io/fr/publication_types/"
                 />
   </url><url>
+    <loc>https://cppshu.github.io/fr/ta/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://cppshu.github.io/fr/ta/"
+                />
+  </url><url>
     <loc>https://cppshu.github.io/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -70,23 +87,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://cppshu.github.io/fr/tags/"
-                />
-  </url><url>
-    <loc>https://cppshu.github.io/fr/volunteers/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cppshu.github.io/volunteers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://cppshu.github.io/fr/volunteers/"
                 />
   </url>
 </urlset>

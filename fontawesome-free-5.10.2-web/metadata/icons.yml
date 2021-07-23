@@ -958,7 +958,7 @@ at:
   search:
     terms:
       - address
-      - volunteer
+      - ta
       - e-mail
       - email
       - handle
@@ -9244,7 +9244,7 @@ hands-helping:
       - assistance
       - handshake
       - partnership
-      - volunteering
+      - taing
   styles:
     - solid
   unicode: f4c4

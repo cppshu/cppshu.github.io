@@ -2,45 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cppshu.github.io/zh/volunteers/jasonliu/</loc>
-    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cppshu.github.io/volunteers/jasonliu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/jasonliu/"
-                />
-  </url><url>
-    <loc>https://cppshu.github.io/zh/volunteers/reveurmk/</loc>
-    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cppshu.github.io/volunteers/reveurmk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/reveurmk/"
-                />
-  </url><url>
-    <loc>https://cppshu.github.io/zh/volunteers/xiaomeng/</loc>
-    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cppshu.github.io/volunteers/xiaomeng/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/xiaomeng/"
-                />
-  </url><url>
     <loc>https://cppshu.github.io/zh/categories/</loc>
     <lastmod>2019-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -88,24 +49,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://cppshu.github.io/zh/tags/"
-                />
-  </url><url>
-    <loc>https://cppshu.github.io/zh/volunteers/</loc>
-    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cppshu.github.io/volunteers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://cppshu.github.io/fr/volunteers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/"
                 />
   </url><url>
     <loc>https://cppshu.github.io/zh/categories/wiki/</loc>
@@ -163,6 +106,63 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://cppshu.github.io/zh/wiki/choroideremia/"
+                />
+  </url><url>
+    <loc>https://cppshu.github.io/zh/ta/jasonliu/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/jasonliu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/jasonliu/"
+                />
+  </url><url>
+    <loc>https://cppshu.github.io/zh/ta/reveurmk/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/reveurmk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/reveurmk/"
+                />
+  </url><url>
+    <loc>https://cppshu.github.io/zh/ta/xiaomeng/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/xiaomeng/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/xiaomeng/"
+                />
+  </url><url>
+    <loc>https://cppshu.github.io/zh/ta/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://cppshu.github.io/fr/ta/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/"
                 />
   </url><url>
     <loc>https://cppshu.github.io/zh/news/</loc>
@@ -984,100 +984,100 @@
     <loc>https://cppshu.github.io/zh/resources/</loc>
     <lastmod>2018-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cppshu.github.io/zh/volunteers/baijie/</loc>
+    <loc>https://cppshu.github.io/zh/ta/baijie/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cppshu.github.io/volunteers/baijie/"
+                href="https://cppshu.github.io/ta/baijie/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/baijie/"
+                href="https://cppshu.github.io/zh/ta/baijie/"
                 />
   </url><url>
-    <loc>https://cppshu.github.io/zh/volunteers/lianglele/</loc>
+    <loc>https://cppshu.github.io/zh/ta/lianglele/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cppshu.github.io/volunteers/lianglele/"
+                href="https://cppshu.github.io/ta/lianglele/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/lianglele/"
+                href="https://cppshu.github.io/zh/ta/lianglele/"
                 />
   </url><url>
-    <loc>https://cppshu.github.io/zh/volunteers/qujinxuan/</loc>
+    <loc>https://cppshu.github.io/zh/ta/qujinxuan/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cppshu.github.io/volunteers/qujinxuan/"
+                href="https://cppshu.github.io/ta/qujinxuan/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/qujinxuan/"
+                href="https://cppshu.github.io/zh/ta/qujinxuan/"
                 />
   </url><url>
-    <loc>https://cppshu.github.io/zh/volunteers/wangting/</loc>
+    <loc>https://cppshu.github.io/zh/ta/wangting/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cppshu.github.io/volunteers/wangting/"
+                href="https://cppshu.github.io/ta/wangting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/wangting/"
+                href="https://cppshu.github.io/zh/ta/wangting/"
                 />
   </url><url>
-    <loc>https://cppshu.github.io/zh/volunteers/windandlonglong/</loc>
+    <loc>https://cppshu.github.io/zh/ta/windandlonglong/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cppshu.github.io/volunteers/windandlonglong/"
+                href="https://cppshu.github.io/ta/windandlonglong/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/windandlonglong/"
+                href="https://cppshu.github.io/zh/ta/windandlonglong/"
                 />
   </url><url>
-    <loc>https://cppshu.github.io/zh/volunteers/yangshuaitao/</loc>
+    <loc>https://cppshu.github.io/zh/ta/yangshuaitao/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cppshu.github.io/volunteers/yangshuaitao/"
+                href="https://cppshu.github.io/ta/yangshuaitao/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/yangshuaitao/"
+                href="https://cppshu.github.io/zh/ta/yangshuaitao/"
                 />
   </url><url>
-    <loc>https://cppshu.github.io/zh/volunteers/yuyang/</loc>
+    <loc>https://cppshu.github.io/zh/ta/yuyang/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cppshu.github.io/volunteers/yuyang/"
+                href="https://cppshu.github.io/ta/yuyang/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/yuyang/"
+                href="https://cppshu.github.io/zh/ta/yuyang/"
                 />
   </url><url>
-    <loc>https://cppshu.github.io/zh/volunteers/zhutao/</loc>
+    <loc>https://cppshu.github.io/zh/ta/zhutao/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cppshu.github.io/volunteers/zhutao/"
+                href="https://cppshu.github.io/ta/zhutao/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://cppshu.github.io/zh/volunteers/zhutao/"
+                href="https://cppshu.github.io/zh/ta/zhutao/"
                 />
   </url><url>
     <loc>https://cppshu.github.io/zh/publication_types/</loc>

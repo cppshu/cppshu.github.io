@@ -108,7 +108,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [params.gitalk] 
     clientID = "680d7fb1c05f273107cf" # Your client ID
     clientSecret = "381db05198d176ae2f8ead5bccd7c90521910eb2" # Your client secret
-    repo = "cppshu.github.io" # The repo to store comments
+    repo = "cppshu.github.io/c/" # The repo to store comments
     owner = "Raymond-47" # Your GitHub ID
     admin= "Raymond-47" # Required. Github repository owner and collaborators. (Users who having write access to this repository)
     id= "location.pathname" # The unique id of the page.

@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cppshu.github.io/fr/ta/nobody/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/nobody/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://cppshu.github.io/fr/ta/nobody/"
+                />
   </url><url>
     <loc>https://cppshu.github.io/fr/categories/</loc>
     <xhtml:link

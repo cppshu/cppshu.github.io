@@ -5,7 +5,7 @@
     <link>https://cppshu.github.io/</link>
       <atom:link href="https://cppshu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>UTSEUS CS Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2021 Lunde Chen and All Teaching Assistants All Rights Reserved</copyright><lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2021 Lunde Chen and All Teaching Assistants All Rights Reserved</copyright><lastBuildDate>Wed, 04 Aug 2021 07:58:30 +0800</lastBuildDate>
     <image>
       <url>https://cppshu.github.io/img/icon-192.png</url>
       <title>UTSEUS CS Courses</title>
@@ -13,26 +13,9 @@
     </image>
     
     <item>
-      <title>Reinforcement Learning in Python</title>
-      <link>https://cppshu.github.io/rl/</link>
-      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/rl/</guid>
-      <description>&lt;p&gt;We have written many original articles to promote the sensibilization and awareness of rare eye diseases among people with vision problems as well as among doctors. Moreover, we try to keep up with the research community and pharmaceutical companies by presenting latest advancements in treatments for Keratoconus, eye cancers, retinitis pigmentosa, corneal degeneration, Coats&#39; disease, Usher syndrome, etc.. As those scientific articles are written in English, we translate them into Chinese in a synthetic manner. Furthermore, as many patients don&amp;rsquo;t know where to seek help or even which hospitals to go to, we have written a series of articles on hospitals and experts specialized for treatment of rare eye diseases in China.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Blogs</title>
-      <link>https://cppshu.github.io/posts/</link>
-      <pubDate>Wed, 25 Sep 2019 21:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Introduction to Programming in C</title>
       <link>https://cppshu.github.io/c/</link>
-      <pubDate>Sun, 22 Sep 2019 21:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 Aug 2021 07:58:30 +0800</pubDate>
       <guid>https://cppshu.github.io/c/</guid>
       <description>&lt;p&gt;Yuanyou Salon is a nationwide public welfare health education platform designed to advocate people to understand what behaviors and lifestyles that are good for eye health and eliminate/mitigate risk factors that affect eye disease. Through this way, we believe we can achieve the goal of preventing eye diseases, promoting eye health and improving the quality of life. We already combined a variety of activities such as live webcasting and offline learning series. The form of learning series is straight forward, which provides the public with handful information and educational content such as knowledge sharing from patients&#39; past experience and professional medical information from ophthalmologist.&lt;/p&gt;
 &lt;p&gt;In February 2018, Yuanyou Salon launched the first online learning session, and has carried out more than 50 public welfare activities until now. Our ta guests come from many well-known medical institutions in China, like Beijing Tongren Hospital, Fudan University Eye Otolaryngology Hospital, Navy General Hospital, Beijing Aier Ophthalmology, Xima Ophthalmology etc,. Yuanyou Salon has filled the gap in health information related to ophthalmic diseases such as keratoconus. Moreover, it has drawn the distance between patients and doctors, especially for sharing information to most underdeveloped areas of China.&lt;/p&gt;
@@ -42,16 +25,24 @@
     <item>
       <title>Algorithms and Programming in C&#43;&#43;</title>
       <link>https://cppshu.github.io/cpp/</link>
-      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://cppshu.github.io/cpp/</guid>
       <description>&lt;p&gt;We provide material cpp to people with financial difficulties by collaboration with commercial companies. For example, for many poor Chinese, even a pair of RGP glasses is beyond their financial capabilities. We have hence launched a program with LucidKorea to provide a pair of RGP glasses for free for KC patients who live in poverty. Other collaborations to help poor patients are also envisioned.&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>Blogs</title>
+      <link>https://cppshu.github.io/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Machine Learning with R &amp; Python</title>
       <link>https://cppshu.github.io/ml/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://cppshu.github.io/ml/</guid>
       <description>&lt;p&gt;援友社会公益项目致力于为社会公益力量和受助人群建立起更加紧密与广泛的连接，促进公益资源在全社会的流动，帮助公益资源得到更加高效的利用。我们收集、整理、传播来自社会各界的公益信息，全方位凝聚公益力量，精准定位援助对象。我们帮助受助人群以最简单快速的方式对接公益资源，同时汇聚需求，呼吁动员更多的社会公益投入。&lt;/p&gt;
 &lt;p&gt;项目目标：&lt;/p&gt;
@@ -60,6 +51,15 @@
 &lt;li&gt;精准对接公益资源与受助对象，帮助公益项目的落地实施；&lt;/li&gt;
 &lt;li&gt;帮助受助者对接公益资源，协助社会监督公益项目的执行。&lt;/li&gt;
 &lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning in Python</title>
+      <link>https://cppshu.github.io/rl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/rl/</guid>
+      <description>&lt;p&gt;We have written many original articles to promote the sensibilization and awareness of rare eye diseases among people with vision problems as well as among doctors. Moreover, we try to keep up with the research community and pharmaceutical companies by presenting latest advancements in treatments for Keratoconus, eye cancers, retinitis pigmentosa, corneal degeneration, Coats&#39; disease, Usher syndrome, etc.. As those scientific articles are written in English, we translate them into Chinese in a synthetic manner. Furthermore, as many patients don&amp;rsquo;t know where to seek help or even which hospitals to go to, we have written a series of articles on hospitals and experts specialized for treatment of rare eye diseases in China.&lt;/p&gt;
 </description>
     </item>
     

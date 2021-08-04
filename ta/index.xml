@@ -5,7 +5,7 @@
     <link>https://cppshu.github.io/ta/</link>
       <atom:link href="https://cppshu.github.io/ta/index.xml" rel="self" type="application/rss+xml" />
     <description>Ta</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2021 Lunde Chen and All Teaching Assistants All Rights Reserved</copyright><lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2021 Lunde Chen and All Teaching Assistants All Rights Reserved</copyright><lastBuildDate>Wed, 04 Aug 2021 07:58:30 +0800</lastBuildDate>
     <image>
       <url>https://cppshu.github.io/img/icon-192.png</url>
       <title>Ta</title>
@@ -14,17 +14,17 @@
     
     <item>
       <title></title>
-      <link>https://cppshu.github.io/ta/jasonliu/</link>
-      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/ta/jasonliu/</guid>
-      <description>&lt;p&gt;Jason Liu comes from Beijing, China. Now he is a high school student in California.&lt;/p&gt;
+      <link>https://cppshu.github.io/ta/jingzukuan/</link>
+      <pubDate>Wed, 04 Aug 2021 07:58:30 +0800</pubDate>
+      <guid>https://cppshu.github.io/ta/jingzukuan/</guid>
+      <description>&lt;p&gt;Assistant professor in Computer Science at Shanghai University.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
       <link>https://cppshu.github.io/ta/reveurmk/</link>
-      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 Aug 2021 07:58:30 +0800</pubDate>
       <guid>https://cppshu.github.io/ta/reveurmk/</guid>
       <description>&lt;p&gt;Assistant professor in Computer Science at Shanghai University.&lt;/p&gt;
 </description>
@@ -32,82 +32,73 @@
     
     <item>
       <title></title>
-      <link>https://cppshu.github.io/ta/xiaomeng/</link>
-      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/ta/xiaomeng/</guid>
-      <description>&lt;p&gt;Programmer based in Seattle. Keratoconus patient. Founder of Yuanyou NGO.&lt;/p&gt;
+      <link>https://cppshu.github.io/ta/chenyiming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/ta/chenyiming/</guid>
+      <description>&lt;p&gt;Assistant professor in Computer Science at Shanghai University.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://cppshu.github.io/ta/baijie/</link>
+      <link>https://cppshu.github.io/ta/huangyonghui/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/ta/baijie/</guid>
-      <description>&lt;p&gt;Bai Jie&lt;/p&gt;
+      <guid>https://cppshu.github.io/ta/huangyonghui/</guid>
+      <description>&lt;p&gt;Assistant professor in Computer Science at Shanghai University.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://cppshu.github.io/ta/lianglele/</link>
+      <link>https://cppshu.github.io/ta/huangzhifan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/ta/lianglele/</guid>
-      <description>&lt;p&gt;Lele Liang&lt;/p&gt;
+      <guid>https://cppshu.github.io/ta/huangzhifan/</guid>
+      <description>&lt;p&gt;Assistant professor in Computer Science at Shanghai University.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://cppshu.github.io/ta/qujinxuan/</link>
+      <link>https://cppshu.github.io/ta/liyuanhao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/ta/qujinxuan/</guid>
-      <description>&lt;p&gt;Jinxuan Qu&lt;/p&gt;
+      <guid>https://cppshu.github.io/ta/liyuanhao/</guid>
+      <description>&lt;p&gt;Assistant professor in Computer Science at Shanghai University.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://cppshu.github.io/ta/wangting/</link>
+      <link>https://cppshu.github.io/ta/shizhuzexuan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/ta/wangting/</guid>
-      <description>&lt;p&gt;Ting Wang&lt;/p&gt;
+      <guid>https://cppshu.github.io/ta/shizhuzexuan/</guid>
+      <description>&lt;p&gt;Assistant professor in Computer Science at Shanghai University.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://cppshu.github.io/ta/windandlonglong/</link>
+      <link>https://cppshu.github.io/ta/yunanjun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/ta/windandlonglong/</guid>
-      <description>&lt;p&gt;Wind And Longlong.&lt;/p&gt;
+      <guid>https://cppshu.github.io/ta/yunanjun/</guid>
+      <description>&lt;p&gt;Assistant professor in Computer Science at Shanghai University.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://cppshu.github.io/ta/yangshuaitao/</link>
+      <link>https://cppshu.github.io/ta/zhonglexing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/ta/yangshuaitao/</guid>
-      <description>&lt;p&gt;Shuaitao Yang&lt;/p&gt;
+      <guid>https://cppshu.github.io/ta/zhonglexing/</guid>
+      <description>&lt;p&gt;Assistant professor in Computer Science at Shanghai University.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://cppshu.github.io/ta/yuyang/</link>
+      <link>https://cppshu.github.io/ta/zhukeyi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/ta/yuyang/</guid>
-      <description>&lt;p&gt;Yang Yu&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://cppshu.github.io/ta/zhutao/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cppshu.github.io/ta/zhutao/</guid>
-      <description>&lt;p&gt;Tao Zhu&lt;/p&gt;
+      <guid>https://cppshu.github.io/ta/zhukeyi/</guid>
+      <description>&lt;p&gt;Assistant professor in Computer Science at Shanghai University.&lt;/p&gt;
 </description>
     </item>
     

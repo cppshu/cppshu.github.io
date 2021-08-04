@@ -19,7 +19,7 @@
   {{ if $img_src.Scheme }}
   <img src="{{ .Params.header.image }}" class="article-banner" itemprop="image" alt="">
   {{ else }}
-  <img src="{{ (printf "/img/%s" .Params.header.image) | relURL }}" class="article-banner" itemprop="image" alt="">
+  <img src="{{ (printf `/img/%s` .Params.header.image) | relURL }}" class="article-banner" itemprop="image" alt="">
   {{ end }}
 
   {{ with .Params.header.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
@@ -119,8 +119,7 @@
     {{ $ctnr = "universal-wrapper" }}
   {{end}}
 <div class="{{$ctnr}} pt-3">
-  <h1 itemprop="name">{{ $title }}</h1>
-
+  <h1 itemprop="name" style="color: #51B250; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">{{ $title | upper }}</h1>
   {{ with $page.Params.subtitle }}
   <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
   {{end}}

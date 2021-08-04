@@ -1,4 +1,11 @@
 <footer class="site-footer">
+  
+  <!-- gitalk in c list -->
+  {{ if eq (.File.Dir) "c/" }}
+    {{ partial "gitalk.html" . }}
+  {{end}}
+
+
   {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
   <p class="powered-by">
     {{ with site.GetPage "privacy.md" }}
@@ -31,7 +38,7 @@
 </footer>
 
 {{- range .Params.js }}
-<script src="/js/{{ . }}?{{printf "%s" now}}"></script>
+<script src="/js/{{ . }}?{{printf `%s` now}}"></script>
 {{- end }}
 
 <!--
@@ -43,8 +50,8 @@
 
 {{ if .Page.IsHome }}
 
-<script src="/js/particles.min.js?{{printf  "%s" now}}"></script>
-<script src="/js/particles.slider.destroy.js?{{printf  "%s" now}}"></script>
+<script src="/js/particles.min.js?{{printf  `%s` now}}"></script>
+<script src="/js/particles.slider.destroy.js?{{printf  `%s` now}}"></script>
 
 {{ end }}
 
@@ -60,6 +67,6 @@
 
 {{ if in (printf "%v" .Page.Dir) "ta"  }}
   {{ if in (printf "%v" .Page) "_index.md"  }}
-    <script src="/js/piao.js?{{printf  "%s" now}}"></script>
+    <script src="/js/piao.js?{{printf  `%s` now}}"></script>
   {{ end }}
 {{ end }}

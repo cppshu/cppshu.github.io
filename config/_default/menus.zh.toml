@@ -38,10 +38,10 @@
   url = "#posts"
   weight = 40
 
-[[main]]
-  name = "视频"
-  url = "#videos"
-  weight = 40
+# [[main]]
+#   name = "视频"
+#   url = "#videos"
+#   weight = 40
 
 
 [[main]]

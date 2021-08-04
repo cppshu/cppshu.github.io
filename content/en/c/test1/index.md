@@ -42,4 +42,3 @@ Without title.
 
 {{% /admonition %}}
 
-{{% center %}}

@@ -37,27 +37,3 @@ $sta-dark-home-section-even: {{ $scr.Get "dark_home_section_even" }};
 @import "bootstrap_variables";
 @import "vendor/bootstrap/bootstrap";
 @import "academic/academic";
-
-//set up of theme even
-@import "_custom/custom";
-@import "_variables"; //must
-
-@import "_common/utils"; //must
-@import "_common/animation"; //must
-
-// @import "_base";  //have css problem with class:"row"
-@import "_iconfont";
-@import "_partial/header";
-@import "_partial/post";
-@import "_partial/pagination";
-@import "_partial/footer";
-@import "_partial/archive";
-@import "_partial/terms";
-@import "_partial/slideout";
-@import "_partial/mobile";
-@import "_partial/back-to-top";
-@import "_partial/404";
-@import "_partial/language-selector";
-
-// short code demo of posting codes
-@import "_partial/_post/_admonition";

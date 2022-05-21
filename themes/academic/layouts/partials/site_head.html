@@ -38,13 +38,13 @@
   {{ range .Translations }}
   <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
   {{ end }}
-  <link rel="alternate" hreflang="{{ site.LanguageCode | default `en-us` }}" href="{{ .Permalink }}">
+  <link rel="alternate" hreflang="{{ site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}">
 
   {{ partial "functions/parse_theme" . }}
   {{ $css := site.Data.assets.css }}
   {{ $js := site.Data.assets.js }}
   {{ if ne ($scr.Get "primary") "#fff" }}
-  <meta name="theme-color" content="{{ $scr.Get `primary` }}">
+  <meta name="theme-color" content="{{ $scr.Get "primary" }}">
   {{ end }}
 
   {{/* Attempt to load local vendor CSS, otherwise load from CDN. */}}
@@ -52,7 +52,7 @@
   {{ $scr.Set "vendor_js_filename" "main.min.js" }}
   {{ if and (fileExists (printf "static/css/vendor/%s" ($scr.Get "vendor_css_filename"))) (fileExists (printf "static/js/vendor/%s" ($scr.Get "vendor_js_filename"))) }}
     {{ $scr.Set "use_cdn" 0 }}
-    <link rel="stylesheet" href="{{ printf `/css/vendor/%s` ($scr.Get `vendor_css_filename`) | relURL }}">
+    <link rel="stylesheet" href="{{ printf "/css/vendor/%s" ($scr.Get "vendor_css_filename") | relURL }}">
   {{ else }}
     {{ $scr.Set "use_cdn" 1 }}
     {{ printf "<link rel=\"stylesheet\" href=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\">" (printf $css.academicons.url $css.academicons.version) $css.academicons.sri | safeHTML }}

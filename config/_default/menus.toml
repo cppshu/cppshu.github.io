@@ -42,10 +42,10 @@
   url = "#posts"
   weight = 40
 
-# [[main]]
-#   name = "Videos"
-#   url = "#videos"
-#   weight = 41
+[[main]]
+  name = "Videos"
+  url = "#videos"
+  weight = 41
 
 [[main]]
   name = '''Teaching

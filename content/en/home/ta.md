@@ -8,7 +8,7 @@ title = "Teaching Assistants"
 subtitle = ""
 
 # ta_to_display_in_first_page
-ta = ["reveurmk", "zhukeyi", "shizhuzexuan", "huangzhifan", "yunanjun", "zhonglexing", "huangyonghui", "liyuanhao", "chenyiming", "jingzukuan"]  
+ta = ["reveurmk", "xiaomeng", "baijie", "windandlonglong", "jasonliu", "zhutao", "yuyang", "lianglele", "qujinxuan", "wangting", "yangshuaitao"]  
   
 +++
 Here are ta of Yuanyou NGO. 

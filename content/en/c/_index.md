@@ -11,8 +11,6 @@ view: 2
 header:
   caption: ""
   image: ""
-
-category: clist
 ---
 
 

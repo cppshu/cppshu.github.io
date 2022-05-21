@@ -5,7 +5,7 @@
     <link>https://cppshu.github.io/ta/reveurmk/</link>
       <atom:link href="https://cppshu.github.io/ta/reveurmk/index.xml" rel="self" type="application/rss+xml" />
     <description>UTSEUS CS Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2021 Lunde Chen and All Teaching Assistants All Rights Reserved</copyright><lastBuildDate>Wed, 04 Aug 2021 07:58:30 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2022 Lunde Chen and All Teaching Assistants All Rights Reserved</copyright><lastBuildDate>Wed, 04 Aug 2021 07:58:30 +0800</lastBuildDate>
     <image>
       <url>https://cppshu.github.io/img/icon-192.png</url>
       <title>UTSEUS CS Courses</title>
@@ -17,16 +17,62 @@
       <link>https://cppshu.github.io/c/test1/</link>
       <pubDate>Wed, 04 Aug 2021 07:58:30 +0800</pubDate>
       <guid>https://cppshu.github.io/c/test1/</guid>
-      <description>&lt;div class=&#34;admonition note&#34;&gt;&lt;p class=&#34;admonition-title&#34;&gt;I&amp;#39;m title!&lt;/p&gt;
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;biu biu biu.&lt;/p&gt;
-&lt;details class=&#34;admonition note&#34;&gt;&lt;summary class=&#34;admonition-title&#34;&gt;note&lt;/summary&gt;
-  &lt;p&gt;biu biu biu.&lt;/p&gt;
-&lt;/details&gt;
-&lt;div class=&#34;admonition example&#34;&gt;
-  &lt;p&gt;Without title.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Choroideremia</title>
+      <link>https://cppshu.github.io/rl/choroideremia/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/rl/choroideremia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Call for Patients of Choroideremia -- Please contact Yuanyou NGO</title>
+      <link>https://cppshu.github.io/posts/2019092501/</link>
+      <pubDate>Wed, 25 Sep 2019 21:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/posts/2019092501/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keratoconus and corneal collagen cross-linking surgery【Edition 62】</title>
+      <link>https://cppshu.github.io/c/2019092801/</link>
+      <pubDate>Sun, 22 Sep 2019 21:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/c/2019092801/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Call for Usher Syndrome Patients -- Please contact Yuanyou NGO</title>
+      <link>https://cppshu.github.io/posts/2019092001/</link>
+      <pubDate>Fri, 20 Sep 2019 21:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/posts/2019092001/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Best Ophthalmologists in Guangdong Province</title>
+      <link>https://cppshu.github.io/rl/best-ophthalmologists-guangdong-province/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/rl/best-ophthalmologists-guangdong-province/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Receivers of free RGP Glasses in the program of Yuanyou Aid &amp; LucidKorea</title>
+      <link>https://cppshu.github.io/posts/2019061401/</link>
+      <pubDate>Thu, 14 Jun 2018 21:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/posts/2019061401/</guid>
+      <description></description>
     </item>
     
   </channel>

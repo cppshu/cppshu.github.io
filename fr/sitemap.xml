@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://cppshu.github.io/fr/ta/nobody/</loc>
     <xhtml:link
@@ -13,7 +14,9 @@
                 hreflang="fr"
                 href="https://cppshu.github.io/fr/ta/nobody/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://cppshu.github.io/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -30,7 +33,9 @@
                 hreflang="fr"
                 href="https://cppshu.github.io/fr/categories/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://cppshu.github.io/fr/</loc>
     <xhtml:link
                 rel="alternate"
@@ -47,7 +52,9 @@
                 hreflang="fr"
                 href="https://cppshu.github.io/fr/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://cppshu.github.io/fr/publication_types/</loc>
     <xhtml:link
                 rel="alternate"
@@ -64,7 +71,9 @@
                 hreflang="fr"
                 href="https://cppshu.github.io/fr/publication_types/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://cppshu.github.io/fr/ta/</loc>
     <xhtml:link
                 rel="alternate"
@@ -81,7 +90,9 @@
                 hreflang="fr"
                 href="https://cppshu.github.io/fr/ta/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://cppshu.github.io/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -99,4 +110,5 @@
                 href="https://cppshu.github.io/fr/tags/"
                 />
   </url>
+  
 </urlset>

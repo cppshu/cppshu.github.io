@@ -1,23 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://cppshu.github.io/ta/jingzukuan/</loc>
     <lastmod>2021-08-04T07:58:30+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://cppshu.github.io/ta/reveurmk/</loc>
-    <lastmod>2021-08-04T07:58:30+08:00</lastmod>
-  </url><url>
-    <loc>https://cppshu.github.io/c/</loc>
-    <lastmod>2021-08-04T07:58:30+08:00</lastmod>
-  </url><url>
-    <loc>https://cppshu.github.io/ta/</loc>
     <lastmod>2021-08-04T07:58:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://cppshu.github.io/fr/ta/"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/reveurmk/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/reveurmk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/</loc>
+    <lastmod>2021-08-04T07:58:30+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/</loc>
+    <lastmod>2021-08-04T07:58:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -25,20 +47,24 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="https://cppshu.github.io/fr/ta/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://cppshu.github.io/ta/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://cppshu.github.io/c/test1/</loc>
     <lastmod>2021-08-04T07:58:30+08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://cppshu.github.io/</loc>
     <lastmod>2021-08-04T07:58:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://cppshu.github.io/fr/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -46,36 +72,49 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="https://cppshu.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://cppshu.github.io/"
                 />
-  </url><url>
-    <loc>https://cppshu.github.io/ta/chenyiming/</loc>
-  </url><url>
-    <loc>https://cppshu.github.io/ta/huangyonghui/</loc>
-  </url><url>
-    <loc>https://cppshu.github.io/ta/huangzhifan/</loc>
-  </url><url>
-    <loc>https://cppshu.github.io/ta/liyuanhao/</loc>
-  </url><url>
-    <loc>https://cppshu.github.io/ta/shizhuzexuan/</loc>
-  </url><url>
-    <loc>https://cppshu.github.io/ta/yunanjun/</loc>
-  </url><url>
-    <loc>https://cppshu.github.io/ta/zhonglexing/</loc>
-  </url><url>
-    <loc>https://cppshu.github.io/ta/zhukeyi/</loc>
-  </url><url>
-    <loc>https://cppshu.github.io/cpp/</loc>
-  </url><url>
-    <loc>https://cppshu.github.io/posts/</loc>
-  </url><url>
-    <loc>https://cppshu.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/jasonliu/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://cppshu.github.io/fr/categories/"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/jasonliu/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/jasonliu/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/xiaomeng/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/xiaomeng/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/xiaomeng/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/categories/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -83,12 +122,1181 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="https://cppshu.github.io/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://cppshu.github.io/categories/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/rl/choroideremia/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/rl/choroideremia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/rl/choroideremia/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/choroideremia/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/choroideremia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/choroideremia/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/rl/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/rl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/rl/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://cppshu.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/categories/wiki/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/categories/wiki/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/categories/wiki/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/posts/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/posts/2019092501/</loc>
+    <lastmod>2019-09-25T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/posts/2019092501/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/posts/2019092501/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/keratoconus/</loc>
+    <lastmod>2019-09-22T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/keratoconus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/keratoconus/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019092801/</loc>
+    <lastmod>2019-09-22T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019092801/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019092801/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/categories/yuanyou-salon/</loc>
+    <lastmod>2019-09-22T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/posts/2019092001/</loc>
+    <lastmod>2019-09-20T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/posts/2019092001/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/posts/2019092001/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/usher-syndrome/</loc>
+    <lastmod>2019-09-20T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/rl/orthokeratology-lens/</loc>
+    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/rl/orthokeratology-lens/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/rl/orthokeratology-lens/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/orthokeratology-lens/</loc>
+    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/orthokeratology-lens/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/orthokeratology-lens/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019071401/</loc>
+    <lastmod>2019-07-14T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019071401/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019071401/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/xian-no.1-hospital/</loc>
+    <lastmod>2019-07-14T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019070101/</loc>
+    <lastmod>2019-07-01T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019070101/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019070101/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/tongren-hospital/</loc>
+    <lastmod>2019-07-01T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019062201/</loc>
+    <lastmod>2019-06-22T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019062201/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019062201/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/lucidkorea/</loc>
+    <lastmod>2019-06-22T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019061101/</loc>
+    <lastmod>2019-06-11T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019061101/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019061101/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019052401/</loc>
+    <lastmod>2019-05-24T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019052401/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019052401/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/shanghai-heping-ophthalmic-hospital/</loc>
+    <lastmod>2019-05-24T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019051401/</loc>
+    <lastmod>2019-05-14T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019051401/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019051401/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/rl/best-ophthalmologists-hunan-hubei-province/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/rl/best-ophthalmologists-hunan-hubei-province/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/rl/best-ophthalmologists-hunan-hubei-province/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/hubei/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/hubei/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/hubei/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/hunan/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/hunan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/hunan/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/ophthalmologist/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/ophthalmologist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/ophthalmologist/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/eyeent-hospital-of-fudan-university/</loc>
+    <lastmod>2019-04-27T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019042701/</loc>
+    <lastmod>2019-04-27T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019042701/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019042701/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019042401/</loc>
+    <lastmod>2019-04-24T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019042401/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019042401/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019041301/</loc>
+    <lastmod>2019-04-13T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019041301/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019041301/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019040701/</loc>
+    <lastmod>2019-04-07T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019040701/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019040701/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/keratoconusqingdao-eye-hospital/</loc>
+    <lastmod>2019-04-07T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/cpp/</loc>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/cpp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/cpp/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/cpp/2019040601/</loc>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/cpp/2019040601/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/cpp/2019040601/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/rgp/</loc>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/rgp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/rgp/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019032301/</loc>
+    <lastmod>2019-03-23T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019032301/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019032301/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/keratoconusxerophthalmiaaierintech/</loc>
+    <lastmod>2019-03-23T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019031801/</loc>
+    <lastmod>2019-03-18T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019031801/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019031801/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/keratoconuskeratoplastyorthokeratology/</loc>
+    <lastmod>2019-03-18T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019031401/</loc>
+    <lastmod>2019-03-14T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019031401/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019031401/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/myoring/</loc>
+    <lastmod>2019-03-14T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/myoring/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/myoring/"
+                />
+  </url>
+  
+  <url>
     <loc>https://cppshu.github.io/ml/</loc>
-  </url><url>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ml/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ml/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ml/2019030401/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ml/2019030401/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ml/2019030401/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/%E7%BD%95%E8%A7%81%E7%97%85/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/%E7%BD%95%E8%A7%81%E7%97%85/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/%E7%BD%95%E8%A7%81%E7%97%85/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019022701/</loc>
+    <lastmod>2019-02-27T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019022701/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019022701/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019022601/</loc>
+    <lastmod>2019-02-26T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019022601/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019022601/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019021601/</loc>
+    <lastmod>2019-02-16T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019021601/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019021601/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/rl/best-ophthalmologists-guangdong-province/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/rl/best-ophthalmologists-guangdong-province/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/rl/best-ophthalmologists-guangdong-province/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/corneal-contact-lens/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/corneal-contact-lens/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/corneal-contact-lens/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/corneal-shape-lens/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/corneal-shape-lens/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/corneal-shape-lens/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/guangdong/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/rl/how-to-take-care-of-corneal-contact-lenses/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/rl/how-to-take-care-of-corneal-contact-lenses/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/rl/how-to-take-care-of-corneal-contact-lenses/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/ok-lens/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/ok-lens/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/ok-lens/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/ophthalmologists/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/sclerecin-lens/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/sclerecin-lens/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/sclerecin-lens/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019010601/</loc>
+    <lastmod>2019-01-06T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019010601/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019010601/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2019010101/</loc>
+    <lastmod>2019-01-01T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2019010101/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2019010101/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ml/2019010401/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ml/2019010401/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ml/2019010401/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%B1%B1%E7%9C%BC%E7%A7%91%E4%B8%AD%E5%BF%83/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%B1%B1%E7%9C%BC%E7%A7%91%E4%B8%AD%E5%BF%83/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%B1%B1%E7%9C%BC%E7%A7%91%E4%B8%AD%E5%BF%83/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/%E7%99%BD%E5%86%85%E9%9A%9C/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/%E7%99%BD%E5%86%85%E9%9A%9C/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/%E7%99%BD%E5%86%85%E9%9A%9C/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2018122301/</loc>
+    <lastmod>2018-12-23T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2018122301/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2018122301/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/riboflavin-corneal-collagen-crosslinking/</loc>
+    <lastmod>2018-12-23T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2018121901/</loc>
+    <lastmod>2018-12-19T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2018121901/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2018121901/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2018121601/</loc>
+    <lastmod>2018-12-16T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2018121601/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2018121601/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/shanghai-peace-hospital/</loc>
+    <lastmod>2018-12-16T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/experience-sharing/</loc>
+    <lastmod>2018-12-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/experience-sharing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/experience-sharing/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/lamellar-keratoplasty/</loc>
+    <lastmod>2018-12-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/lamellar-keratoplasty/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/lamellar-keratoplasty/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/rl/two-years-after-lamellar-keratoplasty/</loc>
+    <lastmod>2018-12-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/rl/two-years-after-lamellar-keratoplasty/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/rl/two-years-after-lamellar-keratoplasty/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/austria/</loc>
+    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/austria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/austria/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/tags/professor/</loc>
+    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/tags/professor/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/tags/professor/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/rl/questions-and-answers-with-professor-daxer-of-austria-on-myoring/</loc>
+    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/rl/questions-and-answers-with-professor-daxer-of-austria-on-myoring/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/rl/questions-and-answers-with-professor-daxer-of-austria-on-myoring/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2018120701/</loc>
+    <lastmod>2018-12-01T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2018120701/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2018120701/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2018092201/</loc>
+    <lastmod>2018-09-22T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2018092201/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2018092201/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/c/2018090801/</loc>
+    <lastmod>2018-09-08T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/c/2018090801/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/c/2018090801/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/posts/2019061401/</loc>
+    <lastmod>2018-06-14T21:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/posts/2019061401/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/posts/2019061401/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/baijie/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/baijie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/baijie/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/chenyiming/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/huangyonghui/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/huangzhifan/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/lianglele/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/lianglele/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/lianglele/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/liyuanhao/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/qujinxuan/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/qujinxuan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/qujinxuan/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/shizhuzexuan/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/wangting/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/wangting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/wangting/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/windandlonglong/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/windandlonglong/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/windandlonglong/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/yangshuaitao/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/yangshuaitao/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/yangshuaitao/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/yunanjun/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/yuyang/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/yuyang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/yuyang/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/zhonglexing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/zhukeyi/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cppshu.github.io/ta/zhutao/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://cppshu.github.io/zh/ta/zhutao/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cppshu.github.io/ta/zhutao/"
+                />
+  </url>
+  
+  <url>
     <loc>https://cppshu.github.io/publication_types/</loc>
     <xhtml:link
                 rel="alternate"
@@ -105,24 +1313,6 @@
                 hreflang="en"
                 href="https://cppshu.github.io/publication_types/"
                 />
-  </url><url>
-    <loc>https://cppshu.github.io/rl/</loc>
-  </url><url>
-    <loc>https://cppshu.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://cppshu.github.io/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://cppshu.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cppshu.github.io/tags/"
-                />
   </url>
+  
 </urlset>

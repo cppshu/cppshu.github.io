@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LucidKorea | UTSEUS CS Courses</title>
+    <link>https://cppshu.github.io/tags/lucidkorea/</link>
+      <atom:link href="https://cppshu.github.io/tags/lucidkorea/index.xml" rel="self" type="application/rss+xml" />
+    <description>LucidKorea</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2022 Lunde Chen and All Teaching Assistants All Rights Reserved</copyright><lastBuildDate>Sat, 22 Jun 2019 21:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cppshu.github.io/img/icon-192.png</url>
+      <title>LucidKorea</title>
+      <link>https://cppshu.github.io/tags/lucidkorea/</link>
+    </image>
+    
+    <item>
+      <title>Analysis of the results of the contact mirror pre-match inspection 【Edition 57】</title>
+      <link>https://cppshu.github.io/c/2019062201/</link>
+      <pubDate>Sat, 22 Jun 2019 21:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/c/2019062201/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experience against keratoconus of ta XiaoWei【Edition 56】</title>
+      <link>https://cppshu.github.io/c/2019061101/</link>
+      <pubDate>Tue, 11 Jun 2019 21:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/c/2019061101/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effect of contact lens nursing on wearing glasses【Edition 54】</title>
+      <link>https://cppshu.github.io/c/2019051401/</link>
+      <pubDate>Tue, 14 May 2019 21:00:00 +0000</pubDate>
+      <guid>https://cppshu.github.io/c/2019051401/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
